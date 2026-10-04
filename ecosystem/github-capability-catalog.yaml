@@ -21,16 +21,16 @@ capabilities:
   - {name: fio, source: "https://github.com/axboe/fio", layer: ecosystem, purpose: storage_benchmarking, status: install}
   - {name: restic, source: "https://github.com/restic/restic", layer: recovery, purpose: encrypted_backup, status: install}
   - {name: rclone, source: "https://github.com/rclone/rclone", layer: recovery, purpose: governed_backup_transport, status: install}
-  - {name: trivy, source: "https://github.com/aquasecurity/trivy", layer: security, purpose: vulnerability_misconfiguration_secret_scan, status: candidate}
-  - {name: syft, source: "https://github.com/anchore/syft", layer: proof, purpose: sbom_generation, status: candidate}
-  - {name: cosign, source: "https://github.com/sigstore/cosign", layer: proof, purpose: artifact_signature_verification, status: candidate}
-  - {name: grype, source: "https://github.com/anchore/grype", layer: security, purpose: sbom_vulnerability_matching, status: candidate}
+  - {name: trivy, source: "https://github.com/aquasecurity/trivy", layer: security, purpose: vulnerability_misconfiguration_secret_scan, status: installed_and_verified_on_pi_and_mac}
+  - {name: syft, source: "https://github.com/anchore/syft", layer: proof, purpose: sbom_generation, status: installed_and_verified_on_pi_and_mac}
+  - {name: cosign, source: "https://github.com/sigstore/cosign", layer: proof, purpose: artifact_signature_verification, status: installed_and_verified_on_pi_and_mac}
+  - {name: grype, source: "https://github.com/anchore/grype", layer: security, purpose: sbom_vulnerability_matching, status: installed_on_pi_and_mac}
   - {name: grafana-alloy, source: "https://github.com/grafana/alloy", layer: observability, purpose: programmable_otel_prometheus_pipeline, status: evaluate_before_replace}
   - {name: opentelemetry-collector, source: "https://github.com/open-telemetry/opentelemetry-collector", layer: observability, purpose: telemetry_pipeline, status: already_present_via_container}
   - {name: opa, source: "https://github.com/open-policy-agent/opa", layer: governance, purpose: policy_decision_engine, status: already_present_via_container}
-  - {name: duckdb, source: "https://github.com/duckdb/duckdb", layer: analytics, purpose: local_analytical_engine, status: evaluate_before_install}
-  - {name: renovate, source: "https://github.com/renovatebot/renovate", layer: lifecycle, purpose: dependency_drift_management, status: evaluate_before_enable}
-  - {name: pre-commit, source: "https://github.com/pre-commit/pre-commit", layer: development, purpose: local_quality_gates, status: evaluate_on_mac}
+  - {name: duckdb, source: "https://github.com/duckdb/duckdb", layer: analytics, purpose: local_analytical_engine, status: installed_on_mac_evaluate_pi_by_workload}
+  - {name: renovate, source: "https://github.com/renovatebot/renovate", layer: lifecycle, purpose: dependency_drift_management, status: not_enabled_pending_governance_review}
+  - {name: pre-commit, source: "https://github.com/pre-commit/pre-commit", layer: development, purpose: local_quality_gates, status: installed_on_mac}
 optimization_rules:
   - "Never add a second telemetry collector when the existing collector satisfies the use case."
   - "Never add a second policy engine when OPA satisfies the use case."
