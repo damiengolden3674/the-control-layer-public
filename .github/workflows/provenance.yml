@@ -10,7 +10,7 @@ jobs:
   attest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
           persist-credentials: false
       - name: Package public site
@@ -18,11 +18,11 @@ jobs:
       - name: Generate SHA-256
         run: sha256sum the-control-layer-public.tar.gz > the-control-layer-public.tar.gz.sha256
       - name: Attest public artifact
-        uses: actions/attest@v4
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6
         with:
           subject-path: the-control-layer-public.tar.gz
       - name: Upload release evidence
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: public-release-evidence
           path: |
