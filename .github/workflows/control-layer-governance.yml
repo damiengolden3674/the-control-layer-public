@@ -1,0 +1,51 @@
+name: Control Layer Governance Verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  governance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify governance architecture
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f ecosystem/OPTIMIZE_ECOSYSTEM.md
+          test -f ecosystem/GITHUB_CAPABILITY_REGISTRY.md
+          grep -q 'INTELLIGENCE' README.md
+          grep -q 'Human authority remains ultimate' README.md
+
+      - name: Detect private-network leakage
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE --exclude-dir=.git             '(^|[^0-9])((10|127).[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}|192.168.[0-9]{1,3}.[0-9]{1,3}|172.(1[6-9]|2[0-9]|3[0-1]).[0-9]{1,3}.[0-9]{1,3})([^0-9]|$)' .; then
+            echo "Private IPv4 address detected in public repository"
+            exit 1
+          fi
+
+      - name: Detect obvious secret material
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE --exclude-dir=.git             '(BEGIN (RSA|OPENSSH|EC|DSA) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|password[[:space:]]*[:=][[:space:]]*[^<[:space:]]+|secret[[:space:]]*[:=][[:space:]]*[^<[:space:]]+)' .; then
+            echo "Potential secret material detected"
+            exit 1
+          fi
+
+      - name: Validate JSON artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r -d '' file; do
+            python3 -m json.tool "$file" >/dev/null
+          done < <(find . -type f -name '*.json' -print0)
