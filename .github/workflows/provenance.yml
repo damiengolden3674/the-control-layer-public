@@ -14,7 +14,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Package public site
-        run: tar -czf the-control-layer-public.tar.gz --exclude=.git .
+        run: tar -czf the-control-layer-public.tar.gz --exclude=.git --exclude=the-control-layer-public.tar.gz --exclude=the-control-layer-public.tar.gz.sha256 .
       - name: Generate SHA-256
         run: sha256sum the-control-layer-public.tar.gz > the-control-layer-public.tar.gz.sha256
       - name: Attest public artifact
