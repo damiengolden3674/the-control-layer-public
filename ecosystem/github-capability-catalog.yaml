@@ -1,0 +1,42 @@
+version: 1
+name: control-layer-github-capability-catalog
+governance:
+  principle: "INTELLIGENCE != AUTHORITY"
+  hierarchy: [HUMAN, FRONTIER_AI_COMBINATION, THE_CONTROL_LAYER, AUTONOMOUS_CAPABILITY_FABRIC, DATA_ANALYTICS_FABRIC, LEGACY_SPECIALIST_AI_POOL, GOVERNED_EXECUTOR, ECOSYSTEM, PROOF_AUDIT]
+  mutation: "AUTONOMOUS_WITHIN_AUTHORITY_CEILING_ESCALATE_ABOVE"
+  uncertainty: HOLD
+  material_risk: ESCALATE
+  public_boundary: SANITIZED_ONLY
+installation_policy:
+  objective: "Maximum capability per unit of resource and operational complexity"
+  mandatory: [discover, evaluate, deduplicate, install_only_if_net_positive, verify, prove]
+  forbidden: [blind_install, duplicate_capability, secret_commit, privilege_escalation]
+capabilities:
+  - {name: ripgrep, source: "https://github.com/BurntSushi/ripgrep", layer: ecosystem, purpose: fast_search, status: install}
+  - {name: fd, source: "https://github.com/sharkdp/fd", layer: ecosystem, purpose: fast_file_discovery, status: install}
+  - {name: fzf, source: "https://github.com/junegunn/fzf", layer: ecosystem, purpose: interactive_navigation, status: install}
+  - {name: btop, source: "https://github.com/aristocratos/btop", layer: ecosystem, purpose: resource_observability, status: install}
+  - {name: sysstat, source: "https://github.com/sysstat/sysstat", layer: ecosystem, purpose: cpu_io_metrics, status: install}
+  - {name: smartmontools, source: "https://github.com/smartmontools/smartmontools", layer: ecosystem, purpose: storage_health, status: install}
+  - {name: fio, source: "https://github.com/axboe/fio", layer: ecosystem, purpose: storage_benchmarking, status: install}
+  - {name: restic, source: "https://github.com/restic/restic", layer: recovery, purpose: encrypted_backup, status: install}
+  - {name: rclone, source: "https://github.com/rclone/rclone", layer: recovery, purpose: governed_backup_transport, status: install}
+  - {name: trivy, source: "https://github.com/aquasecurity/trivy", layer: security, purpose: vulnerability_misconfiguration_secret_scan, status: candidate}
+  - {name: syft, source: "https://github.com/anchore/syft", layer: proof, purpose: sbom_generation, status: candidate}
+  - {name: cosign, source: "https://github.com/sigstore/cosign", layer: proof, purpose: artifact_signature_verification, status: candidate}
+  - {name: grype, source: "https://github.com/anchore/grype", layer: security, purpose: sbom_vulnerability_matching, status: candidate}
+  - {name: grafana-alloy, source: "https://github.com/grafana/alloy", layer: observability, purpose: programmable_otel_prometheus_pipeline, status: evaluate_before_replace}
+  - {name: opentelemetry-collector, source: "https://github.com/open-telemetry/opentelemetry-collector", layer: observability, purpose: telemetry_pipeline, status: already_present_via_container}
+  - {name: opa, source: "https://github.com/open-policy-agent/opa", layer: governance, purpose: policy_decision_engine, status: already_present_via_container}
+  - {name: duckdb, source: "https://github.com/duckdb/duckdb", layer: analytics, purpose: local_analytical_engine, status: evaluate_before_install}
+  - {name: renovate, source: "https://github.com/renovatebot/renovate", layer: lifecycle, purpose: dependency_drift_management, status: evaluate_before_enable}
+  - {name: pre-commit, source: "https://github.com/pre-commit/pre-commit", layer: development, purpose: local_quality_gates, status: evaluate_on_mac}
+optimization_rules:
+  - "Never add a second telemetry collector when the existing collector satisfies the use case."
+  - "Never add a second policy engine when OPA satisfies the use case."
+  - "Prefer existing Docker services over duplicate host daemons when resource and security posture remain better."
+  - "Keep host tools lightweight and deterministic."
+  - "Pin production container images by immutable digest after verification."
+  - "Remove temporary test containers after validation."
+  - "Keep the configured recovery reserve."
+  - "Verify after every mutation."
