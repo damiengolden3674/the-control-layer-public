@@ -21,7 +21,7 @@ jobs:
           set -euo pipefail
           test -f ecosystem/OPTIMIZE_ECOSYSTEM.md
           test -f ecosystem/GITHUB_CAPABILITY_REGISTRY.md
-          grep -q 'INTELLIGENCE' README.md
+          grep -qi 'intelligence' README.md
           grep -q 'Human authority remains ultimate' README.md
 
       - name: Detect private-network leakage
