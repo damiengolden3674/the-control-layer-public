@@ -21,8 +21,12 @@ jobs:
           set -euo pipefail
           test -f ecosystem/OPTIMIZE_ECOSYSTEM.md
           test -f ecosystem/GITHUB_CAPABILITY_REGISTRY.md
-          grep -qi 'intelligence' README.md
-          grep -q 'Human authority remains ultimate' README.md
+          python3 - <<'PY2'
+          from pathlib import Path
+          r = Path('README.md').read_text().lower()
+          assert 'intelligence' in r
+          assert 'human authority remains ultimate' in r
+          PY2
 
       - name: Detect private-network leakage
         shell: bash
