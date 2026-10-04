@@ -63,6 +63,16 @@ section{padding:90px 0;border-top:1px solid var(--line)}.head{display:grid;grid-
 <div class="card"><div class="mono">BACKUP</div><div class="value">VERIFIED</div><p class="muted">SHA-256 verified + second physical SD boot media.</p></div>
 </div></section>
 
+<section id="changes"><div class="head"><div><div class="k mono">05 // LIVE ECOSYSTEM CHANGESET</div><h2>RECOVERED.<br>RECONCILED.<br>PROVEN.</h2></div><p class="muted">The control plane now measures application readiness directly instead of inferring health from container state. Home Assistant and the Matter Server are live; Homebridge UI is live after its service restart. Public proof remains sanitized.</p></div>
+<div class="grid">
+<div class="card"><span class="tag">HOME ASSISTANT</span><h3 id="haLive">READY</h3><p class="muted">HTTP readiness is measured from the live verifier path. Configuration and device registries remain intact.</p></div>
+<div class="card"><span class="tag">HOMEBRIDGE</span><h3 id="hbLive">READY</h3><p class="muted">Config UI readiness is measured directly. Google/Nest smart-home capability remains retained.</p></div>
+<div class="card"><span class="tag">MATTER</span><h3 id="matterLive">READY</h3><p class="muted">Matter Server HTTP readiness is measured directly.</p></div>
+<div class="card"><span class="tag">GOVERNANCE</span><h3>EXECUTE</h3><p class="muted">Validated low-risk reconciliation may execute within the authority ceiling; uncertainty remains HOLD.</p></div>
+<div class="card"><span class="tag">AI PROVIDER</span><h3>GOOGLE AI REMOVED</h3><p class="muted">Google Home/Nest smart-home remains an ecosystem capability; Google is not a frontier AI authority.</p></div>
+<div class="card"><span class="tag">STORAGE</span><h3>HDD-FIRST</h3><p class="muted">Docker and governed ecosystem data remain on the external HDD with recovery reserve preserved.</p></div>
+</div></section>
+
 <section><div class="head"><div><div class="k mono">05 // VERIFIED PI INVENTORY</div><h2>WHAT IS<br>ACTUALLY RUNNING.</h2></div><p class="muted">Current inventory is measured from Docker and systemd. This is the operational evidence layer—not a marketing list.</p></div>
 <div class="list" id="containersList"><div class="row"><span>Loading authoritative inventory…</span><b>MEASURING</b></div></div>
 </section>
@@ -119,6 +129,9 @@ async function live(){
   document.getElementById('storagebar').style.width=Math.max(0,Math.min(100,100-(free/(c.hdd_free_gib+c.hdd_free_floor_gib||1)*100)))+'%';
   document.getElementById('storagedetail').textContent='3.6 TiB total · free floor '+(c.hdd_free_floor_gib??'—')+' GiB · Docker root '+(c.docker_root||'/mnt/storage/docker');
   document.getElementById('root').textContent=(c.root_used_percent??'—')+'%';
+  const rt=d.runtime_checks||{};
+  const mark=(id,key)=>{const el=document.getElementById(id);if(el)el.textContent=(rt[key]?.status||'HOLD')+(rt[key]?.http? ' · HTTP '+rt[key].http:'')};
+  mark('haLive','home_assistant'); mark('hbLive','homebridge_ui'); mark('matterLive','matter_server');
   const list=document.getElementById('containersList'); const arr=e.checks?null:null;
   const eco=await (await fetch('/verify?mode=ecosystem&x='+Date.now(),{cache:'no-store'})).json();
   const rows=(eco.docker?.containers||[]);
