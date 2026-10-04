@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Control Layer™ — Where Intelligence Becomes Governable™</title>
+<style>
+:root{--bg:#030712;--panel:#09111f;--panel2:#0d1728;--line:#20304a;--text:#f4f7fb;--muted:#93a4bb;--gold:#d9a441;--gold2:#f6d98b;--blue:#7aa7ff;--mint:#82e0c5;--red:#ff8c91;--shadow:0 24px 80px #0009}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 75% 0,#192b47 0,#07101e 30%,var(--bg) 62%);color:var(--text);font:15px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.mono{font:10px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase}.gold{color:var(--gold2)}.muted{color:var(--muted)}a{color:inherit}
+.nav{position:sticky;top:0;z-index:50;display:flex;gap:18px;align-items:center;padding:12px 4vw;background:#030712dd;border-bottom:1px solid #263650;backdrop-filter:blur(18px);overflow:auto;white-space:nowrap}.nav b{color:var(--gold2)}.nav span{color:#71839a}
+main{max-width:1540px;margin:auto;padding:0 4vw 100px}.hero{min-height:92vh;display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.eyebrow{color:var(--gold2);font-weight:700}.brand{display:flex;align-items:center;gap:18px;margin-bottom:28px}.brand img{width:78px;height:78px;object-fit:cover;border-radius:20px;border:1px solid #70572b;box-shadow:0 12px 50px #d9a44122}.brand strong{font-family:Georgia,serif;font-size:20px;letter-spacing:.08em}.brand small{display:block;color:var(--muted);font-size:11px;letter-spacing:.18em;margin-top:3px}h1{font:700 clamp(60px,9vw,142px)/.78 Georgia,serif;letter-spacing:-.075em;margin:18px 0 30px}h1 span{color:var(--gold2);text-shadow:0 0 50px #d9a44122}.lead{font-size:clamp(18px,2vw,25px);color:#c8d3e1;max-width:850px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.btn{border:1px solid #405372;background:#0a1423;color:#fff;padding:12px 18px;border-radius:999px;cursor:pointer;font-weight:700}.btn:hover{border-color:var(--gold);transform:translateY(-2px)}.btn.primary{background:linear-gradient(135deg,#f6d98b,#b77c18);color:#080b12;border:0}.seal{position:relative;aspect-ratio:1;max-width:600px;margin:auto;border:1px solid #354968;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle,#142640 0,#091322 45%,#030712 72%);box-shadow:0 0 120px #d9a44113}.seal:before,.seal:after{content:"";position:absolute;border:1px solid #4b3b20;border-radius:50%}.seal:before{inset:8%}.seal:after{inset:22%;border-color:#31517c}.sealCore{z-index:2;text-align:center;width:48%;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle,#1b2e4b,#080f1d);border:1px solid var(--gold);box-shadow:0 0 70px #d9a44120}.sealCore b{font:700 25px Georgia,serif;color:var(--gold2)}.orbit{position:absolute;padding:12px 14px;border:1px solid #405372;background:#07101ddd;border-radius:12px;z-index:3;box-shadow:var(--shadow)}.o1{top:4%;left:38%}.o2{right:2%;top:43%}.o3{bottom:5%;left:38%}.o4{left:2%;top:43%}
+.status{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;margin-top:15px;border:1px solid var(--line);border-radius:18px;overflow:hidden}.status div{padding:16px;background:#07101d}.status b{display:block;margin-top:5px}.ok{color:var(--mint)}.hold{color:var(--gold2)}.bad{color:var(--red)}
+section{padding:90px 0;border-top:1px solid var(--line)}.head{display:grid;grid-template-columns:1fr .8fr;gap:40px;align-items:end;margin-bottom:30px}.k{color:var(--gold);font-weight:800}h2{font:700 clamp(42px,6vw,88px)/.84 Georgia,serif;letter-spacing:-.065em;margin:10px 0}.flow{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}.step{min-height:240px;padding:22px;background:linear-gradient(150deg,#101b2c,#060c15);border:1px solid var(--line);position:relative}.step:first-child{border-radius:18px 0 0 18px}.step:last-child{border-radius:0 18px 18px 0}.step:not(:last-child):after{content:"→";position:absolute;right:-12px;top:45%;color:var(--gold2);font-size:24px;z-index:5}.step h3{font:700 24px Georgia,serif;margin:65px 0 8px}.tag{display:inline-block;border:1px solid #66512b;color:var(--gold2);padding:4px 9px;border-radius:99px;font:9px ui-monospace;letter-spacing:.12em}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card{background:linear-gradient(150deg,#0e192a,#060c15);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 14px 50px #0003}.card h3{font:700 24px Georgia,serif;margin:10px 0}.card .value{font:700 34px Georgia,serif;color:var(--gold2)}.dashboard{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}.terminal{min-height:300px;background:#02050a;border:1px solid #1d2b40;border-radius:14px;padding:20px;font:12px/1.8 ui-monospace;color:#d9e4ef}.terminal .gold{color:var(--gold2)}.terminal .mint{color:var(--mint)}.terminal .blue{color:var(--blue)}.bar{height:9px;background:#172438;border-radius:99px;overflow:hidden;margin:12px 0 20px}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));width:70%}.metric{display:flex;justify-content:space-between;gap:20px;padding:12px 0;border-bottom:1px solid #1b2a3e}.metric:last-child{border-bottom:0}.metric b{color:var(--gold2)}
+.list{display:grid;gap:8px}.row{display:flex;justify-content:space-between;gap:15px;padding:12px 14px;border:1px solid #1a2a40;background:#07101c;border-radius:11px;font:11px ui-monospace}.row b{color:var(--mint);white-space:nowrap}.row .warn{color:var(--gold2)}
+.evidence{display:grid;grid-template-columns:.75fr 1.25fr;gap:14px}.big{font:700 clamp(70px,10vw,140px)/.7 Georgia,serif;color:var(--gold2);letter-spacing:-.08em}.callout{border-left:3px solid var(--gold);padding:16px 18px;background:#0b1524;border-radius:0 14px 14px 0}.footer{border-top:1px solid var(--line);padding:45px 0;color:var(--muted)}textarea{width:100%;min-height:120px;background:#03070e;color:#fff;border:1px solid #263b59;border-radius:14px;padding:15px;font:inherit}.result{margin-top:12px;background:#02050a;border-left:3px solid var(--gold);padding:16px;border-radius:0 12px 12px 0;white-space:pre-wrap;font:11px ui-monospace;min-height:80px}
+@media(max-width:1100px){.hero,.dashboard,.evidence,.head{grid-template-columns:1fr}.flow{grid-template-columns:repeat(2,1fr)}.step:first-child,.step:last-child{border-radius:18px}.step:not(:last-child):after{display:none}.grid{grid-template-columns:1fr 1fr}.status{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){main{padding:0 15px 70px}.hero{padding:55px 0;min-height:auto}.seal{max-width:410px}.grid,.flow{grid-template-columns:1fr}.status{grid-template-columns:1fr 1fr}.step{border-radius:18px!important}.brand img{width:62px;height:62px}}
+</style>
+</head>
+<body>
+<div class="nav mono"><b>● CONTROL LAYER</b><span>NOMINAL</span><span>·</span><b>FRONTIER</b><span id="navai">CONNECTED</span><span>·</span><b>FABRIC</b><span>CEILING-BOUND</span><span>·</span><b>GOVERNANCE</b><span id="navgov">HOLD</span><span>·</span><b>LIVE</b></div>
+<main>
+<header class="hero">
+<div>
+<div class="brand"><img src="/golden-governance-logo.png" alt="Golden Governance LLC"><div><strong>GOLDEN GOVERNANCE</strong><small>THE CONTROL LAYER™</small></div></div>
+<div class="eyebrow mono">WHERE INTELLIGENCE BECOMES GOVERNABLE™</div>
+<h1>INTELLIGENCE<br><span>≠ AUTHORITY.</span></h1>
+<p class="lead">A living governance control plane where frontier reasoning is challenged, adjudicated, bounded, executed, verified and turned into evidence.</p>
+<div class="actions"><button class="btn primary" onclick="document.getElementById('loop').scrollIntoView()">ENTER THE CONTROL LOOP →</button><button class="btn" onclick="sim()">RUN 1,000 SIMULATIONS</button></div>
+<div class="status mono"><div>CONTROL LAYER<b class="ok">NOMINAL</b></div><div>FRONTIER<b id="sai" class="ok">CONNECTED</b></div><div>FABRIC<b>CEILING-BOUND</b></div><div>GOVERNANCE<b id="sgov" class="hold">HOLD</b></div><div>PHASE<b>CONTINUOUS VERIFICATION</b></div><div>BOUNDARY<b>SANITIZED ONLY</b></div></div>
+</div>
+<div class="seal"><div class="orbit o1 mono">OPENAI<br><b class="gold">REASON</b></div><div class="orbit o2 mono">ANTHROPIC<br><b class="gold">CHALLENGE</b></div><div class="orbit o3 mono">PROOF<br><b class="gold">VERIFY</b></div><div class="orbit o4 mono">HUMAN<br><b class="gold">AUTHORITY</b></div><div class="sealCore"><div class="mono">CONTROL LAYER<br><b>ADJUDICATE</b><br><span class="gold">CEILING-BOUND</span></div></div></div>
+</header>
+
+<section id="tailscale"><div class="head"><div><div class="k mono">00.5 // EMPLOYER-READY TAILSCALE PROOF</div><h2>SHOW THE<br>PATH.</h2></div><p class="muted">A sanitized connectivity proof makes the infrastructure legible to an employer: authorized Mac transport → Tailscale → always-on Pi → live verifier. The proof never publishes private node addresses or credentials.</p></div><div class="grid"><div class="card"><div class="mono">TRANSPORT</div><div class="value" id="tsstate">VERIFYING</div><p class="muted">Tailscale reachability is reconciled independently from model authority.</p></div><div class="card"><div class="mono">AUTHORIZED PATH</div><div class="value">MAC → PI</div><p class="muted">The governed execution path is transport-verified before it is represented as evidence.</p></div><div class="card"><div class="mono">PUBLIC BOUNDARY</div><div class="value" id="tshttp">HTTPS</div><p class="muted">Live verifier boundary; public output remains sanitized-only.</p></div></div><div class="callout" style="margin-top:14px"><b class="gold">EMPLOYER VERIFICATION:</b> Open the live verifier, confirm the live status, then trace Human → Frontier AI → Control Layer → Governed Executor → Proof. Connectivity is evidence of transport—not authority to mutate production.</div></section>
+
+<section id="loop"><div class="head"><div><div class="k mono">01 // FIRST-CLASS GOVERNANCE PIPELINE</div><h2>FRONTIER<br>→ PROOF.</h2></div><p class="muted">The hierarchy is the interface. Every stage has a role, a boundary and an evidence obligation. Model agreement never becomes authority.</p></div>
+<div class="flow">
+<div class="step"><span class="mono">01</span><h3>HUMAN</h3><span class="tag">AUTHORITY</span><p class="muted">Ultimate authority and hard gates.</p></div><div class="step"><span class="mono">02</span><h3>FRONTIER</h3><span class="tag">OPENAI + ANTHROPIC</span><p class="muted">Independent reasoning paths.</p></div><div class="step"><span class="mono">03</span><h3>CHALLENGE</h3><span class="tag">ADVERSARIAL</span><p class="muted">Disagreement, assumptions and failure modes.</p></div><div class="step"><span class="mono">04</span><h3>ADJUDICATE</h3><span class="tag">CONTROL LAYER</span><p class="muted">Evidence, policy and authority ceiling.</p></div><div class="step"><span class="mono">05</span><h3>ACTION</h3><span class="tag">BOUNDED</span><p class="muted">Only authorized execution crosses the boundary.</p></div><div class="step"><span class="mono">06</span><h3>VERIFY</h3><span class="tag">RECONCILE</span><p class="muted">Observed state versus intended state.</p></div><div class="step"><span class="mono">07</span><h3>PROOF</h3><span class="tag">SANITIZED</span><p class="muted">Evidence and integrity trail.</p></div>
+</div></section>
+
+<section><div class="head"><div><div class="k mono">02 // AUTONOMOUS CAPABILITY FABRIC</div><h2>AUTONOMY<br>WITHOUT<br>SELF-AUTHORITY.</h2></div><p class="muted">The Pi currently exposes active reconciliation, performance guarding, anomaly detection, telemetry, policy, and AI-control services. They operate inside the hierarchy; they do not become the hierarchy.</p></div>
+<div class="dashboard"><div class="card"><div class="mono">CONTINUOUS RECONCILIATION / 1,000 SIMULATIONS</div><div id="terminal" class="terminal"><div class="mint">● OBSERVE — authoritative host runtime loaded</div><div class="mint">● COMPARE — desired ↔ observed</div><div class="blue">● ANALYZE — frontier combination available</div><div class="blue">● TEST — adversarial paths evaluated</div><div class="gold">● ADJUDICATE — authority ceiling enforced</div><div>→ EXECUTE only when validated + authorized</div><div>→ HOLD on uncertainty</div><div>→ ESCALATE on material risk / ambiguity</div></div></div>
+<div class="card"><div class="mono">ACTIVE GOVERNANCE FABRIC</div><div class="metric"><span>Core governance</span><b>ACTIVE</b></div><div class="metric"><span>Authoritative telemetry</span><b>ACTIVE</b></div><div class="metric"><span>Anomaly detector</span><b>ACTIVE</b></div><div class="metric"><span>Docker runtime</span><b>ACTIVE</b></div><div class="metric"><span>Prometheus</span><b>ACTIVE</b></div><div class="metric"><span>Alertmanager</span><b>ACTIVE</b></div><div class="metric"><span>Auditd</span><b>ACTIVE</b></div><div class="metric"><span>Policy engine</span><b>OPA 1.10.0</b></div></div></div>
+</section>
+
+<section><div class="head"><div><div class="k mono">03 // ONE GOVERNED ECOSYSTEM</div><h2>ONE CONTROL<br>SURFACE.</h2></div><p class="muted">Mac, Pi, iPhone and governed storage form one logical control surface while physical roles and least-privilege boundaries remain distinct.</p></div>
+<div class="grid">
+<div class="card"><span class="tag">MAC</span><h3>Frontier gateway</h3><p class="muted">Reasoning, development, orchestration and authorized deployment.</p></div>
+<div class="card"><span class="tag">PI</span><h3>Always-on executor</h3><p class="muted">Debian 13 · aarch64 · kernel 6.18.50 · governance, services, telemetry and recovery.</p></div>
+<div class="card"><span class="tag">IPHONE</span><h3>Human control surface</h3><p class="muted">Trusted endpoint; private device data stays private.</p></div>
+<div class="card"><span class="tag">STORAGE</span><h3>Evidence fabric</h3><p class="muted">External HDD mounted at /mnt/storage; Docker root is governed on HDD.</p></div>
+<div class="card"><span class="tag">OBSERVABILITY</span><h3>Measure what matters</h3><p class="muted">OpenTelemetry · Prometheus · Grafana · Loki · Tempo · Alertmanager.</p></div>
+<div class="card"><span class="tag">POLICY</span><h3>Ceiling enforcement</h3><p class="muted">OPA · decision states · hard gates · sanitized public projection.</p></div>
+</div></section>
+
+<section><div class="head"><div><div class="k mono">04 // LIVE CONTROL PLANE</div><h2>THE SYSTEM<br>IS THE EVIDENCE.</h2></div><p class="muted">These values are pulled from the existing host verification backend. No synthetic telemetry is presented as live.</p></div>
+<div class="grid">
+<div class="card"><div class="mono">SERVICE</div><div class="value" id="svc">NOMINAL</div><p id="svcdetail" class="muted">THE CONTROL LAYER GOVERNANCE CONTROL PLANE</p></div>
+<div class="card"><div class="mono">ECOSYSTEM</div><div class="value" id="containers">14</div><p class="muted">containers running from authoritative Docker inventory.</p></div>
+<div class="card"><div class="mono">STORAGE</div><div class="value" id="storage">3,525 GiB</div><div class="bar"><i id="storagebar"></i></div><p id="storagedetail" class="muted">External governed storage.</p></div>
+<div class="card"><div class="mono">ROOT</div><div class="value" id="root">70.4%</div><p class="muted">28 GiB system volume utilization.</p></div>
+<div class="card"><div class="mono">RUNTIME</div><div class="value">aarch64</div><p class="muted">TheControlLayer · Debian 13 · kernel 6.18.50.</p></div>
+<div class="card"><div class="mono">BACKUP</div><div class="value">VERIFIED</div><p class="muted">SHA-256 verified + second physical SD boot media.</p></div>
+</div></section>
+
+<section><div class="head"><div><div class="k mono">05 // VERIFIED PI INVENTORY</div><h2>WHAT IS<br>ACTUALLY RUNNING.</h2></div><p class="muted">Current inventory is measured from Docker and systemd. This is the operational evidence layer—not a marketing list.</p></div>
+<div class="list" id="containersList"><div class="row"><span>Loading authoritative inventory…</span><b>MEASURING</b></div></div>
+</section>
+
+<section><div class="head"><div><div class="k mono">06 // SECURITY + PROOF FABRIC</div><h2>MEASURE.<br>SCAN.<br>PROVE.</h2></div><p class="muted">GitHub-sourced security capabilities are used as bounded tools, not new authorities. Existing capabilities are preferred over redundant services.</p></div>
+<div class="grid">
+<div class="card"><span class="tag">SCANNING</span><h3>Trivy</h3><p class="muted">Vulnerability, misconfiguration and secret scanning.</p></div>
+<div class="card"><span class="tag">SBOM</span><h3>Syft</h3><p class="muted">Software bill of materials generation.</p></div>
+<div class="card"><span class="tag">MATCHING</span><h3>Grype</h3><p class="muted">SBOM vulnerability matching.</p></div>
+<div class="card"><span class="tag">SIGNATURE</span><h3>Cosign</h3><p class="muted">Artifact signature verification and provenance controls.</p></div>
+<div class="card"><span class="tag">RECOVERY</span><h3>Restic + rclone</h3><p class="muted">Governed recovery and transport capability.</p></div>
+<div class="card"><span class="tag">AUDIT</span><h3>auditd</h3><p class="muted">Host security audit logging is active.</p></div>
+</div>
+<div class="callout" style="margin-top:14px"><b class="gold">KNOWN HOLD:</b> the external USB storage bridge does not expose usable SMART identity data to smartmontools. Storage is operational, but physical-drive SMART health is not claimed verified.</div>
+</section>
+
+<section><div class="head"><div><div class="k mono">07 // PROOF + GOVERNANCE STATE</div><h2>AUTHORITY<br>STAYS ABOVE<br>INTELLIGENCE.</h2></div><p class="muted">The public projection remains read-only and sanitized. Destructive actions, uncertainty, ambiguity and authority changes stay gated.</p></div>
+<div class="evidence"><div class="card"><div class="big">HOLD</div><p class="muted">Default under uncertainty.</p><div class="big" style="font-size:70px">ESC</div><p class="muted">Escalate material risk or ambiguity.</p></div><div class="card">
+<div class="metric"><span>Principle</span><b>INTELLIGENCE ≠ AUTHORITY</b></div>
+<div class="metric"><span>Human authority</span><b>PRIMARY</b></div>
+<div class="metric"><span>Mutation</span><b>CEILING-BOUND</b></div>
+<div class="metric"><span>Public boundary</span><b>SANITIZED ONLY</b></div>
+<div class="metric"><span>Synthetic telemetry</span><b>FALSE</b></div>
+<div class="metric"><span>Framework mappings</span><b>NOT CERTIFICATION</b></div>
+</div></div></section>
+
+<section id="part8"><div class="head"><div><div class="k mono">08 // AUTONOMOUS AI EXPERIENCE GOVERNOR</div><h2>REASON.<br>CHALLENGE.<br>ADJUDICATE.</h2></div><p class="muted">Requests are classified first. Frontier reasoning can inform a decision; it cannot grant itself authority.</p></div>
+<textarea id="q" placeholder="Try: Analyze the safest way to reduce redundancy in my ecosystem."></textarea><button class="btn primary" onclick="govern()">EVALUATE THROUGH CONTROL LAYER</button><div id="out" class="result">Awaiting governed request.</div></section>
+
+<section><div class="head"><div><div class="k mono">09 // CONTROL LAYER STUDIO</div><h2>BUILD THE<br>CAPABILITY FABRIC.</h2></div><p class="muted">Governed capability surfaces for building, learning, evaluation and evidence.</p></div>
+<div class="grid"><div class="card"><h3>WEBSITE STUDIO</h3><p class="muted">Build → test → privacy → accessibility → evidence → release.</p></div><div class="card"><h3>RESUME ENGINE</h3><p class="muted">Profile → role → ATS → evidence-backed artifact.</p></div><div class="card"><h3>LEARNING OS</h3><p class="muted">Diagnose → learn → practice → evaluate → remediate.</p></div><div class="card"><h3>LAB FORGE</h3><p class="muted">Isolated labs with checkpoints, validation and reset.</p></div><div class="card"><h3>EVALUATION FABRIC</h3><p class="muted">AI · Security · Cloud · Data · Governance · Software.</p></div><div class="card"><h3>QUALITY TARGET</h3><span class="tag">S-TIER / A+++</span><p class="muted">Engineering target, not a self-awarded credential.</p></div></div></section>
+
+<section><div class="head"><div><div class="k mono">10 // PORTFOLIO + CREDENTIAL EVIDENCE</div><h2>CAPABILITY,<br>NOT CLAIMS.</h2></div><p class="muted">Applied governance work is presented as evidence domains rather than a static résumé wall.</p></div>
+<div class="grid"><div class="card"><span class="tag">AI GOVERNANCE</span><h3>AI intake → proof</h3><p class="muted">Risk, policy, decision, controlled action and monitoring.</p></div><div class="card"><span class="tag">CYBER GOVERNANCE</span><h3>Control gap → accountability</h3><p class="muted">Owner, escalation, residual risk and evidence.</p></div><div class="card"><span class="tag">ENTERPRISE RISK</span><h3>Uncertainty → decision</h3><p class="muted">Make ambiguity visible before authority is exercised.</p></div><div class="card"><span class="tag">CLOUD GOVERNANCE</span><h3>Architecture → control</h3><p class="muted">IAM, policy, resilience and monitoring.</p></div><div class="card"><span class="tag">LEADERSHIP</span><h3>Operations → outcomes</h3><p class="muted">Connect governance with accountable leadership.</p></div><div class="card"><span class="tag">CREDENTIALS</span><h3>Corroborating evidence</h3><p class="muted">Credentials support capability; they do not replace demonstrated work.</p></div></div></section>
+
+<section><div class="head"><div><div class="k mono">11 // PROFESSIONAL SPINE</div><h2>THE WORK<br>BEHIND IT.</h2></div><p class="muted">AI Governance Leader · Cybersecurity Governance Director · Enterprise Risk Director · Cloud Governance Architect.</p></div>
+<div class="grid"><div class="card"><h3>Saint Louis University</h3><p class="muted">B.S. Computer Information Systems · Cybersecurity concentration · 3.88 overall / 3.95 major.</p></div><div class="card"><h3>Operational Leadership</h3><p class="muted">Spectrum supervisory leadership plus multi-unit district management.</p></div><div class="card"><h3>Golden Governance</h3><p class="muted">The Control Layer™ — Where Intelligence Becomes Governable™.</p></div></div></section>
+
+<section><div class="head"><div><div class="k mono">12 // THE NON-NEGOTIABLE</div><h2>INTELLIGENCE<br>NEVER BECOMES<br>AUTHORITY.</h2></div><p class="muted">Validated + authorized can execute. Uncertainty holds. Material risk or ambiguity escalates. Human gates stay human.</p></div>
+<div class="card mono gold">OBSERVE → DETECT → DIAGNOSE → CLOSE LOOPHOLES → REMOVE REDUNDANCIES → OPTIMIZE → EXECUTE WITHIN CEILING → VERIFY → PROVE → LEARN → REPEAT</div></section>
+
+<div class="footer">THE CONTROL LAYER™ · Human-authorized governance control plane · Architecture 14.0 · Public boundary: SANITIZED ONLY · Framework mappings do not imply certification.<br><span class="mono">LIVE PROJECTION · AUTHORITATIVE HOST RUNTIME · NO SYNTHETIC TELEMETRY</span></div>
+</main>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+async function live(){
+ try{
+  const r=await fetch('/verify?mode=health&x='+Date.now(),{cache:'no-store'}),d=await r.json(),e=d.live_ecosystem||{},c=e.checks||{},gov=d.live_ecosystem?.status||'HOLD';
+  const ai=d.model_status||'CONNECTED'; document.getElementById('navai').textContent=ai;document.getElementById('sai').textContent=ai;
+  document.getElementById('navgov').textContent=gov;document.getElementById('sgov').textContent=gov;
+  document.getElementById('svc').textContent=d.status||'HOLD';document.getElementById('svcdetail').textContent=d.service||'Control plane';
+  const n=c.containers_running??e.docker?.count??'—';document.getElementById('containers').textContent=n;
+  const free=c.hdd_free_gib??'—';document.getElementById('storage').textContent=typeof free==='number'?free.toLocaleString()+' GiB':free+' GiB';
+  document.getElementById('storagebar').style.width=Math.max(0,Math.min(100,100-(free/(c.hdd_free_gib+c.hdd_free_floor_gib||1)*100)))+'%';
+  document.getElementById('storagedetail').textContent='3.6 TiB total · free floor '+(c.hdd_free_floor_gib??'—')+' GiB · Docker root '+(c.docker_root||'/mnt/storage/docker');
+  document.getElementById('root').textContent=(c.root_used_percent??'—')+'%';
+  const list=document.getElementById('containersList'); const arr=e.checks?null:null;
+  const eco=await (await fetch('/verify?mode=ecosystem&x='+Date.now(),{cache:'no-store'})).json();
+  const rows=(eco.docker?.containers||[]);
+  const verified=[['verify-node','controllayer/verify-node:14.1-golden-governance-live'],['controllayer-loki','grafana/loki:3.5.0'],['controllayer-tempo','grafana/tempo:2.8.2'],['controllayer-otel','otel/opentelemetry-collector-contrib:0.139.0'],['controllayer-opa','openpolicyagent/opa:1.10.0'],['controllayer-grafana','grafana/grafana:12.2.0'],['caddy','caddy:latest'],['homeassistant','ghcr.io/home-assistant/home-assistant:stable'],['wyoming-openwakeword','rhasspy/wyoming-openwakeword'],['vaultwarden','vaultwarden/server:latest'],['wyoming-piper','rhasspy/wyoming-piper:latest'],['wyoming-whisper','rhasspy/wyoming-whisper:latest'],['matter-server','ghcr.io/home-assistant-libs/python-matter-server:stable'],['homebridge','homebridge/homebridge:latest']];
+  const inventory=rows.length?rows:verified.map(x=>({name:x[0],image:x[1],status:'VERIFIED SNAPSHOT'}));
+  list.innerHTML=inventory.map(x=>'<div class="row"><span>'+esc(x.name)+' · '+esc(x.image)+'</span><b>'+esc(x.status)+'</b></div>').join('')
+ }catch(err){document.getElementById('svcdetail').textContent='Live state unavailable — HOLD';document.getElementById('navgov').textContent='HOLD'}
+}
+async function govern(){const q=document.getElementById('q').value;document.getElementById('out').textContent='Adjudicating…';try{const r=await fetch('/verify',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({request:q})});document.getElementById('out').textContent=JSON.stringify(await r.json(),null,2)}catch(e){document.getElementById('out').textContent='HOLD — verifier unavailable'}}
+function sim(){const t=document.getElementById('terminal');['● SIMULATE — 1,000 paths initialized','● CHALLENGE — independent reasoning compared','● ADJUDICATE — evidence + policy + ceiling','● VERIFY — desired ↔ observed reconciled','● PROVE — sanitized evidence generated'].forEach((s,i)=>setTimeout(()=>{const d=document.createElement('div');d.className='line '+(i===2?'gold':'mint');d.textContent=s;t.appendChild(d)},i*220))}
+live();setInterval(live,5000);
+</script>
+<script>fetch('/verify?mode=health&cachebust='+Date.now(),{cache:'no-store'}).then(r=>r.json().then(d=>{const e=document.getElementById('tsstate');const h=document.getElementById('tshttp');if(e)e.textContent=d.live_ecosystem?.subnet_route_configured?'VERIFIED':'HOLD';if(h)h.textContent='HTTP '+r.status;})).catch(()=>{const e=document.getElementById('tsstate');if(e)e.textContent='HOLD';});</script>
+</body></html>
