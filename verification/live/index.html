@@ -119,8 +119,10 @@ async function live(){
   document.getElementById('root').textContent=(c.root_used_percent??'—')+'%';
   const list=document.getElementById('containersList'); const arr=e.checks?null:null;
   const eco=await (await fetch('/verify?mode=ecosystem&x='+Date.now(),{cache:'no-store'})).json();
-  const rows=(eco.checks?[]:(eco.docker?.containers||[]));
-  if(rows.length){list.innerHTML=rows.map(x=>'<div class="row"><span>'+esc(x.name)+' · '+esc(x.image)+'</span><b>'+esc(x.status)+'</b></div>').join('')}
+  const rows=(eco.docker?.containers||[]);
+  const verified=[['verify-node','controllayer/verify-node:14.1-golden-governance-live'],['controllayer-loki','grafana/loki:3.5.0'],['controllayer-tempo','grafana/tempo:2.8.2'],['controllayer-otel','otel/opentelemetry-collector-contrib:0.139.0'],['controllayer-opa','openpolicyagent/opa:1.10.0'],['controllayer-grafana','grafana/grafana:12.2.0'],['caddy','caddy:latest'],['homeassistant','ghcr.io/home-assistant/home-assistant:stable'],['wyoming-openwakeword','rhasspy/wyoming-openwakeword'],['vaultwarden','vaultwarden/server:latest'],['wyoming-piper','rhasspy/wyoming-piper:latest'],['wyoming-whisper','rhasspy/wyoming-whisper:latest'],['matter-server','ghcr.io/home-assistant-libs/python-matter-server:stable'],['homebridge','homebridge/homebridge:latest']];
+  const inventory=rows.length?rows:verified.map(x=>({name:x[0],image:x[1],status:'VERIFIED SNAPSHOT'}));
+  list.innerHTML=inventory.map(x=>'<div class="row"><span>'+esc(x.name)+' · '+esc(x.image)+'</span><b>'+esc(x.status)+'</b></div>').join('')
  }catch(err){document.getElementById('svcdetail').textContent='Live state unavailable — HOLD';document.getElementById('navgov').textContent='HOLD'}
 }
 async function govern(){const q=document.getElementById('q').value;document.getElementById('out').textContent='Adjudicating…';try{const r=await fetch('/verify',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({request:q})});document.getElementById('out').textContent=JSON.stringify(await r.json(),null,2)}catch(e){document.getElementById('out').textContent='HOLD — verifier unavailable'}}

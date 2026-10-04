@@ -21,9 +21,9 @@ Verified 2026-10-04 through the authorized Mac → Tailscale → TheControlLayer
 
 ## Verified production verifier
 
-`controllayer/verify-node:14.1-golden-governance-live`
+`controllayer/verify-node:14.1.1-golden-governance-live`
 
-Image ID: `sha256:56fa163e658d93df50a8c76c8a85cc8af416701ebf5947daad5194c72b1aff62`
+Image ID: `sha256:bd8510477f4cebb7f2a219f4adce46dd42addc6d93bd2bb989e780bc2891d057`
 
 Hardening remains: non-root UID 10001, read-only root filesystem, all Linux capabilities dropped, no-new-privileges, memory ceiling, host-network binding only where required by the verifier architecture.
 
