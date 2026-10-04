@@ -1,0 +1,48 @@
+name: Public Surface CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - name: Validate source
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('index.html'); s=p.read_text(encoding='utf-8')
+          assert s.startswith('<!doctype html>')
+          assert '<meta name="viewport"' in s
+          assert '<title>' in s and '</title>' in s
+          assert 'THE CONTROL LAYER' in s
+          assert not re.search(r'(192\.168\.|10\.\d+\.|172\.(1[6-9]|2\d|3[01])\.)', s)
+          assert not any(x in s for x in ['Bearer ','gho_','ghp_','github_pat_'])
+          assert 'taild054a' not in s
+          print('PUBLIC_SANITIZATION=PASS')
+          PY
+      - name: Accessibility baseline
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8').lower()
+          required=['lang=','meta name="viewport"','<title>','button','textarea']
+          missing=[x for x in required if x not in s]
+          assert not missing, missing
+          print('ACCESSIBILITY_BASELINE=PASS')
+          PY
+      - name: Deterministic hash
+        run: sha256sum index.html | tee public-index.sha256
+      - name: Upload evidence
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: public-share-evidence
+          path: public-index.sha256
+          retention-days: 30

@@ -1,0 +1,44 @@
+name: Security Baseline
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '17 4 * * 1'
+permissions:
+  contents: read
+  security-events: write
+jobs:
+  secret-pattern-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - name: Scan public tree for secret/private markers
+        run: |
+          set -eu
+          if grep -RInE 'Bearer |gho_|ghp_|github_pat_|192\.168\.|100\.[0-9]+\.[0-9]+\.[0-9]+|taild054a' --exclude-dir=.git --exclude-dir=.github index.html README.md SECURITY.md GOVERNANCE.md CODEOWNERS; then
+            echo 'PUBLIC_SECURITY_SCAN=FAIL'
+            exit 1
+          fi
+          echo 'PUBLIC_SECURITY_SCAN=PASS'
+  scorecard-readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - name: Validate Scorecard-oriented controls
+        run: |
+          set -eu
+          test -f CODEOWNERS
+          test -f SECURITY.md
+          test -f .github/dependabot.yml
+          test -f .github/pull_request_template.md
+          ! grep -RInE 'pull_request_target|permissions: write-all|curl .*[|] *bash|wget .*[|] *sh' .github/workflows
+          ! grep -RInE 'uses: [^@]+@(v|main|master|latest)([^0-9]|$)' .github/workflows
+          echo 'SCORECARD_ORIENTED_READINESS=PASS'
+          echo 'OPENSSF_SCORECARD_EXTERNAL_RUN=HOLD'
+          echo 'REASON=GitHub-hosted Scorecard action requires an external container registry path unavailable in this repository runtime; no score is fabricated.'
