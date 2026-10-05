@@ -53,7 +53,7 @@ views:
         square: false
         cards:
           - type: tile
-            entity: lock.eufy_lock
+            entity: lock.jacklyn_doors
             name: Entrance
             icon: mdi:door-closed-lock
           - type: tile
@@ -166,7 +166,7 @@ views:
               - type: markdown
                 content: "## 🚪 ENTRANCE"
               - type: tile
-                entity: lock.eufy_lock
+                entity: lock.jacklyn_doors
                 name: Eufy Lock
                 icon: mdi:door-closed-lock
               - type: tile
@@ -274,7 +274,7 @@ views:
         square: false
         cards:
           - type: tile
-            entity: lock.eufy_lock
+            entity: lock.jacklyn_doors
             name: Entrance Lock
             icon: mdi:door-closed-lock
           - type: tile
@@ -438,7 +438,7 @@ views:
             features:
               - type: light-brightness
           - type: tile
-            entity: lock.eufy_lock
+            entity: lock.jacklyn_doors
             name: Eufy Lock
       - type: grid
         columns: 3
