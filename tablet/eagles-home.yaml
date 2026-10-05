@@ -15,7 +15,7 @@ views:
         name: Control
       - entity: sensor.control_layer_governance_mode
         name: Governance
-      - entity: binary_sensor.home_active
+      - entity: person.damien
         name: Presence
       - entity: sensor.dames_iphone_14_max_battery_level
         name: iPhone
@@ -66,7 +66,7 @@ views:
             name: Master Display
             icon: mdi:google-home
           - type: tile
-            entity: binary_sensor.home_active
+            entity: person.damien
             name: Home Presence
             icon: mdi:home-account
       - type: grid
@@ -76,17 +76,17 @@ views:
           - type: picture-entity
             entity: camera.back_door_back_door_camera
             name: Back Door
-            camera_view: live
+            camera_view: auto
             show_state: false
           - type: picture-entity
             entity: camera.kitchen_living_room_camera
             name: Kitchen / Living
-            camera_view: live
+            camera_view: auto
             show_state: false
           - type: picture-entity
             entity: camera.kitchen_kitchen_camera
             name: Kitchen
-            camera_view: live
+            camera_view: auto
             show_state: false
       - type: grid
         columns: 4
@@ -108,7 +108,7 @@ views:
             min: 0
             max: 4
           - type: gauge
-            entity: sensor.control_layer_pihole_blocked_percent
+            entity: sensor.control_layer_pi_hole_blocked_percent
             name: DNS Blocked
             min: 0
             max: 100
@@ -170,7 +170,7 @@ views:
                 name: Eufy Lock
                 icon: mdi:door-closed-lock
               - type: tile
-                entity: binary_sensor.home_active
+                entity: person.damien
                 name: Presence
           - type: vertical-stack
             cards:
@@ -207,8 +207,8 @@ views:
               - type: markdown
                 content: "## 🍳 KITCHEN"
               - type: tile
-                entity: light.kitchen_kitchen
-                name: Kitchen Light
+                entity: media_player.kitchen_display
+                name: Kitchen Display
                 features:
                   - type: light-brightness
               - type: tile
@@ -218,7 +218,7 @@ views:
               - type: picture-entity
                 entity: camera.kitchen_kitchen_camera
                 name: Kitchen Camera
-                camera_view: live
+                camera_view: auto
                 show_state: false
           - type: vertical-stack
             cards:
@@ -257,7 +257,7 @@ views:
               - type: picture-entity
                 entity: camera.back_door_back_door_camera
                 name: Back Door Camera
-                camera_view: live
+                camera_view: auto
                 show_state: false
 
   - title: SECURITY
@@ -296,17 +296,17 @@ views:
           - type: picture-entity
             entity: camera.back_door_back_door_camera
             name: Back Door
-            camera_view: live
+            camera_view: auto
             show_state: false
           - type: picture-entity
             entity: camera.kitchen_living_room_camera
             name: Kitchen / Living
-            camera_view: live
+            camera_view: auto
             show_state: false
           - type: picture-entity
             entity: camera.kitchen_kitchen_camera
             name: Kitchen
-            camera_view: live
+            camera_view: auto
             show_state: false
       - type: entities
         title: Security Evidence
@@ -395,18 +395,18 @@ views:
         square: false
         cards:
           - type: gauge
-            entity: sensor.control_layer_pihole_blocked_percent
+            entity: sensor.control_layer_pi_hole_blocked_percent
             name: DNS blocked
             min: 0
             max: 100
           - type: tile
-            entity: sensor.control_layer_pihole_queries
+            entity: sensor.control_layer_pi_hole_queries
             name: DNS queries
           - type: tile
-            entity: sensor.control_layer_pihole_blocked
+            entity: sensor.control_layer_pi_hole_blocked
             name: DNS blocked
           - type: tile
-            entity: sensor.control_layer_pihole_domains
+            entity: sensor.control_layer_pi_hole_domains
             name: Gravity domains
 
   - title: SMART HOME
@@ -475,17 +475,17 @@ views:
           - type: picture-entity
             entity: camera.back_door_back_door_camera
             name: Back Door
-            camera_view: live
+            camera_view: auto
             show_state: false
           - type: picture-entity
             entity: camera.kitchen_living_room_camera
             name: Kitchen / Living
-            camera_view: live
+            camera_view: auto
             show_state: false
           - type: picture-entity
             entity: camera.kitchen_kitchen_camera
             name: Kitchen
-            camera_view: live
+            camera_view: auto
             show_state: false
       - type: tile
         entity: media_player.master_bedroom_display_king
@@ -525,10 +525,10 @@ views:
           - sensor.control_layer_pi_swap_used
           - sensor.control_layer_pi_load
           - sensor.control_layer_docker_running
-          - sensor.control_layer_pihole_queries
-          - sensor.control_layer_pihole_blocked
-          - sensor.control_layer_pihole_blocked_percent
-          - sensor.control_layer_pihole_domains
+          - sensor.control_layer_pi_hole_queries
+          - sensor.control_layer_pi_hole_blocked
+          - sensor.control_layer_pi_hole_blocked_percent
+          - sensor.control_layer_pi_hole_domains
 
   - title: CONTROL / AI
     path: control
@@ -650,7 +650,7 @@ views:
             entity: sensor.control_layer_last_verification
             name: Proof
           - type: tile
-            entity: binary_sensor.home_active
+            entity: person.damien
             name: Presence
       - type: entities
         title: Tablet policy
