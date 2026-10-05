@@ -75,7 +75,7 @@ def snapshot():
     return {
       "timestamp":time.time(),
       "governance":{"authority":"HUMAN PRIMARY","hierarchy":"HUMAN → FRONTIER AI → CONTROL LAYER → CAPABILITY FABRIC → GOVERNED EXECUTOR → ECOSYSTEM → PROOF","decision":"EXECUTE" if p.get("status")=="NOMINAL" else "HOLD","principle":"INTELLIGENCE ≠ AUTHORITY"},
-      "pi":{"health":p,"memory":{"used_percent":100*m.get("memory_used",0)/max(1,m.get("memory_total",1)),"swap_used_percent":100*m.get("swap_used",0)/max(1,m.get("swap_total",1))},"storage":{"used_percent":m.get("hdd_used_percent"),"free_gib":m.get("hdd_free_gib")},"load":m.get("load",{}),"containers":m.get("containers",[])},
+      "pi":{"health":p,"memory":{"used_percent":100*m.get("memory_used",0)/max(1,m.get("memory_total",1)),"swap_used_percent":100*m.get("swap_used",0)/max(1,m.get("swap_total",1))},"storage":{"used_percent":m.get("hdd_used_percent"),"free_gib":m.get("hdd_free_gib")},"root_used_percent":m.get("root_used_percent"),"load":m.get("load",{}),"containers":m.get("containers",[])},
       "home":{"runtime":rt,"inventory":inv,"google_nest":"CONFIGURED • NEST SDM + GOOGLE SMART HOME","automations":[{"name":"Security ESCALATE Pipeline","trigger":"security / consequential action","action":"iPhone approval → EXECUTE / HOLD","governance":"HUMAN-GATED"},{"name":"Sunset Living Room","trigger":"sunset + home","action":"Hue living-room scene/lights","governance":"VALIDATED"},{"name":"Away Energy Reclaim","trigger":"away ≥10m","action":"energy reclaim","governance":"VALIDATED"},{"name":"Google/Nest continuity","trigger":"HA / SDM lifecycle","action":"preserve synchronization","governance":"NO CONFIG CHANGE"}]},
       "ai":{"openai":p.get("providers",{}).get("OPENAI",{}),"anthropic":p.get("providers",{}).get("ANTHROPIC",{}),"google":"REMOVED"},
       "github":github(),
@@ -104,7 +104,7 @@ class H(BaseHTTPRequestHandler):
         if self.path.startswith("/assets/"):
             f=ROOT/self.path.lstrip("/")
             if f.is_file():self.send(200,f.read_bytes(),"image/png");return
-        if self.path in ("/","/index.html"):self.send(200,(ROOT/"index.html").read_bytes(),"text/html; charset=utf-8");return
+        if self.path in ("/","/index.html","/dashboard","/dashboard/"):self.send(200,(ROOT/"index.html").read_bytes(),"text/html; charset=utf-8");return
         self.send(404,json.dumps({"status":"HOLD"}))
     def do_POST(self):
         if self.path not in ("/api/dashboard/action","/api/action"):self.send(404,json.dumps({"status":"HOLD"}));return
