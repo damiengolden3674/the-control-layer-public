@@ -1,0 +1,672 @@
+kiosk_mode:
+  kiosk: true
+  hide_assistant: false
+  hide_search: true
+  hide_notifications: true
+  hide_overflow: true
+title: Eagles Control Center
+views:
+  - title: HOME
+    path: home
+    icon: mdi:shield-home
+    theme: eagles_home
+    badges:
+      - entity: sensor.control_layer_status
+        name: Control
+      - entity: sensor.control_layer_governance_mode
+        name: Governance
+      - entity: binary_sensor.home_active
+        name: Presence
+      - entity: sensor.dames_iphone_14_max_battery_level
+        name: iPhone
+    cards:
+      - type: markdown
+        content: |
+          # 🦅 EAGLES CONTROL CENTER
+          **ONE CONTROL SURFACE • THE CONTROL LAYER™**
+          
+          **HUMAN → CONTROL LAYER → CONTROL AI → GOVERNED EXECUTOR → ECOSYSTEM**
+          
+          **EXECUTE** validated + authorized · **HOLD** uncertainty · **ESCALATE** ambiguity / material risk
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: tile
+            entity: sensor.control_layer_status
+            name: Control Layer
+            icon: mdi:shield-check
+          - type: tile
+            entity: sensor.control_layer_governance_mode
+            name: Governance
+            icon: mdi:scale-balance
+          - type: tile
+            entity: sensor.control_layer_model_status
+            name: AI Backend
+            icon: mdi:brain
+          - type: tile
+            entity: sensor.control_layer_last_verification
+            name: Last Proof
+            icon: mdi:certificate-check
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: tile
+            entity: lock.eufy_lock
+            name: Entrance
+            icon: mdi:door-closed-lock
+          - type: tile
+            entity: light.living_room_living_room
+            name: Living Room
+            features:
+              - type: light-brightness
+          - type: tile
+            entity: media_player.master_bedroom_display_king
+            name: Master Display
+            icon: mdi:google-home
+          - type: tile
+            entity: binary_sensor.home_active
+            name: Home Presence
+            icon: mdi:home-account
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: picture-entity
+            entity: camera.back_door_back_door_camera
+            name: Back Door
+            camera_view: live
+            show_state: false
+          - type: picture-entity
+            entity: camera.kitchen_living_room_camera
+            name: Kitchen / Living
+            camera_view: live
+            show_state: false
+          - type: picture-entity
+            entity: camera.kitchen_kitchen_camera
+            name: Kitchen
+            camera_view: live
+            show_state: false
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: gauge
+            entity: sensor.control_layer_pi_ram_used
+            name: Pi RAM
+            min: 0
+            max: 100
+          - type: gauge
+            entity: sensor.control_layer_pi_root_used
+            name: Pi Root
+            min: 0
+            max: 100
+          - type: gauge
+            entity: sensor.control_layer_pi_load
+            name: Pi Load
+            min: 0
+            max: 4
+          - type: gauge
+            entity: sensor.control_layer_pihole_blocked_percent
+            name: DNS Blocked
+            min: 0
+            max: 100
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: button
+            name: ROOMS
+            icon: mdi:floor-plan
+            tap_action:
+              action: navigate
+              navigation_path: /eagles-home/rooms
+          - type: button
+            name: SECURITY
+            icon: mdi:shield-lock
+            tap_action:
+              action: navigate
+              navigation_path: /eagles-home/security
+          - type: button
+            name: CONTROL / AI
+            icon: mdi:brain
+            tap_action:
+              action: navigate
+              navigation_path: /eagles-home/control
+          - type: button
+            name: PROOF
+            icon: mdi:certificate-check
+            tap_action:
+              action: navigate
+              navigation_path: /eagles-home/proof
+      - type: button
+        name: CONTROL LAYER ASSISTANT
+        icon: mdi:account-voice
+        tap_action:
+          action: assist
+          pipeline_id: preferred
+          start_listening: true
+
+  - title: ROOMS
+    path: rooms
+    icon: mdi:floor-plan
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # ROOMS
+          **Home Assistant is the canonical smart-home integration authority.**
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: markdown
+                content: "## 🚪 ENTRANCE"
+              - type: tile
+                entity: lock.eufy_lock
+                name: Eufy Lock
+                icon: mdi:door-closed-lock
+              - type: tile
+                entity: binary_sensor.home_active
+                name: Presence
+          - type: vertical-stack
+            cards:
+              - type: markdown
+                content: "## 🛋️ LIVING ROOM"
+              - type: tile
+                entity: light.living_room_living_room
+                name: Main Light
+                features:
+                  - type: light-brightness
+              - type: tile
+                entity: light.living_room_table_lamp
+                name: Table Lamp
+                features:
+                  - type: light-brightness
+              - type: tile
+                entity: light.living_room_hue_lamp
+                name: Hue Lamp
+                features:
+                  - type: light-brightness
+              - type: tile
+                entity: light.living_room_hue_go_1
+                name: Hue Go
+                features:
+                  - type: light-brightness
+              - type: media-control
+                entity: media_player.beam_set_2_beam_set_2
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: markdown
+                content: "## 🍳 KITCHEN"
+              - type: tile
+                entity: light.kitchen_kitchen
+                name: Kitchen Light
+                features:
+                  - type: light-brightness
+              - type: tile
+                entity: media_player.kitchen_display
+                name: Kitchen Display
+                icon: mdi:google-home
+              - type: picture-entity
+                entity: camera.kitchen_kitchen_camera
+                name: Kitchen Camera
+                camera_view: live
+                show_state: false
+          - type: vertical-stack
+            cards:
+              - type: markdown
+                content: "## 🛏️ MASTER BEDROOM"
+              - type: tile
+                entity: media_player.master_bedroom_display_king
+                name: Hub Max
+                icon: mdi:google-home
+              - type: tile
+                entity: media_player.master_bedroom_tv
+                name: TV
+                icon: mdi:television
+              - type: tile
+                entity: media_player.arc_ultra_set_arc_ultra_set
+                name: Arc Ultra
+                icon: mdi:soundbar
+      - type: grid
+        columns: 2
+        square: false
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: markdown
+                content: "## 🚗 GARAGE"
+              - type: entities
+                entities:
+                  - entity: sensor.control_layer_pi_root_used
+                    name: Control Layer storage
+                  - entity: sensor.control_layer_pi_ram_used
+                    name: Control Layer RAM
+          - type: vertical-stack
+            cards:
+              - type: markdown
+                content: "## 🚪 BACK DOOR"
+              - type: picture-entity
+                entity: camera.back_door_back_door_camera
+                name: Back Door Camera
+                camera_view: live
+                show_state: false
+
+  - title: SECURITY
+    path: security
+    icon: mdi:shield-lock
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # SECURITY
+          **No auto-approval. Missing, stale, conflicting or ambiguous evidence is HOLD / ESCALATE.**
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: tile
+            entity: lock.eufy_lock
+            name: Entrance Lock
+            icon: mdi:door-closed-lock
+          - type: tile
+            entity: binary_sensor.control_layer_firewall
+            name: Firewall
+            icon: mdi:firewall
+          - type: tile
+            entity: binary_sensor.control_layer_fail2ban
+            name: fail2ban
+            icon: mdi:shield-lock
+          - type: tile
+            entity: binary_sensor.control_layer_tailscale
+            name: Tailscale
+            icon: mdi:transit-connection-variant
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: picture-entity
+            entity: camera.back_door_back_door_camera
+            name: Back Door
+            camera_view: live
+            show_state: false
+          - type: picture-entity
+            entity: camera.kitchen_living_room_camera
+            name: Kitchen / Living
+            camera_view: live
+            show_state: false
+          - type: picture-entity
+            entity: camera.kitchen_kitchen_camera
+            name: Kitchen
+            camera_view: live
+            show_state: false
+      - type: entities
+        title: Security Evidence
+        entities:
+          - sensor.control_layer_status
+          - sensor.control_layer_ssh_hardened
+          - sensor.control_layer_firewall_state
+          - sensor.control_layer_fail2ban_state
+          - sensor.control_layer_tailscale_state
+          - sensor.control_layer_public_boundary
+          - sensor.control_layer_transport
+
+  - title: INFRASTRUCTURE
+    path: infrastructure
+    icon: mdi:server-network
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # INFRASTRUCTURE
+          **Pi resources are monitored so the tablet remains a presentation surface, not a hidden dependency.**
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: gauge
+            entity: sensor.control_layer_pi_ram_used
+            name: RAM
+            min: 0
+            max: 100
+          - type: gauge
+            entity: sensor.control_layer_pi_root_used
+            name: Root
+            min: 0
+            max: 100
+          - type: gauge
+            entity: sensor.control_layer_pi_swap_used
+            name: Swap
+            min: 0
+            max: 100
+          - type: gauge
+            entity: sensor.control_layer_pi_load
+            name: Load
+            min: 0
+            max: 4
+      - type: entities
+        title: Runtime
+        entities:
+          - sensor.control_layer_docker_running
+          - sensor.control_layer_ha_runtime
+          - sensor.control_layer_homebridge_runtime
+          - sensor.control_layer_matter_runtime
+          - sensor.control_layer_verify_runtime
+          - sensor.control_layer_loki_runtime
+          - sensor.control_layer_tempo_runtime
+          - sensor.control_layer_opa_runtime
+          - sensor.control_layer_image_digest_state
+      - type: entities
+        title: Recovery / Backup
+        entities:
+          - sensor.control_layer_backup_verified
+          - sensor.control_layer_metrics_age
+          - sensor.control_layer_pi_root_used
+
+  - title: NETWORK
+    path: network
+    icon: mdi:lan
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # NETWORK
+          **Tailscale is the governed transport; public surfaces remain sanitized.**
+      - type: entities
+        title: Transport
+        entities:
+          - sensor.control_layer_tailscale_state
+          - sensor.control_layer_tailscale_ip
+          - sensor.control_layer_tailscale_peers
+          - sensor.control_layer_tailscale_funnel
+          - sensor.control_layer_open_ports
+          - sensor.control_layer_transport
+          - sensor.control_layer_public_boundary
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: gauge
+            entity: sensor.control_layer_pihole_blocked_percent
+            name: DNS blocked
+            min: 0
+            max: 100
+          - type: tile
+            entity: sensor.control_layer_pihole_queries
+            name: DNS queries
+          - type: tile
+            entity: sensor.control_layer_pihole_blocked
+            name: DNS blocked
+          - type: tile
+            entity: sensor.control_layer_pihole_domains
+            name: Gravity domains
+
+  - title: SMART HOME
+    path: smart-home
+    icon: mdi:home-automation
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # SMART HOME
+          **HA owns integrations and automations. Homebridge is Apple-specific capability. Google Home/Nabu Casa is presentation/control.**
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: tile
+            entity: light.living_room_living_room
+            name: Living Room
+            features:
+              - type: light-brightness
+          - type: tile
+            entity: light.living_room_table_lamp
+            name: Table Lamp
+            features:
+              - type: light-brightness
+          - type: tile
+            entity: light.living_room_hue_lamp
+            name: Hue Lamp
+            features:
+              - type: light-brightness
+          - type: tile
+            entity: lock.eufy_lock
+            name: Eufy Lock
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: media-control
+            entity: media_player.beam_set_2_beam_set_2
+          - type: media-control
+            entity: media_player.arc_ultra_set_arc_ultra_set
+          - type: media-control
+            entity: media_player.kitchen_display
+      - type: entities
+        title: Canonical Media / Displays
+        entities:
+          - media_player.master_bedroom_display_king
+          - media_player.master_bedroom_tv
+          - media_player.beam_set_2_beam_set_2
+          - media_player.arc_ultra_set_arc_ultra_set
+          - media_player.kitchen_display
+
+  - title: CAMERAS
+    path: cameras
+    icon: mdi:cctv
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # CAMERAS
+          **Only camera entities currently exposed by Home Assistant are shown as live controls.**
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: picture-entity
+            entity: camera.back_door_back_door_camera
+            name: Back Door
+            camera_view: live
+            show_state: false
+          - type: picture-entity
+            entity: camera.kitchen_living_room_camera
+            name: Kitchen / Living
+            camera_view: live
+            show_state: false
+          - type: picture-entity
+            entity: camera.kitchen_kitchen_camera
+            name: Kitchen
+            camera_view: live
+            show_state: false
+      - type: tile
+        entity: media_player.master_bedroom_display_king
+        name: Master Bedroom Hub Max
+        icon: mdi:google-home
+
+  - title: OBSERVABILITY
+    path: data
+    icon: mdi:chart-line
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # DATA / OBSERVABILITY
+          **Telemetry → decision → execution → proof.**
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: tile
+            entity: sensor.control_layer_status
+            name: Status
+          - type: tile
+            entity: sensor.control_layer_metrics_age
+            name: Telemetry age
+          - type: tile
+            entity: sensor.control_layer_backup_verified
+            name: Backup
+          - type: tile
+            entity: sensor.control_layer_image_digest_state
+            name: Digests
+      - type: entities
+        title: Platform telemetry
+        entities:
+          - sensor.control_layer_pi_ram_used
+          - sensor.control_layer_pi_root_used
+          - sensor.control_layer_pi_swap_used
+          - sensor.control_layer_pi_load
+          - sensor.control_layer_docker_running
+          - sensor.control_layer_pihole_queries
+          - sensor.control_layer_pihole_blocked
+          - sensor.control_layer_pihole_blocked_percent
+          - sensor.control_layer_pihole_domains
+
+  - title: CONTROL / AI
+    path: control
+    icon: mdi:brain
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # CONTROL LAYER
+          ## Human → Control Layer → Control AI → Governed Executor → Ecosystem
+          
+          **Intelligence ≠ authority.**
+          
+          **EXECUTE:** validated + authorized
+          **HOLD:** uncertainty / stale / missing evidence
+          **ESCALATE:** ambiguity / material risk / authority ceiling
+          **DEFER / SIMULATE:** non-production exploration
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: tile
+            entity: sensor.control_layer_status
+            name: Status
+          - type: tile
+            entity: sensor.control_layer_governance_mode
+            name: Governance
+          - type: tile
+            entity: sensor.control_layer_model_status
+            name: Model
+          - type: tile
+            entity: sensor.control_layer_hierarchy
+            name: Hierarchy
+      - type: entities
+        title: Authority / Proof
+        entities:
+          - sensor.control_layer_mutation_policy
+          - sensor.control_layer_transport
+          - sensor.control_layer_public_boundary
+          - sensor.control_layer_last_verification
+          - sensor.control_layer_backup_verified
+      - type: button
+        name: OPEN LIVE VERIFIER
+        icon: mdi:certificate-check
+        tap_action:
+          action: url
+          url_path: https://thecontrollayer.taild054a.ts.net/verify?v=100
+      - type: button
+        name: CONTROL LAYER ASSISTANT
+        icon: mdi:account-voice
+        tap_action:
+          action: assist
+          pipeline_id: preferred
+          start_listening: true
+
+  - title: PROOF
+    path: proof
+    icon: mdi:certificate-check
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # GOVERNANCE / PROOF
+          **Public evidence is sanitized. Authoritative private trust state stays private.**
+          
+          Missing, stale, conflicting or unverifiable evidence is **HOLD / ESCALATE**.
+      - type: entities
+        title: Proof State
+        entities:
+          - sensor.control_layer_status
+          - sensor.control_layer_governance_mode
+          - sensor.control_layer_last_verification
+          - sensor.control_layer_metrics_age
+          - sensor.control_layer_transport
+          - sensor.control_layer_public_boundary
+          - sensor.control_layer_backup_verified
+          - sensor.control_layer_image_digest_state
+      - type: button
+        name: OPEN VERIFIER
+        icon: mdi:open-in-new
+        tap_action:
+          action: url
+          url_path: https://thecontrollayer.taild054a.ts.net/verify?v=100
+
+  - title: AMBIENT
+    path: screensaver
+    icon: mdi:image-multiple
+    theme: eagles_home
+    cards:
+      - type: picture
+        image: /local/media/eagles/eagles1.png
+      - type: picture
+        image: /local/media/eagles/eagles2.png
+      - type: picture
+        image: /local/media/eagles/eagles3.png
+
+  - title: TABLET
+    path: tablet
+    icon: mdi:tablet-dashboard
+    theme: eagles_home
+    cards:
+      - type: markdown
+        content: |
+          # CONTROL LAYER TABLET
+          **Samsung Galaxy Tab A7 Lite • SM-T220 • Android 14**
+          
+          Presentation surface, governed by The Control Layer. Terminal/recovery access remains part of the design.
+      - type: grid
+        columns: 4
+        square: false
+        cards:
+          - type: tile
+            entity: sensor.control_layer_status
+            name: Control Layer
+          - type: tile
+            entity: sensor.control_layer_governance_mode
+            name: Governance
+          - type: tile
+            entity: sensor.control_layer_last_verification
+            name: Proof
+          - type: tile
+            entity: binary_sensor.home_active
+            name: Presence
+      - type: entities
+        title: Tablet policy
+        entities:
+          - sensor.control_layer_status
+          - sensor.control_layer_governance_mode
+          - sensor.control_layer_model_status
+          - sensor.control_layer_transport
+          - sensor.control_layer_metrics_age
+      - type: markdown
+        content: |
+          ### Optimization target
+          - SuperDash kiosk + launch-on-boot
+          - Local terminal access retained
+          - Battery optimization exemptions
+          - Screen-on while powered
+          - Landscape wall-panel layout
+          - ADB recovery path retained
+          - Root only after bootloader/unlock evidence is validated
