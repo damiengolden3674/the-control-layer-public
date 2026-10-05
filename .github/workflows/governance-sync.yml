@@ -1,0 +1,32 @@
+name: Control Layer Governance Sync
+on:
+  push:
+    paths:
+      - 'governance/**'
+      - 'resume/**'
+      - 'index.html'
+      - '.github/workflows/governance-sync.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Validate canonical profile
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open("governance/profile.json"))
+          assert d["authority"]=="HUMAN_PRIMARY"
+          assert d["hierarchy_version"]=="15.0"
+          assert d["governance"]["public_boundary"]=="SANITIZED ONLY"
+          assert set(d["governance"]["decision_states"])=={"EXECUTE","HOLD","ESCALATE","DEFER","SIMULATE"}
+          assert d["sync"]["mode"]=="BOUNDED_AUTONOMY"
+          print("profile: PASS")
+          PY
+      - name: Reject stale public fallbacks
+        run: |
+          ! grep -nE '3,525 GiB|70\.4%|VERIFIED SNAPSHOT|CL-AI-20261005-01|CL-CYBER-001|CL-RISK-001' index.html
+          echo "fallback scan: PASS"
