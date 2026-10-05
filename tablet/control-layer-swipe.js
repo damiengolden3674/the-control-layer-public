@@ -1,0 +1,10 @@
+(()=>{if(window.__controlLayerSwipe){return;}window.__controlLayerSwipe=true;
+const views=["home","rooms","security","infrastructure","network","smart-home","cameras","data","control","proof","screensaver","tablet"];
+const base="/eagles-home/";
+let sx=0,sy=0,active=false;
+const ignore=t=>!!t?.closest?.("input,textarea,select,button,ha-slider,ha-selector,ha-dialog,video,canvas,[role=slider],[contenteditable=true]");
+const current=()=>{const p=location.pathname.replace(/\/+$/,""); const i=p.lastIndexOf("/"); return p.slice(i+1)||"home";};
+const go=(dir)=>{const c=current(),i=views.indexOf(c); if(i<0)return; const n=(i+dir+views.length)%views.length; const path=base+views[n]; history.pushState({},"",path); window.dispatchEvent(new CustomEvent("location-changed",{detail:{path}}));};
+window.addEventListener("touchstart",e=>{if(e.touches.length!==1)return; const t=e.target; if(ignore(t))return; sx=e.touches[0].clientX; sy=e.touches[0].clientY; if(sx<70||sx>innerWidth-70){active=false;return;} active=true;},{passive:true,capture:true});
+window.addEventListener("touchend",e=>{if(!active||e.changedTouches.length!==1)return; active=false; const x=e.changedTouches[0].clientX,y=e.changedTouches[0].clientY; const dx=x-sx,dy=y-sy; if(Math.abs(dx)<Math.max(80,innerWidth*.12)||Math.abs(dx)<=Math.abs(dy)*1.25)return; go(dx<0?1:-1);},{passive:true,capture:true});
+})();
