@@ -1,0 +1,158 @@
+{
+  "artifact": "verify-node security evidence",
+  "image": "controllayer/verify-node:14.3.0-employer-proof",
+  "generated_at": "2026-10-05T14:33:01.810822+00:00",
+  "sbom_sha256": "662743aaa55fe1a4523a22d26ee569efbb83a157025d57e3faeb7043b89b6dbc",
+  "trivy_sha256": "1258f158367c468a09f5670c3183dd2c2bf7f8f93a4849b5bb5c1db486bb92f2",
+  "trivy_version": "0.75.0",
+  "severity_counts": {
+    "LOW": 101,
+    "HIGH": 58,
+    "MEDIUM": 118,
+    "CRITICAL": 5,
+    "UNKNOWN": 1
+  },
+  "vulnerabilities_sample": [
+    {
+      "id": "CVE-2011-3374",
+      "severity": "LOW",
+      "pkg": "apt",
+      "installed": "2.6.1",
+      "fixed": null
+    },
+    {
+      "id": "TEMP-0841856-B18BAF",
+      "severity": "LOW",
+      "pkg": "bash",
+      "installed": "5.2.15-2+b13",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-53613",
+      "severity": "HIGH",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-76642",
+      "severity": "HIGH",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-78408",
+      "severity": "HIGH",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-78409",
+      "severity": "HIGH",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-78410",
+      "severity": "HIGH",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-13595",
+      "severity": "MEDIUM",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-27456",
+      "severity": "MEDIUM",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-3184",
+      "severity": "MEDIUM",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-53615",
+      "severity": "MEDIUM",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2022-0563",
+      "severity": "LOW",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2025-14104",
+      "severity": "LOW",
+      "pkg": "bsdutils",
+      "installed": "1:2.38.1-5+deb12u3",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2016-2781",
+      "severity": "LOW",
+      "pkg": "coreutils",
+      "installed": "9.1-1",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2017-18018",
+      "severity": "LOW",
+      "pkg": "coreutils",
+      "installed": "9.1-1",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2025-5278",
+      "severity": "LOW",
+      "pkg": "coreutils",
+      "installed": "9.1-1",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-56391",
+      "severity": "LOW",
+      "pkg": "coreutils",
+      "installed": "9.1-1",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-56392",
+      "severity": "LOW",
+      "pkg": "coreutils",
+      "installed": "9.1-1",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-102473",
+      "severity": "LOW",
+      "pkg": "dash",
+      "installed": "0.5.12-2",
+      "fixed": null
+    },
+    {
+      "id": "CVE-2026-102474",
+      "severity": "LOW",
+      "pkg": "dash",
+      "installed": "0.5.12-2",
+      "fixed": null
+    }
+  ],
+  "source": "AUTHORITATIVE_HOST_RUNTIME"
+}

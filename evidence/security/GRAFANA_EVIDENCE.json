@@ -1,0 +1,7 @@
+{
+  "status": "READY",
+  "version": "12.2.0",
+  "database": "ok",
+  "generated_at": "2026-10-05T14:34:09.946366+00:00",
+  "source": "GRAFANA_LOCAL_READ_ONLY_HEALTH"
+}
