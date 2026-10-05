@@ -1,3 +1,14 @@
+swipe_nav:
+  enable: true
+  wrap: true
+  animate: swipe
+  animate_duration: 300
+  enable_mouse_swipe: true
+  enable_on_subviews: true
+  prevent_default: true
+  skip_subviews: true
+  swipe_amount: 8
+
 kiosk_mode:
   kiosk: true
   hide_assistant: false
