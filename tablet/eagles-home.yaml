@@ -15,10 +15,6 @@ views:
         name: Control
       - entity: sensor.control_layer_governance_mode
         name: Governance
-      - entity: person.damien
-        name: Presence
-      - entity: sensor.dames_iphone_14_max_battery_level
-        name: iPhone
     cards:
       - type: markdown
         content: |
@@ -65,10 +61,6 @@ views:
             entity: media_player.master_bedroom_display_king
             name: Master Display
             icon: mdi:google-home
-          - type: tile
-            entity: person.damien
-            name: Home Presence
-            icon: mdi:home-account
       - type: grid
         columns: 3
         square: false
@@ -169,9 +161,6 @@ views:
                 entity: lock.jacklyn_doors
                 name: Eufy Lock
                 icon: mdi:door-closed-lock
-              - type: tile
-                entity: person.damien
-                name: Presence
           - type: vertical-stack
             cards:
               - type: markdown
@@ -649,9 +638,6 @@ views:
           - type: tile
             entity: sensor.control_layer_last_verification
             name: Proof
-          - type: tile
-            entity: person.damien
-            name: Presence
       - type: entities
         title: Tablet policy
         entities:

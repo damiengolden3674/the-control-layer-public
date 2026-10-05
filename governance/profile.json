@@ -17,10 +17,8 @@
     "masters": "M.S. Information Systems and Emerging Technologies"
   },
   "career_targets": [
-    "AI Governance Leader",
-    "Cybersecurity Governance Director",
-    "Enterprise Risk Director",
-    "Cloud Governance Architect"
+    "Building and operating a personal AI governance control plane",
+    "Self-built governed execution environment"
   ],
   "governance": {
     "principle": "INTELLIGENCE \u2260 AUTHORITY",
@@ -143,5 +141,11 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "5bfd4fde608957c6e7c5270d1e4a3d3b3fc069dcea57c04356e26ac9e8212913"
+  "presentation_fingerprint": "5bfd4fde608957c6e7c5270d1e4a3d3b3fc069dcea57c04356e26ac9e8212913",
+  "portfolio_positioning": {
+    "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
+    "stage": "LIVING_DEMONSTRATION",
+    "lead": "44-year-old senior at SLU (CIS / Cybersecurity). Built the entire Control Layer stack myself as a living demonstration of governed AI execution.",
+    "principle": "INTELLIGENCE \u2260 AUTHORITY"
+  }
 }
