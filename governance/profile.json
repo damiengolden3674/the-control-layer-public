@@ -48,17 +48,100 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-05T15:44:38.422349+00:00",
+  "last_reconciled": "2026-10-05T15:46:18.221449+00:00",
   "runtime": {
     "status": "NOMINAL",
     "containers_running": 13,
     "hdd_free_gib": 3513,
     "root_used_percent": 78.2,
-    "generated_at": "2026-10-05T15:44:30.347795+00:00",
-    "verifier_public_nominal": true
+    "generated_at": "2026-10-05T15:46:10.134922+00:00",
+    "verifier_public_nominal": false,
+    "container_inventory": [
+      {
+        "name": "homeassistant",
+        "image": "ghcr.io/home-assistant/home-assistant:stable"
+      },
+      {
+        "name": "wyoming-openwakeword",
+        "image": "rhasspy/wyoming-openwakeword"
+      },
+      {
+        "name": "wyoming-whisper",
+        "image": "rhasspy/wyoming-whisper"
+      },
+      {
+        "name": "wyoming-piper",
+        "image": "rhasspy/wyoming-piper"
+      },
+      {
+        "name": "vaultwarden",
+        "image": "vaultwarden/server:latest"
+      },
+      {
+        "name": "matter-server",
+        "image": "ghcr.io/home-assistant-libs/python-matter-server:stable"
+      },
+      {
+        "name": "homebridge",
+        "image": "homebridge/homebridge:latest"
+      },
+      {
+        "name": "controllayer-loki",
+        "image": "grafana/loki:3.5.0"
+      },
+      {
+        "name": "controllayer-grafana",
+        "image": "grafana/grafana:12.2.0"
+      },
+      {
+        "name": "controllayer-tempo",
+        "image": "grafana/tempo:2.8.2"
+      },
+      {
+        "name": "controllayer-opa",
+        "image": "openpolicyagent/opa:1.10.0"
+      },
+      {
+        "name": "verify-node",
+        "image": "controllayer/verify-node:14.3.0-employer-proof"
+      },
+      {
+        "name": "caddy",
+        "image": "caddy:latest"
+      }
+    ]
   },
   "github": {
     "account": "damiengolden3674",
-    "repo_count": 26
-  }
+    "repo_count": 26,
+    "repo_names": [
+      "Academic-Research",
+      "Damien36",
+      "Homebridge-Dock",
+      "control-layer-ai-governance",
+      "control-layer-backup-recovery",
+      "control-layer-cyber-governance",
+      "control-layer-enterprise-risk",
+      "control-layer-governance",
+      "control-layer-observability",
+      "control-layer-policies",
+      "control-layer-sbom-trivy",
+      "control-layer-security-baseline",
+      "control-layer-verifier",
+      "core",
+      "docker-homebridge",
+      "etcherPro-fleet-sw",
+      "hass-nabucasa",
+      "homebridge-config-ui",
+      "homebridge-config-ui-x",
+      "homebridge-examples",
+      "homebridge-google-nest-sdm",
+      "homebridge-gsh",
+      "homebridge-unifi-protect",
+      "pi-apps",
+      "plugin-ui-utils",
+      "the-control-layer-public"
+    ]
+  },
+  "presentation_fingerprint": "5bfd4fde608957c6e7c5270d1e4a3d3b3fc069dcea57c04356e26ac9e8212913"
 }
