@@ -1,12 +1,64 @@
 {
-  "schema_version":"1.0",
-  "authority":"HUMAN_PRIMARY",
-  "hierarchy_version":"15.0",
-  "source_of_truth":"CONTROL_LAYER_LIVE_RECONCILIATION",
-  "person":{"name":"Damien Golden","github":"damiengolden3674","github_profile":"https://github.com/damiengolden3674","control_layer_repo":"https://github.com/damiengolden3674/the-control-layer-public"},
-  "education":{"bachelor":"Saint Louis University — B.S. Computer Information Systems, Cybersecurity Concentration","gpa_overall":3.88,"gpa_major":3.95,"expected":"May 2027","masters":"M.S. Information Systems and Emerging Technologies"},
-  "career_targets":["AI Governance Leader","Cybersecurity Governance Director","Enterprise Risk Director","Cloud Governance Architect"],
-  "governance":{"principle":"INTELLIGENCE ≠ AUTHORITY","decision_states":["EXECUTE","HOLD","ESCALATE","DEFER","SIMULATE"],"execute_rule":"validated + authorized","hold_rule":"uncertainty","escalate_rule":"ambiguity or material risk","public_boundary":"SANITIZED ONLY"},
-  "sync":{"website":"AUTOMATIC","github":"AUTOMATIC","resume":"AUTOMATIC","trigger":"canonical profile or verified ecosystem state change","mode":"BOUNDED_AUTONOMY","human_gate":"required for authority, credential, destructive, access, billing, or policy-ceiling changes"},
-  "artifacts":{"resume_path":"resume/Damien_Golden_Control_Layer_Executive_Resume.pdf","verifier":"https://thecontrollayer.taild054a.ts.net/verify?v=100"}
+  "schema_version": "1.0",
+  "authority": "HUMAN_PRIMARY",
+  "hierarchy_version": "15.0",
+  "source_of_truth": "CONTROL_LAYER_LIVE_RECONCILIATION",
+  "person": {
+    "name": "Damien Golden",
+    "github": "damiengolden3674",
+    "github_profile": "https://github.com/damiengolden3674",
+    "control_layer_repo": "https://github.com/damiengolden3674/the-control-layer-public"
+  },
+  "education": {
+    "bachelor": "Saint Louis University \u2014 B.S. Computer Information Systems, Cybersecurity Concentration",
+    "gpa_overall": 3.88,
+    "gpa_major": 3.95,
+    "expected": "May 2027",
+    "masters": "M.S. Information Systems and Emerging Technologies"
+  },
+  "career_targets": [
+    "AI Governance Leader",
+    "Cybersecurity Governance Director",
+    "Enterprise Risk Director",
+    "Cloud Governance Architect"
+  ],
+  "governance": {
+    "principle": "INTELLIGENCE \u2260 AUTHORITY",
+    "decision_states": [
+      "EXECUTE",
+      "HOLD",
+      "ESCALATE",
+      "DEFER",
+      "SIMULATE"
+    ],
+    "execute_rule": "validated + authorized",
+    "hold_rule": "uncertainty",
+    "escalate_rule": "ambiguity or material risk",
+    "public_boundary": "SANITIZED ONLY"
+  },
+  "sync": {
+    "website": "AUTOMATIC",
+    "github": "AUTOMATIC",
+    "resume": "AUTOMATIC",
+    "trigger": "canonical profile or verified ecosystem state change",
+    "mode": "BOUNDED_AUTONOMY",
+    "human_gate": "required for authority, credential, destructive, access, billing, or policy-ceiling changes"
+  },
+  "artifacts": {
+    "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
+    "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
+  },
+  "last_reconciled": "2026-10-05T15:44:38.422349+00:00",
+  "runtime": {
+    "status": "NOMINAL",
+    "containers_running": 13,
+    "hdd_free_gib": 3513,
+    "root_used_percent": 78.2,
+    "generated_at": "2026-10-05T15:44:30.347795+00:00",
+    "verifier_public_nominal": true
+  },
+  "github": {
+    "account": "damiengolden3674",
+    "repo_count": 26
+  }
 }
