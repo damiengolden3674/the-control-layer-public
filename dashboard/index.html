@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>THE CONTROL LAYER™ — Governed Command Surface</title>
+<style>
+:root{
+ --bg:#05070a;--bg2:#0a0f15;--panel:#0c131c;--panel2:#101a25;--line:#223041;--line2:#30445a;
+ --text:#eef4fb;--muted:#8191a5;--gold:#d8ad5c;--cyan:#63e4e0;--green:#72e0a6;--amber:#ffc86b;--red:#ff7180;--violet:#9b8cff;
+ --shadow:0 24px 80px rgba(0,0,0,.42)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:
+ radial-gradient(1000px 620px at 78% -15%,#243852 0,transparent 62%),
+ radial-gradient(800px 500px at -10% 28%,#162536 0,transparent 60%),var(--bg);
+ color:var(--text);font:14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,sans-serif}
+button{font:inherit}.mono{font:10px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;text-transform:uppercase}.muted{color:var(--muted)}
+.top{position:sticky;top:0;z-index:100;height:66px;display:flex;justify-content:space-between;align-items:center;padding:8px 18px;
+ background:rgba(5,7,10,.88);border-bottom:1px solid var(--line);backdrop-filter:blur(22px)}
+.brand{display:flex;align-items:center;gap:12px}.brand img{width:44px;height:44px;border-radius:12px;box-shadow:0 0 30px #d8ad5c22}.brand b{font:700 19px Georgia,serif;letter-spacing:.01em}
+.status{display:flex;align-items:center;gap:9px}.orb{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 18px var(--green)}
+.commandbar{position:sticky;top:66px;z-index:90;display:flex;gap:8px;align-items:center;padding:9px 18px;background:rgba(7,11,16,.86);border-bottom:1px solid #172333;backdrop-filter:blur(18px);overflow:auto}
+.commandbar a,.commandbar button{white-space:nowrap;text-decoration:none;color:#a8b6c7;background:#0b131d;border:1px solid #26384d;border-radius:999px;padding:7px 11px;font-size:11px;cursor:pointer}
+.commandbar a:hover,.commandbar button:hover{border-color:var(--gold);color:#fff}
+main{max-width:1900px;margin:auto;padding:18px}.hero{display:grid;grid-template-columns:1.5fr .65fr;gap:14px}.panel{background:linear-gradient(145deg,rgba(16,25,37,.96),rgba(7,11,16,.96));border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}
+.heroMain{padding:32px;min-height:390px;position:relative;overflow:hidden}.heroMain:before{content:"";position:absolute;inset:auto -10% -55% 30%;height:400px;background:radial-gradient(circle,#d8ad5c14,transparent 68%);pointer-events:none}
+.eyebrow{color:var(--gold)}h1{font:700 clamp(45px,7vw,92px)/.86 Georgia,serif;letter-spacing:-.055em;margin:14px 0 20px;max-width:900px}
+.heroMain p{max-width:920px;color:#aab8c8;font-size:16px}.axiom{font:700 18px Georgia,serif;color:var(--gold);margin:24px 0}.hero-meta{display:flex;gap:8px;flex-wrap:wrap}.tag{border:1px solid #2b3d52;background:#0b131d;padding:6px 9px;border-radius:8px;color:#b7c4d2;font-size:11px}
+.decision{padding:20px}.decision .big{font:700 38px Georgia,serif;margin:5px 0 15px}.gate{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #1c2a3a;padding:11px 0}.green{color:var(--green)}.amber{color:var(--amber)}.red{color:var(--red)}.cyan{color:var(--cyan)}.gold{color:var(--gold)}.violet{color:var(--violet)}
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:12px}.kpi{padding:15px}.kpi .v{font:700 27px Georgia,serif;color:#f0d38d;margin:4px 0}.kpi .s{font-size:11px;color:var(--muted)}
+.section{margin-top:34px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:11px}.section-head h2{font:700 28px Georgia,serif;margin:4px 0 0}.section-head p{margin:0;color:var(--muted);font-size:12px}
+.grid2{display:grid;grid-template-columns:1.25fr .75fr;gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.card{padding:17px}.card-title{font:700 17px Georgia,serif;margin:3px 0 10px}.micro{font-size:11px;color:var(--muted)}
+.domain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.domain{padding:16px;min-height:178px;position:relative;overflow:hidden}.domain:after{content:"";position:absolute;right:-28px;top:-28px;width:110px;height:110px;border:1px solid #d8ad5c22;border-radius:50%}
+.domain h3{font:700 21px Georgia,serif;margin:4px 0 8px}.count{font:700 31px Georgia,serif;color:#e8c778}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{padding:6px 8px;border:1px solid #26394e;background:#09111a;border-radius:8px;font-size:11px}.chip b{display:block;color:#6f8197;font-size:9px;margin-bottom:2px}
+.device-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.device{padding:12px;border:1px solid #213247;background:#080f17;border-radius:13px}.device:hover{border-color:#526a84;transform:translateY(-1px)}.device .name{font-weight:650}.device .meta{font:10px ui-monospace,monospace;color:#72839a;margin-top:4px;word-break:break-word}
+.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.btn{padding:8px 10px;border:1px solid #2b4057;background:#0c1621;color:#e8eff8;border-radius:9px;cursor:pointer;font-size:11px}.btn:hover{border-color:var(--gold)}.btn.danger{border-color:#63323b;color:#ffb4bd}
+.camera-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.camera{aspect-ratio:16/9;border:1px solid #2a3c51;border-radius:15px;background:
+ linear-gradient(135deg,#0a1119,#030507);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.camera:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 7px,#ffffff04 8px 9px);opacity:.4}.camera:after{content:"LIVE FEED • PRIVATE";font:10px ui-monospace,monospace;letter-spacing:.14em;color:#566a82}.camera .label{position:absolute;left:9px;top:9px;z-index:2;background:#05070bd9;border:1px solid #34485e;padding:5px 7px;border-radius:7px;font-size:10px}
+.table{width:100%;border-collapse:collapse}.table th,.table td{text-align:left;padding:10px 7px;border-bottom:1px solid #1a2736;font-size:12px}.table th{color:#71849b;font-weight:500}.pill{border:1px solid #2c4055;border-radius:999px;padding:3px 8px;font-size:9px;letter-spacing:.08em}
+.ai-card{padding:19px;min-height:155px}.ai-name{font:700 22px Georgia,serif;margin:5px 0}.ai-bar{height:4px;background:#152332;border-radius:9px;overflow:hidden;margin-top:13px}.ai-bar span{display:block;height:100%;width:100%;background:linear-gradient(90deg,var(--cyan),var(--violet))}
+.pipeline{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.stage{padding:14px 8px;text-align:center;border:1px solid #26384d;background:#09111a;border-radius:10px}.stage strong{display:block;font:700 12px Georgia,serif}.stage span{font:9px ui-monospace;color:#6f8299}
+.timeline{max-height:290px;overflow:auto;background:#05090e;border:1px solid #19283a;border-radius:12px;padding:12px;font:11px/1.8 ui-monospace,monospace}.line{border-bottom:1px solid #122030;padding:4px 0}
+.command-palette{position:fixed;inset:0;background:#0009;display:none;align-items:flex-start;justify-content:center;padding-top:110px;z-index:200}.palette{width:min(680px,92vw);padding:16px;background:#0c141e;border:1px solid #354a63;border-radius:18px;box-shadow:0 30px 100px #000}.palette input{width:100%;padding:13px;border-radius:10px;border:1px solid #30445a;background:#071019;color:#fff;outline:none}.results{margin-top:8px;max-height:400px;overflow:auto}.result{padding:11px;border-bottom:1px solid #1c2a3a;cursor:pointer}.result:hover{background:#111e2c}
+.footer{padding:30px 0 12px;color:#52657c;font-size:10px;border-top:1px solid var(--line);margin-top:35px}
+@media(max-width:1250px){.kpis{grid-template-columns:repeat(3,1fr)}.device-grid{grid-template-columns:repeat(3,1fr)}.pipeline{grid-template-columns:repeat(4,1fr)}.hero,.grid2{grid-template-columns:1fr}}
+@media(max-width:850px){main{padding:12px}.grid3,.domain-grid,.camera-grid{grid-template-columns:1fr}.device-grid{grid-template-columns:repeat(2,1fr)}.kpis{grid-template-columns:repeat(2,1fr)}h1{font-size:52px}.heroMain{padding:23px}.pipeline{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.device-grid,.kpis{grid-template-columns:1fr}.top{height:58px}.commandbar{top:58px}.brand b{font-size:15px}.brand img{width:38px;height:38px}}
+</style></head>
+<body>
+<header class="top"><div class="brand"><img src="/assets/icon.png"><div><b>THE CONTROL LAYER™</b><div class="mono muted">PRIVATE GOVERNED COMMAND SURFACE</div></div></div><div class="status"><span class="orb"></span><span id="live">CONNECTING</span></div></header>
+<nav class="commandbar">
+<a href="#bridge">BRIDGE</a><a href="#domains">DOMAINS</a><a href="#devices">DEVICES</a><a href="#cameras">PERIMETER</a><a href="#automation">AUTOMATION</a><a href="#ai">FRONTIER</a><a href="#fabric">FABRIC</a><a href="#proof">PROOF</a><button onclick="openPalette()">⌘ COMMAND</button><button onclick="refresh()">↻ RECONCILE</button>
+</nav>
+<main>
+<section id="bridge" class="hero">
+<div class="panel heroMain"><div class="mono eyebrow">FOUNDER // HUMAN PRIMARY // ONE WORLD / ONE CONTROL SURFACE</div>
+<h1>WHERE<br>INTELLIGENCE<br>BECOMES<br>GOVERNABLE.</h1>
+<p>A private command surface designed around the hierarchy—not a traditional smart-home dashboard. Intelligence can observe, reason, simulate and recommend. Authority remains governed.</p>
+<div class="axiom">INTELLIGENCE ≠ AUTHORITY.</div>
+<div class="hero-meta"><span class="tag">HUMAN → FRONTIER AI</span><span class="tag">CONTROL LAYER</span><span class="tag">CAPABILITY FABRIC</span><span class="tag">GOVERNED EXECUTOR</span><span class="tag">PROOF / AUDIT</span></div>
+</div>
+<div class="panel decision"><div class="mono gold">LIVE ADJUDICATION</div><div id="decision" class="big">—</div>
+<div class="gate"><span class="muted">Authority</span><b>HUMAN PRIMARY</b></div><div class="gate"><span class="muted">Frontier</span><b class="cyan">ADVISORY</b></div>
+<div class="gate"><span class="muted">Governance</span><b class="gold">CONTROL LAYER</b></div><div class="gate"><span class="muted">Executor</span><b>SCOPED</b></div>
+<div class="gate"><span class="muted">Uncertainty</span><b class="amber">HOLD</b></div><div class="gate"><span class="muted">Risk / ambiguity</span><b class="red">ESCALATE</b></div>
+<div class="actions"><button class="btn" onclick="openPalette()">Open command palette</button><button class="btn" onclick="act('reconcile')">Governed reconcile</button></div></div>
+</section>
+
+<section class="kpis">
+<div class="panel kpi"><div class="mono muted">CONTROL PLANE</div><div id="plane" class="v">—</div><div id="planesub" class="s">—</div></div>
+<div class="panel kpi"><div class="mono muted">ENTITIES</div><div id="entities" class="v">—</div><div id="areas" class="s">— areas</div></div>
+<div class="panel kpi"><div class="mono muted">PI LOAD</div><div id="load" class="v">—</div><div class="s">1 min / live</div></div>
+<div class="panel kpi"><div class="mono muted">SD ROOT</div><div id="root" class="v">—</div><div class="s">governance reserve</div></div>
+<div class="panel kpi"><div class="mono muted">HDD</div><div id="storage" class="v">—</div><div id="storagesub" class="s">—</div></div>
+<div class="panel kpi"><div class="mono muted">CONTAINERS</div><div id="containersN" class="v">—</div><div class="s">observed runtime</div></div>
+</section>
+
+<section id="domains" class="section"><div class="section-head"><div><div class="mono gold">01 // GOVERNED DOMAINS</div><div class="section-head"><h2>Turn the home into a control topology.</h2></div></div><p>Real Home Assistant registry • domains adapt to observed entities</p></div>
+<div id="domainsGrid" class="domain-grid"></div></section>
+
+<section id="devices" class="section"><div class="section-head"><div><div class="mono gold">02 // CAPABILITY FABRIC</div><h2>Capability before control.</h2></div><p>Every device is an observed capability, not an implied permission.</p></div>
+<div class="panel card"><div id="deviceGrid" class="device-grid"></div></div></section>
+
+<section id="cameras" class="section"><div class="section-head"><div><div class="mono gold">03 // PERIMETER</div><h2>Eyes on the perimeter.</h2></div><p>Inventory is live; media stays inside the private boundary.</p></div><div id="cameraGrid" class="camera-grid"></div></section>
+
+<section id="automation" class="section"><div class="section-head"><div><div class="mono gold">04 // GOVERNED AUTOMATION</div><h2>Intent → policy → action → proof.</h2></div><p>No silent scope expansion.</p></div>
+<div class="grid2"><div class="panel card"><table class="table"><thead><tr><th>Control</th><th>Trigger</th><th>Authority</th></tr></thead><tbody id="autos"></tbody></table></div>
+<div class="panel card"><div class="mono">DECISION PIPELINE</div><div class="pipeline" style="margin-top:13px"><div class="stage"><strong>OBSERVE</strong><span>facts</span></div><div class="stage"><strong>UNDERSTAND</strong><span>context</span></div><div class="stage"><strong>ASSESS</strong><span>risk</span></div><div class="stage"><strong>AUTHORIZE</strong><span>authority</span></div><div class="stage"><strong>EXECUTE</strong><span>scoped</span></div><div class="stage"><strong>MONITOR</strong><span>telemetry</span></div><div class="stage"><strong>PROVE</strong><span>audit</span></div></div><div class="actions"><button class="btn" onclick="act('scene_activate')">Home intent</button><button class="btn" onclick="act('light_on')">Living Room intent</button><button class="btn" onclick="act('media_play')">Media intent</button><button class="btn danger" onclick="act('lock')">Secure / Lock</button></div><p id="msg" class="micro">Commands are intents until the executor is authorized.</p></div></div></section>
+
+<section id="ai" class="section"><div class="section-head"><div><div class="mono gold">05 // FRONTIER AI COMBINATION</div><h2>Two frontier minds. One governed authority.</h2></div><p>Independent reasoning • adversarial review • adjudication</p></div>
+<div class="grid2"><div class="panel ai-card"><div class="mono cyan">OPENAI FRONTIER</div><div id="openai" class="ai-name">—</div><div class="micro">Reasoning, synthesis and high-capability analysis. Advisory only.</div><div class="ai-bar"><span></span></div></div>
+<div class="panel ai-card"><div class="mono violet">ANTHROPIC FRONTIER</div><div id="anthropic" class="ai-name">—</div><div class="micro">Independent challenge, review and adversarial reasoning. Advisory only.</div><div class="ai-bar"><span></span></div></div></div></section>
+
+<section id="fabric" class="section"><div class="section-head"><div><div class="mono gold">06 // AUTONOMOUS CAPABILITY FABRIC</div><h2>Mac aggregates. Pi enforces. Proof closes the loop.</h2></div><p>Live runtime + transport + governance telemetry</p></div>
+<div class="grid2"><div class="panel card"><table class="table"><thead><tr><th>Fabric signal</th><th>Observed state</th><th>Meaning</th></tr></thead><tbody id="runtime"></tbody></table></div>
+<div class="panel card"><div class="mono">RUNTIME INVENTORY</div><div id="containerList" class="timeline" style="margin-top:10px"></div></div></div></section>
+
+<section class="section"><div class="section-head"><div><div class="mono gold">07 // GOVERNANCE STREAM</div><h2>Evidence over appearance.</h2></div><p>Latest reconciled observations</p></div><div class="grid2"><div class="panel card"><table class="table"><tbody id="signals"></tbody></table></div><div class="panel card"><div class="mono">EVENT STREAM</div><div id="timeline" class="timeline" style="margin-top:10px"></div></div></div></section>
+
+<section id="proof" class="section"><div class="section-head"><div><div class="mono gold">08 // PROOF / AUDIT</div><h2>Continuous verification is part of the interface.</h2></div><p>Sanitized public boundary • private evidence stays private</p></div>
+<div class="panel card"><table class="table"><tbody id="proofrows"></tbody></table></div></section>
+<div class="footer">THE CONTROL LAYER™ • WHERE INTELLIGENCE BECOMES GOVERNABLE™ • HUMAN PRIMARY • INTELLIGENCE ≠ AUTHORITY • PRIVATE COMMAND SURFACE • LIVE // CONTINUOUS VERIFICATION</div>
+</main>
+
+<div id="palette" class="command-palette" onclick="if(event.target.id==='palette')closePalette()"><div class="palette"><input id="cmd" placeholder="Search a room, device, domain, action or policy…" oninput="searchPalette(this.value)" onkeydown="if(event.key==='Escape')closePalette()"><div id="results" class="results"></div></div></div>
+<script>
+const $=id=>document.getElementById(id),esc=x=>String(x??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));let last={};
+function pill(x){let s=String(x??'UNKNOWN'),c=/NOMINAL|READY|CONNECTED|HEALTHY|EXECUTE|VERIFIED/i.test(s)?'green':/HOLD|UNKNOWN|DEGRADED/i.test(s)?'amber':'red';return '<span class="pill '+c+'">'+esc(s)+'</span>'}
+function toast(x){$('msg').textContent=x}
+function push(m,c='green'){$('timeline').innerHTML='<div class="line"><span class="'+c+'">'+new Date().toLocaleTimeString()+'</span> '+esc(m)+'</div>'+($('timeline').innerHTML||'')}
+function act(a){fetch('/api/dashboard/action',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:a})}).then(r=>r.json()).then(x=>{toast(x.status+' — '+x.message);push(x.status+': '+x.message,x.status==='EXECUTE'?'green':x.status==='ESCALATE'?'red':'amber')}).catch(e=>toast('HOLD — '+e))}
+function openPalette(){$('palette').style.display='flex';$('cmd').focus();searchPalette('')}
+function closePalette(){$('palette').style.display='none'}
+function searchPalette(q){let ents=(last.home?.inventory?.entities||[]).filter(e=>!e.disabled),needle=(q||'').toLowerCase(),rows=[];
+ents.filter(e=>(e.name+' '+e.entity_id+' '+e.domain+' '+e.area).toLowerCase().includes(needle)).slice(0,18).forEach(e=>rows.push({title:e.name,meta:e.entity_id+' • '+e.area,action:e.domain==='light'?'light_on':e.domain==='media_player'?'media_play':'device_control'}));
+['Home intent','Living Room intent','Media intent','Governed reconcile','Secure / Lock'].filter(x=>x.toLowerCase().includes(needle)).forEach(x=>rows.unshift({title:x,meta:'GOVERNED ACTION',action:x==='Home intent'?'scene_activate':x==='Living Room intent'?'light_on':x==='Media intent'?'media_play':x==='Secure / Lock'?'lock':'reconcile'}));
+$('results').innerHTML=rows.map(r=>'<div class="result" onclick="act('+JSON.stringify(r.action)+');closePalette()"><b>'+esc(r.title)+'</b><div class="micro">'+esc(r.meta)+'</div></div>').join('')||'<div class="result muted">No governed capability matched.</div>'}
+function render(d){last=d;let h=d.pi.health||{},inv=d.home.inventory||{},ents=inv.entities||[];let disabled=ents.filter(e=>e.disabled).length;
+$('live').textContent='LIVE // '+new Date().toLocaleTimeString();$('decision').textContent=d.governance.decision;$('decision').className='big '+(d.governance.decision==='EXECUTE'?'green':'amber');
+$('plane').textContent=h.status||'HOLD';$('planesub').textContent=d.governance.principle;$('entities').textContent=ents.filter(e=>!e.disabled).length;$('areas').textContent=(inv.areas||[]).length+' observed domains';$('load').textContent=(d.pi.load.one??'—').toFixed?d.pi.load.one.toFixed(2):'—';$('root').textContent=(h.metrics?.root_used_percent??d.pi.health?.root_used_percent??d.pi.root_used_percent??'—')+'%';$('storage').textContent=(d.pi.storage.used_percent??'—')+'%';$('storagesub').textContent=(d.pi.storage.free_gib??'—')+' GiB free';$('containersN').textContent=(d.pi.containers||[]).length;
+let by={};ents.filter(x=>!x.disabled).forEach(e=>(by[e.area]??=[]).push(e));
+$('domainsGrid').innerHTML=Object.entries(by).sort((a,b)=>b[1].length-a[1].length).map(([a,arr])=>'<div class="panel domain"><div class="mono gold">GOVERNED DOMAIN</div><h3>'+esc(a)+'</h3><div class="count">'+arr.length+'</div><div class="micro">observed capabilities</div><div class="chips" style="margin-top:9px">'+arr.slice(0,8).map(e=>'<div class="chip"><b>'+esc(e.domain)+'</b>'+esc(e.name)+'</div>').join('')+'</div></div>').join('')||'<div class="panel card">No registry data.</div>';
+$('deviceGrid').innerHTML=ents.filter(x=>!x.disabled).slice(0,96).map(e=>'<div class="device"><div class="name">'+esc(e.name)+'</div><div class="meta">'+esc(e.entity_id)+'<br>'+esc(e.domain)+' • '+esc(e.area)+'</div><div class="actions"><button class="btn" onclick="act('+JSON.stringify(e.domain==='light'?'light_on':e.domain==='media_player'?'media_play':e.domain==='climate'?'climate_set':'device_control')+')">INTENT</button></div></div>').join('');
+let cams=ents.filter(x=>x.domain==='camera'&&!x.disabled);$('cameraGrid').innerHTML=cams.length?cams.map(e=>'<div class="camera"><span class="label">'+esc(e.name)+'</span></div>').join(''):'<div class="panel card">No camera entities currently exposed.</div>';
+$('autos').innerHTML=(d.home.automations||[]).map(x=>'<tr><td>'+esc(x.name)+'</td><td>'+esc(x.trigger)+'</td><td>'+pill(x.governance)+'</td></tr>').join('');
+let rt=h.runtime_checks||{};$('runtime').innerHTML=[['Home Assistant',rt.home_assistant,'control source'],['Homebridge',rt.homebridge_ui,'bridge layer'],['Matter',rt.matter_server,'device fabric'],['Tailscale transport',d.proof.transport?'VERIFIED':'HOLD','authorized transport'],['Public boundary','SANITIZED ONLY','external proof']].map(x=>'<tr><td>'+esc(x[0])+'</td><td>'+pill(x[1]?.status||x[1])+'</td><td class="micro">'+esc(x[2])+'</td></tr>').join('');
+$('signals').innerHTML=[['Control plane',h.status||'HOLD','governance'],['Google / Nest',d.home.google_nest,'integration'],['Google AI','REMOVED','provider boundary'],['Sensitive actions','IPHONE APPROVAL','human gate'],['Disabled entities',disabled,'excluded from control surface']].map(x=>'<tr><td>'+esc(x[0])+'</td><td>'+pill(x[1])+'</td><td class="micro">'+esc(x[2])+'</td></tr>').join('');
+$('openai').textContent=d.ai.openai?.model||'CONNECTED';$('anthropic').textContent=d.ai.anthropic?.model||'CONNECTED';
+$('containerList').innerHTML=(d.pi.containers||[]).map(x=>'<div class="line">'+esc(x.name)+' — '+esc(x.status)+'</div>').join('')||'<div class="muted">No runtime inventory.</div>';
+$('proofrows').innerHTML=[['Hierarchy',d.governance.hierarchy],['Authority',d.governance.authority],['Transport',d.proof.transport?'TAILSCALE VERIFIED':'HOLD'],['Privacy','SANITIZED ONLY'],['Verification',d.proof.verified_at||'live runtime'],['CI',d.github?.ci_health!=null?d.github.ci_health+'% recent success':'—']].map(x=>'<tr><td>'+esc(x[0])+'</td><td>'+esc(x[1])+'</td></tr>').join('');
+push('Reconciled live state: frontier → governance → capability fabric → Pi → ecosystem')}
+function refresh(){fetch('/api/dashboard/snapshot',{cache:'no-store'}).then(r=>r.json()).then(render).catch(e=>{ $('live').textContent='HOLD // '+new Date().toLocaleTimeString();push('Snapshot unavailable: '+e,'amber')})}
+refresh();setInterval(refresh,3000);
+</script></body></html>
