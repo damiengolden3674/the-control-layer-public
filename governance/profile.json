@@ -46,13 +46,13 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-07T03:56:02.665020+00:00",
+  "last_reconciled": "2026-10-07T03:58:21.472252+00:00",
   "runtime": {
-    "status": "HOLD",
+    "status": "NOMINAL",
     "containers_running": 16,
     "hdd_free_gib": 3509,
     "root_used_percent": 75.8,
-    "generated_at": "2026-10-07T03:55:54.068818+00:00",
+    "generated_at": "2026-10-07T03:58:05.437017+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
       {
@@ -154,7 +154,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "7b9e9c326d71d08845715fc869e1f868e7b0ee676a0bc492f9c53000586ea992",
+  "presentation_fingerprint": "665f9b179bfb5a4fce3218f916d6c634ad84b2bb32b11d3684cbe26c653b2b24",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
