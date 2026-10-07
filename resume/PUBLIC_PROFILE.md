@@ -18,4 +18,4 @@ Founder/architect of The Control Layer™, a governed execution environment buil
 - GitHub: github.com/damiengolden3674/the-control-layer-public
 - Live verifier: thecontrollayer.taild054a.ts.net/verify?v=100
 
-Private contact details, private endpoints, credentials, internal topology, and protected authority state are intentionally excluded from this public artifact.
+Private contact details, private endpoints, credentials, and internal authority state are intentionally excluded from this public artifact.
