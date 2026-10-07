@@ -46,13 +46,13 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-07T03:50:40.577734+00:00",
+  "last_reconciled": "2026-10-07T03:52:50.479101+00:00",
   "runtime": {
     "status": "NOMINAL",
-    "containers_running": 15,
-    "hdd_free_gib": 3510,
+    "containers_running": 16,
+    "hdd_free_gib": 3509,
     "root_used_percent": 75.8,
-    "generated_at": "2026-10-07T03:50:33.392222+00:00",
+    "generated_at": "2026-10-07T03:52:42.140563+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
       {
@@ -66,6 +66,10 @@
       {
         "name": "controllayer-grafana",
         "image": "grafana/grafana:12.2.0"
+      },
+      {
+        "name": "controllayer-otel",
+        "image": "otel/opentelemetry-collector-contrib:0.139.0"
       },
       {
         "name": "homeassistant",
@@ -150,7 +154,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "46533ad3530ec82b5181b69c58cc72e4fb99501c3eef036882a920cf48ed4aa3",
+  "presentation_fingerprint": "102858ce2601e5490f02be851619efc7bd814a17b7e729f9f2856ba0d7f4d47a",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
