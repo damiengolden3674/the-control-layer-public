@@ -61,9 +61,13 @@ Automation may update factual presentation and evidence. It may **not** autonomo
 
 - Public site: damiengolden3674.github.io/the-control-layer-public/
 - GitHub profile: github.com/damiengolden3674
-- Live verifier: thecontrollayer.taild054a.ts.net/verify?v=100
+- Live verification: published through the sanitized verification surface; private infrastructure addresses are intentionally excluded.
 - Professional profile: `resume/PUBLIC_PROFILE.md`
 
 ## Engineering target
 
 **S-Tier / A+++** is an internal engineering target, not a self-awarded public certification or score. The implementation emphasizes explicit authority ceilings, sanitized-only publication, secret/private-infrastructure scanning, integrity evidence, accessibility validation, security evaluation, artifact provenance, recovery evidence, and continuous reconciliation.
+
+
+## Authority boundary
+Human authority remains ultimate. Intelligence may inform decisions but does not create authority.

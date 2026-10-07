@@ -225,7 +225,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian Adduser Developers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian Adduser Developers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -320,7 +320,7 @@
             "BSD-3-Clause",
             "MIT"
           ],
-          "Maintainer": "APT Development Team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "APT Development Team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -546,7 +546,7 @@
           "Licenses": [
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Santiago Vila \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Santiago Vila [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -600,7 +600,7 @@
             "GPL-2.0-only",
             "public-domain"
           ],
-          "Maintainer": "Colin Watson \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Colin Watson [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -659,7 +659,7 @@
             "MIT",
             "permissive"
           ],
-          "Maintainer": "Matthias Klose \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Matthias Klose [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -770,7 +770,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -819,7 +819,7 @@
             "GPL-2.0-only",
             "MPL-2.0"
           ],
-          "Maintainer": "Julien Cristau \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Julien Cristau [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1023,7 +1023,7 @@
             "GFDL-1.3-no-invariants-only",
             "GFDL-1.3-only"
           ],
-          "Maintainer": "Michael Stone \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Michael Stone [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1317,7 +1317,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Andrej Shadura \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Andrej Shadura [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1357,7 +1357,7 @@
           "Licenses": [
             "BSD-2-Clause"
           ],
-          "Maintainer": "Debconf Developers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debconf Developers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1514,7 +1514,7 @@
           "Licenses": [
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian Release Team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian Release Team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1558,7 +1558,7 @@
             "public-domain",
             "SMAIL-GPL"
           ],
-          "Maintainer": "Clint Adams \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Clint Adams [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1675,7 +1675,7 @@
             "GPL-2.0-only",
             "GFDL-1.3-only"
           ],
-          "Maintainer": "Santiago Vila \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Santiago Vila [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1750,7 +1750,7 @@
             "BSD-2-Clause",
             "public-domain-s-s-d"
           ],
-          "Maintainer": "Dpkg Developers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Dpkg Developers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1949,7 +1949,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Theodore Y. Ts'o [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2057,7 +2057,7 @@
             "LGPL-2.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Andreas Metzler \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Andreas Metzler [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2144,7 +2144,7 @@
             "Artistic-2.0",
             "LGPL-2.0-or-later"
           ],
-          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GCC Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2186,7 +2186,7 @@
             "LGPL-3.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian GnuPG Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GnuPG Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2227,7 +2227,7 @@
             "GPL-3.0-or-later",
             "GPL-3.0-only"
           ],
-          "Maintainer": "Anibal Monsalve Salazar \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Anibal Monsalve Salazar [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2321,7 +2321,7 @@
             "GPL-3.0-only",
             "GFDL-3"
           ],
-          "Maintainer": "Milan Kupcevic \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Milan Kupcevic [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2378,7 +2378,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Michael Meskes \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Michael Meskes [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2409,7 +2409,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian systemd Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian systemd Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2458,7 +2458,7 @@
             "LGPL-2.0-or-later",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Guillem Jover \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Guillem Jover [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2494,7 +2494,7 @@
             "BSD-3-Clause",
             "MIT"
           ],
-          "Maintainer": "APT Development Team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "APT Development Team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2587,7 +2587,7 @@
             "LGPL-2.0-or-later",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Guillem Jover \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Guillem Jover [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2626,7 +2626,7 @@
             "LGPL-2.1-only",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Laurent Bigonville \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Laurent Bigonville [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2661,7 +2661,7 @@
             "LGPL-2.1-only",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Laurent Bigonville \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Laurent Bigonville [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2711,7 +2711,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2747,7 +2747,7 @@
             "BSD-3-Clause",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Anibal Monsalve Salazar \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Anibal Monsalve Salazar [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2783,7 +2783,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "GNU Libc Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2845,7 +2845,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "GNU Libc Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3162,7 +3162,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Håvard F. Aasen \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Håvard F. Aasen [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3202,7 +3202,7 @@
             "GPL-2.0-only",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Christian Kastner \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Christian Kastner [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3247,7 +3247,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Theodore Y. Ts'o [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3280,7 +3280,7 @@
           "SrcVersion": "4.4.33",
           "SrcRelease": "2",
           "SrcEpoch": 1,
-          "Maintainer": "Marco d'Itri \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Marco d'Itri [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3324,7 +3324,7 @@
             "GPL-3.0-only",
             "Zlib"
           ],
-          "Maintainer": "Bastian Germann \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Bastian Germann [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3359,7 +3359,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian Install System Team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian Install System Team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3401,7 +3401,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Theodore Y. Ts'o [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3442,7 +3442,7 @@
             "LGPL-2.1-or-later",
             "public-domain"
           ],
-          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GCC Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3472,7 +3472,7 @@
           "SrcName": "gcc-12",
           "SrcVersion": "12.2.0",
           "SrcRelease": "14+deb12u1",
-          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GCC Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3506,7 +3506,7 @@
             "LGPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3550,7 +3550,7 @@
             "GPL-3.0-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Nicolas Mora \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Nicolas Mora [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3592,7 +3592,7 @@
             "GPL-3.0-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "Debian Science Team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian Science Team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3639,7 +3639,7 @@
             "GPL-3.0-or-later",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3708,7 +3708,7 @@
             "LGPL-2.1-only",
             "GPL-3.0-only"
           ],
-          "Maintainer": "Debian GnuPG Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GnuPG Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3743,7 +3743,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3790,7 +3790,7 @@
             "GPL-2.0-only",
             "GAP"
           ],
-          "Maintainer": "Magnus Holmgren \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Magnus Holmgren [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3832,7 +3832,7 @@
             "GPL-2.0-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "Debian Libidn team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian Libidn team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3896,7 +3896,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3933,7 +3933,7 @@
             "GPL-2.0-only",
             "LGPL-2.0-only"
           ],
-          "Maintainer": "Christian Kastner \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Christian Kastner [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3966,7 +3966,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4008,7 +4008,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4043,7 +4043,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Nobuhiro Iwamatsu \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Nobuhiro Iwamatsu [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4090,7 +4090,7 @@
             "PD-debian",
             "GPL-3.0-only"
           ],
-          "Maintainer": "Sebastian Andrzej Siewior \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sebastian Andrzej Siewior [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4135,7 +4135,7 @@
             "public-domain-md5",
             "public-domain-sha1"
           ],
-          "Maintainer": "Guillem Jover \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Guillem Jover [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4183,7 +4183,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4217,7 +4217,7 @@
           "SrcName": "ncurses",
           "SrcVersion": "6.4",
           "SrcRelease": "4",
-          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Craig Small [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4261,7 +4261,7 @@
             "GPL-2.0-only",
             "GAP"
           ],
-          "Maintainer": "Magnus Holmgren \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Magnus Holmgren [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4310,7 +4310,7 @@
             "GPL-2.0-only",
             "GPL-3.0-only"
           ],
-          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "GNU Libc Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4352,7 +4352,7 @@
             "same-as-rest-of-p11kit",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4397,7 +4397,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4536,7 +4536,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4600,7 +4600,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4744,7 +4744,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Sam Hartman [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4792,7 +4792,7 @@
             "BSD-2-Clause",
             "public-domain"
           ],
-          "Maintainer": "Matthew Vernon \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Matthew Vernon [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4833,7 +4833,7 @@
             "GFDL-1.3-or-later",
             "ISC-no-attribution"
           ],
-          "Maintainer": "Matthias Klose \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Matthias Klose [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4874,7 +4874,7 @@
           "Licenses": [
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Kees Cook \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Kees Cook [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4909,7 +4909,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian SELinux maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4945,7 +4945,7 @@
             "LGPL-2.0-or-later",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian SELinux maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4977,7 +4977,7 @@
             "LGPL-2.0-or-later",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian SELinux maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5020,7 +5020,7 @@
             "GPL-2.0-only",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian SELinux maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5067,7 +5067,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5104,7 +5104,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Laszlo Boszormenyi (GCS) \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Laszlo Boszormenyi (GCS) [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5149,7 +5149,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Theodore Y. Ts'o [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5187,7 +5187,7 @@
             "GPL-1.0-or-later",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Debian OpenSSL Team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian OpenSSL Team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5223,7 +5223,7 @@
           "SrcName": "gcc-12",
           "SrcVersion": "12.2.0",
           "SrcRelease": "14+deb12u1",
-          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GCC Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5268,7 +5268,7 @@
             "GPL-2.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian systemd Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian systemd Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5310,7 +5310,7 @@
             "GPL-3.0-only",
             "GFDL-1.3-only"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5349,7 +5349,7 @@
             "X11",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Craig Small [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5391,7 +5391,7 @@
             "PERMISSIVE",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Josue Ortega \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Josue Ortega [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5430,7 +5430,7 @@
             "PERMISSIVE",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Josue Ortega \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Josue Ortega [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5474,7 +5474,7 @@
             "GPL-2.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian systemd Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian systemd Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5518,7 +5518,7 @@
             "GPL-2.0-only",
             "GFDL-1.2-only"
           ],
-          "Maintainer": "Jörg Frings-Fürst \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Jörg Frings-Fürst [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5566,7 +5566,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5601,7 +5601,7 @@
             "BSD-2-Clause",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Josue Ortega \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Josue Ortega [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5638,7 +5638,7 @@
             "Zlib",
             "MIT"
           ],
-          "Maintainer": "RPM packaging team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "RPM packaging team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5678,7 +5678,7 @@
             "public-domain",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Shadow package maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Shadow package maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5850,7 +5850,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Theodore Y. Ts'o [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5887,7 +5887,7 @@
             "X11",
             "CC-BY-3.0"
           ],
-          "Maintainer": "Boyuan Yang \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Boyuan Yang [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5948,7 +5948,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6000,7 +6000,7 @@
             "X11",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Craig Small [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6081,7 +6081,7 @@
             "X11",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Craig Small [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6130,7 +6130,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Marco d'Itri \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Marco d'Itri [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6162,7 +6162,7 @@
             "GPL-1.0-or-later",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Debian OpenSSL Team \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian OpenSSL Team [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6405,7 +6405,7 @@
             "public-domain",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Shadow package maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Shadow package maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6763,7 +6763,7 @@
             "HSIEH-DERIVATIVE",
             "HSIEH-BSD"
           ],
-          "Maintainer": "Niko Tyni \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Niko Tyni [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7416,7 +7416,7 @@
             "GFDL-1.3-or-later",
             "ISC-no-attribution"
           ],
-          "Maintainer": "Matthias Klose \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Matthias Klose [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7463,7 +7463,7 @@
             "BSL-1",
             "pcre"
           ],
-          "Maintainer": "Clint Adams \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Clint Adams [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7545,7 +7545,7 @@
             "GPL-3.0-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian sysvinit maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Debian sysvinit maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7593,7 +7593,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Janos Lenart \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Janos Lenart [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7673,7 +7673,7 @@
           "Licenses": [
             "public-domain"
           ],
-          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "GNU Libc Maintainers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -8607,7 +8607,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Marco d'Itri \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Marco d'Itri [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -8650,7 +8650,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -8974,7 +8974,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "util-linux packagers [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -9025,7 +9025,7 @@
           "Licenses": [
             "Zlib"
           ],
-          "Maintainer": "Mark Brown \[REDACTED_EMAIL]\u003e",
+          "Maintainer": "Mark Brown [REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
