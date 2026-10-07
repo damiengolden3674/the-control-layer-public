@@ -46,19 +46,15 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-07T03:53:54.967048+00:00",
+  "last_reconciled": "2026-10-07T03:54:59.179359+00:00",
   "runtime": {
     "status": "HOLD",
     "containers_running": 16,
     "hdd_free_gib": 3509,
     "root_used_percent": 75.8,
-    "generated_at": "2026-10-07T03:53:46.567631+00:00",
+    "generated_at": "2026-10-07T03:54:49.871846+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
-      {
-        "name": "matter-server",
-        "image": "ghcr.io/matter-js/matterjs-server"
-      },
       {
         "name": "hbbs",
         "image": "rustdesk/rustdesk-server:latest"
@@ -154,7 +150,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "31ba505424681243257af31b5e8b7e40031ab2979d012d9ba23f830efc06c9dc",
+  "presentation_fingerprint": "b030ddbca2792c4e9824e36afa0ef28f5e7c54e2b563969bf2bea71fe9e827dd",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
