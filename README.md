@@ -2,35 +2,68 @@
 
 **Where Intelligence Becomes Governable™**
 
-A sanitized public portfolio for AI governance, cybersecurity governance, enterprise risk, cloud governance, verification, and evidence-driven control. No private infrastructure, credentials, or PII are included.
+A sanitized public portfolio for **AI governance, cybersecurity governance, enterprise risk, cloud governance, governed automation, verification, and evidence-driven control**.
+
+**Founder / Architect:** Damien Golden
+**Commercial organization:** Golden Governance LLC
+**Architecture:** The Control Layer™ v10.0 Founder Master Edition
+
+## Purpose
+
+The Control Layer™ is designed as a **Governance Operating System / reference architecture** for separating intelligence and technical capability from legitimate authority.
+
+**Core principle:** Intelligence ≠ Authority
+
+The architecture connects:
+
+**Intelligence → Assessment → Governance → Authorization → Execution → Monitoring → Audit → Learning → Evolution**
+
+Operational decisions use:
+
+- **EXECUTE** — action is validated, authorized, and within established boundaries
+- **HOLD** — required evidence, authorization, identity, control validation, or other conditions are incomplete
+- **ESCALATE** — authority, risk, jurisdiction, or consequence exceeds the current boundary
+- **DEFER / SIMULATE** — bounded non-production states used where appropriate
+
+## Governance domains
+
+The public portfolio demonstrates architecture and evidence patterns spanning:
+
+- AI governance and AI lifecycle control
+- Cybersecurity governance / GRC
+- Enterprise risk
+- Cloud governance
+- Identity, authority, least privilege, and human override
+- Policy-as-code and governed automation
+- Telemetry, auditability, evidence, and continuous reconciliation
+- Incident, exception, resilience, and recovery governance
+- Quantitative decision support and governance metrics
+
+## Framework interoperability
+
+The architecture can map controls to established external frameworks including **NIST AI RMF, NIST CSF, ISO/IEC 27001, ISO/IEC 42001, COBIT, SOC 2**, and applicable privacy/regulatory requirements.
+
+These are **crosswalks and mapping concepts only**; they do not imply certification by any external standards body.
+
+## Public evidence boundary
+
+This repository is a sanitized presentation and proof surface. It intentionally excludes credentials, PII, private infrastructure identifiers, private legal evidence, internal authority state, and proprietary implementation mechanisms.
+
+Evidence states are explicit: **VERIFIED**, **DOCUMENTED CLAIM**, or **NOT VERIFIED**. Missing, stale, conflicting, or unverifiable evidence becomes **HOLD** rather than synthetic proof.
+
+## Continuous reconciliation
+
+A bounded Control Layer autosync reconciles verified runtime state, the canonical governance profile, public portfolio presentation, and the executive resume.
+
+Automation may update factual presentation and evidence. It may **not** autonomously change secrets, access control, billing, human authority, governance ceilings, destructive operations, certification claims, or private trust-spine material.
 
 ## Live surfaces
 
-- Website: https://damiengolden3674.github.io/the-control-layer-public/
-- GitHub: https://github.com/damiengolden3674
-- Live verifier: https://thecontrollayer.taild054a.ts.net/verify?v=100
-- Current resume: resume/Damien_Golden_Control_Layer_Executive_Resume.pdf
+- Public site: damiengolden3674.github.io/the-control-layer-public/
+- GitHub profile: github.com/damiengolden3674
+- Live verifier: thecontrollayer.taild054a.ts.net/verify?v=100
+- Professional profile: `resume/PUBLIC_PROFILE.md`
 
-## Governance hierarchy
+## Engineering target
 
-**Human → Frontier AI Combination → Control Layer → Control AI → Governed Executor → Ecosystem → Proof/Audit**
-
-**Intelligence ≠ Authority**
-
-- **EXECUTE** — validated + authorized
-- **HOLD** — uncertainty
-- **ESCALATE** — ambiguity or material risk
-- **DEFER** — non-production
-- **SIMULATE** — test before mutation
-
-## Evidence contract
-
-The public surface is sanitized and read-only. Live telemetry is sourced from authoritative runtime evidence. Missing, stale, conflicting, or unverifiable evidence is represented as **HOLD** rather than replaced with synthetic fallback values.
-
-## Automatic synchronization
-
-The Control Layer uses a bounded Mac launchd agent to reconcile verified runtime state, GitHub repository state, the canonical governance profile, website presentation, and the executive resume. Public factual presentation may update automatically; authority, credentials, access, billing, destructive operations, governance ceilings, certification claims, and private trust-spine material remain gated.
-
-## S-TIER ENGINEERING TARGET
-
-S-Tier / A+++ is an internal engineering target, not a self-awarded public score. Controls include explicit authority ceilings, sanitized-only publication, secret/private-infrastructure scanning, deterministic integrity evidence, accessibility validation, dependency automation, security evaluation, artifact provenance/attestation, and continuous reconciliation.
+**S-Tier / A+++** is an internal engineering target, not a self-awarded public certification or score. The implementation emphasizes explicit authority ceilings, sanitized-only publication, secret/private-infrastructure scanning, integrity evidence, accessibility validation, security evaluation, artifact provenance, recovery evidence, and continuous reconciliation.
