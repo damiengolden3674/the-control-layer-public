@@ -3,7 +3,7 @@ import json,subprocess,time,urllib.request,threading,os
 from http.server import ThreadingHTTPServer,BaseHTTPRequestHandler
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
-PI="100.69.147.121"
+PI=os.environ.get("CONTROL_LAYER_HOST","thecontrollayer")
 CACHE={}
 LOCK=threading.Lock()
 

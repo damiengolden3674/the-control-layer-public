@@ -100,7 +100,7 @@
       "bom-ref": "pkg:deb/debian/adduser@3.134?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian Adduser Developers <adduser@packages.debian.org>"
+        "name": "Debian Adduser Developers <[REDACTED_EMAIL]>"
       },
       "name": "adduser",
       "version": "3.134",
@@ -144,7 +144,7 @@
       "bom-ref": "pkg:deb/debian/apt@2.6.1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "APT Development Team <deity@lists.debian.org>"
+        "name": "APT Development Team <[REDACTED_EMAIL]>"
       },
       "name": "apt",
       "version": "2.6.1",
@@ -198,7 +198,7 @@
       "bom-ref": "pkg:deb/debian/base-files@12.4%2Bdeb12u15?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Santiago Vila <sanvila@debian.org>"
+        "name": "Santiago Vila <[REDACTED_EMAIL]>"
       },
       "name": "base-files",
       "version": "12.4+deb12u15",
@@ -237,7 +237,7 @@
       "bom-ref": "pkg:deb/debian/base-passwd@3.6.1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Colin Watson <cjwatson@debian.org>"
+        "name": "Colin Watson <[REDACTED_EMAIL]>"
       },
       "name": "base-passwd",
       "version": "3.6.1",
@@ -281,7 +281,7 @@
       "bom-ref": "pkg:deb/debian/bash@5.2.15-2%2Bb13?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Matthias Klose <doko@debian.org>"
+        "name": "Matthias Klose <[REDACTED_EMAIL]>"
       },
       "name": "bash",
       "version": "5.2.15-2+b13",
@@ -374,7 +374,7 @@
       "bom-ref": "pkg:deb/debian/bsdutils@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "bsdutils",
       "version": "1:2.38.1-5+deb12u3",
@@ -487,7 +487,7 @@
       "bom-ref": "pkg:deb/debian/ca-certificates@20250419~deb12u1?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Julien Cristau <jcristau@debian.org>"
+        "name": "Julien Cristau <[REDACTED_EMAIL]>"
       },
       "name": "ca-certificates",
       "version": "20250419~deb12u1",
@@ -536,7 +536,7 @@
       "bom-ref": "pkg:deb/debian/coreutils@9.1-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Michael Stone <mstone@debian.org>"
+        "name": "Michael Stone <[REDACTED_EMAIL]>"
       },
       "name": "coreutils",
       "version": "9.1-1",
@@ -609,7 +609,7 @@
       "bom-ref": "pkg:deb/debian/dash@0.5.12-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Andrej Shadura <andrewsh@debian.org>"
+        "name": "Andrej Shadura <[REDACTED_EMAIL]>"
       },
       "name": "dash",
       "version": "0.5.12-2",
@@ -667,7 +667,7 @@
       "bom-ref": "pkg:deb/debian/debconf@1.5.82?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debconf Developers <debconf-devel@lists.alioth.debian.org>"
+        "name": "Debconf Developers <[REDACTED_EMAIL]>"
       },
       "name": "debconf",
       "version": "1.5.82",
@@ -706,7 +706,7 @@
       "bom-ref": "pkg:deb/debian/debian-archive-keyring@2023.3%2Bdeb12u2?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian Release Team <packages@release.debian.org>"
+        "name": "Debian Release Team <[REDACTED_EMAIL]>"
       },
       "name": "debian-archive-keyring",
       "version": "2023.3+deb12u2",
@@ -745,7 +745,7 @@
       "bom-ref": "pkg:deb/debian/debianutils@5.7-0.5~deb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Clint Adams <clint@debian.org>"
+        "name": "Clint Adams <[REDACTED_EMAIL]>"
       },
       "name": "debianutils",
       "version": "5.7-0.5~deb12u1",
@@ -803,7 +803,7 @@
       "bom-ref": "pkg:deb/debian/diffutils@3.8-4?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Santiago Vila <sanvila@debian.org>"
+        "name": "Santiago Vila <[REDACTED_EMAIL]>"
       },
       "name": "diffutils",
       "version": "1:3.8-4",
@@ -935,7 +935,7 @@
       "bom-ref": "pkg:deb/debian/dpkg@1.21.23?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Dpkg Developers <debian-dpkg@lists.debian.org>"
+        "name": "Dpkg Developers <[REDACTED_EMAIL]>"
       },
       "name": "dpkg",
       "version": "1.21.23",
@@ -989,7 +989,7 @@
       "bom-ref": "pkg:deb/debian/e2fsprogs@1.47.0-2%2Bb2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Theodore Y. Ts'o <tytso@mit.edu>"
+        "name": "Theodore Y. Ts'o <[REDACTED_EMAIL]>"
       },
       "name": "e2fsprogs",
       "version": "1.47.0-2+b2",
@@ -1077,7 +1077,7 @@
       "bom-ref": "pkg:deb/debian/findutils@4.9.0-4?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Andreas Metzler <ametzler@debian.org>"
+        "name": "Andreas Metzler <[REDACTED_EMAIL]>"
       },
       "name": "findutils",
       "version": "4.9.0-4",
@@ -1235,7 +1235,7 @@
       "bom-ref": "pkg:deb/debian/gcc-12-base@12.2.0-14%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        "name": "Debian GCC Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "gcc-12-base",
       "version": "12.2.0-14+deb12u1",
@@ -1303,7 +1303,7 @@
       "bom-ref": "pkg:deb/debian/gpgv@2.2.40-1.1%2Bdeb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+        "name": "Debian GnuPG Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "gpgv",
       "version": "2.2.40-1.1+deb12u2",
@@ -1401,7 +1401,7 @@
       "bom-ref": "pkg:deb/debian/grep@3.8-5?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Anibal Monsalve Salazar <anibal@debian.org>"
+        "name": "Anibal Monsalve Salazar <[REDACTED_EMAIL]>"
       },
       "name": "grep",
       "version": "3.8-5",
@@ -1449,7 +1449,7 @@
       "bom-ref": "pkg:deb/debian/gzip@1.12-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Milan Kupcevic <milan@debian.org>"
+        "name": "Milan Kupcevic <[REDACTED_EMAIL]>"
       },
       "name": "gzip",
       "version": "1.12-1",
@@ -1512,7 +1512,7 @@
       "bom-ref": "pkg:deb/debian/hostname@3.23%2Bnmu1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Michael Meskes <meskes@debian.org>"
+        "name": "Michael Meskes <[REDACTED_EMAIL]>"
       },
       "name": "hostname",
       "version": "3.23+nmu1",
@@ -1551,7 +1551,7 @@
       "bom-ref": "pkg:deb/debian/init-system-helpers@1.65.2%2Bdeb12u1?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+        "name": "Debian systemd Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "init-system-helpers",
       "version": "1.65.2+deb12u1",
@@ -1600,7 +1600,7 @@
       "bom-ref": "pkg:deb/debian/libacl1@2.3.1-3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Guillem Jover <guillem@debian.org>"
+        "name": "Guillem Jover <[REDACTED_EMAIL]>"
       },
       "name": "libacl1",
       "version": "2.3.1-3",
@@ -1658,7 +1658,7 @@
       "bom-ref": "pkg:deb/debian/libapt-pkg6.0@2.6.1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "APT Development Team <deity@lists.debian.org>"
+        "name": "APT Development Team <[REDACTED_EMAIL]>"
       },
       "name": "libapt-pkg6.0",
       "version": "2.6.1",
@@ -1712,7 +1712,7 @@
       "bom-ref": "pkg:deb/debian/libattr1@2.5.1-4?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Guillem Jover <guillem@debian.org>"
+        "name": "Guillem Jover <[REDACTED_EMAIL]>"
       },
       "name": "libattr1",
       "version": "1:2.5.1-4",
@@ -1774,7 +1774,7 @@
       "bom-ref": "pkg:deb/debian/libaudit-common@3.0.9-1?arch=all&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Laurent Bigonville <bigon@debian.org>"
+        "name": "Laurent Bigonville <[REDACTED_EMAIL]>"
       },
       "name": "libaudit-common",
       "version": "1:3.0.9-1",
@@ -1831,7 +1831,7 @@
       "bom-ref": "pkg:deb/debian/libaudit1@3.0.9-1?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Laurent Bigonville <bigon@debian.org>"
+        "name": "Laurent Bigonville <[REDACTED_EMAIL]>"
       },
       "name": "libaudit1",
       "version": "1:3.0.9-1",
@@ -1888,7 +1888,7 @@
       "bom-ref": "pkg:deb/debian/libblkid1@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "libblkid1",
       "version": "2.38.1-5+deb12u3",
@@ -2001,7 +2001,7 @@
       "bom-ref": "pkg:deb/debian/libbz2-1.0@1.0.8-5%2Bb1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Anibal Monsalve Salazar <anibal@debian.org>"
+        "name": "Anibal Monsalve Salazar <[REDACTED_EMAIL]>"
       },
       "name": "libbz2-1.0",
       "version": "1.0.8-5+b1",
@@ -2049,7 +2049,7 @@
       "bom-ref": "pkg:deb/debian/libc-bin@2.36-9%2Bdeb12u14?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+        "name": "GNU Libc Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libc-bin",
       "version": "2.36-9+deb12u14",
@@ -2097,7 +2097,7 @@
       "bom-ref": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u14?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+        "name": "GNU Libc Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libc6",
       "version": "2.36-9+deb12u14",
@@ -2145,7 +2145,7 @@
       "bom-ref": "pkg:deb/debian/libcap-ng0@0.8.3-1%2Bb3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Håvard F. Aasen <havard.f.aasen@pfft.no>"
+        "name": "Håvard F. Aasen <[REDACTED_EMAIL]>"
       },
       "name": "libcap-ng0",
       "version": "0.8.3-1+b3",
@@ -2208,7 +2208,7 @@
       "bom-ref": "pkg:deb/debian/libcap2@2.66-4%2Bdeb12u3%2Bb1?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Christian Kastner <ckk@debian.org>"
+        "name": "Christian Kastner <[REDACTED_EMAIL]>"
       },
       "name": "libcap2",
       "version": "1:2.66-4+deb12u3+b1",
@@ -2265,7 +2265,7 @@
       "bom-ref": "pkg:deb/debian/libcom-err2@1.47.0-2%2Bb2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Theodore Y. Ts'o <tytso@mit.edu>"
+        "name": "Theodore Y. Ts'o <[REDACTED_EMAIL]>"
       },
       "name": "libcom-err2",
       "version": "1.47.0-2+b2",
@@ -2353,7 +2353,7 @@
       "bom-ref": "pkg:deb/debian/libcrypt1@4.4.33-2?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Marco d'Itri <md@linux.it>"
+        "name": "Marco d'Itri <[REDACTED_EMAIL]>"
       },
       "name": "libcrypt1",
       "version": "1:4.4.33-2",
@@ -2393,7 +2393,7 @@
       "bom-ref": "pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg2-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Bastian Germann <bage@debian.org>"
+        "name": "Bastian Germann <[REDACTED_EMAIL]>"
       },
       "name": "libdb5.3",
       "version": "5.3.28+dfsg2-1",
@@ -2486,7 +2486,7 @@
       "bom-ref": "pkg:deb/debian/libdebconfclient0@0.270?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian Install System Team <debian-boot@lists.debian.org>"
+        "name": "Debian Install System Team <[REDACTED_EMAIL]>"
       },
       "name": "libdebconfclient0",
       "version": "0.270",
@@ -2535,7 +2535,7 @@
       "bom-ref": "pkg:deb/debian/libext2fs2@1.47.0-2%2Bb2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Theodore Y. Ts'o <tytso@mit.edu>"
+        "name": "Theodore Y. Ts'o <[REDACTED_EMAIL]>"
       },
       "name": "libext2fs2",
       "version": "1.47.0-2+b2",
@@ -2623,7 +2623,7 @@
       "bom-ref": "pkg:deb/debian/libffi8@3.4.4-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        "name": "Debian GCC Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libffi8",
       "version": "3.4.4-1",
@@ -2696,7 +2696,7 @@
       "bom-ref": "pkg:deb/debian/libgcc-s1@12.2.0-14%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        "name": "Debian GCC Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libgcc-s1",
       "version": "12.2.0-14+deb12u1",
@@ -2732,7 +2732,7 @@
       "bom-ref": "pkg:deb/debian/libgcrypt20@1.10.1-3%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        "name": "Debian GnuTLS Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libgcrypt20",
       "version": "1.10.1-3+deb12u1",
@@ -2780,7 +2780,7 @@
       "bom-ref": "pkg:deb/debian/libgdbm6@1.23-3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Nicolas Mora <babelouest@debian.org>"
+        "name": "Nicolas Mora <[REDACTED_EMAIL]>"
       },
       "name": "libgdbm6",
       "version": "1.23-3",
@@ -2843,7 +2843,7 @@
       "bom-ref": "pkg:deb/debian/libgmp10@6.2.1%2Bdfsg1-1.1?arch=arm64&distro=debian-12.15&epoch=2",
       "type": "library",
       "supplier": {
-        "name": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+        "name": "Debian Science Team <[REDACTED_EMAIL]>"
       },
       "name": "libgmp10",
       "version": "2:6.2.1+dfsg1-1.1",
@@ -2920,7 +2920,7 @@
       "bom-ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u7?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        "name": "Debian GnuTLS Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libgnutls30",
       "version": "3.7.9-2+deb12u7",
@@ -3023,7 +3023,7 @@
       "bom-ref": "pkg:deb/debian/libgpg-error0@1.46-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+        "name": "Debian GnuPG Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libgpg-error0",
       "version": "1.46-1",
@@ -3091,7 +3091,7 @@
       "bom-ref": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u5?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libgssapi-krb5-2",
       "version": "1.20.1-2+deb12u5",
@@ -3134,7 +3134,7 @@
       "bom-ref": "pkg:deb/debian/libhogweed6@3.8.1-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Magnus Holmgren <holmgren@debian.org>"
+        "name": "Magnus Holmgren <[REDACTED_EMAIL]>"
       },
       "name": "libhogweed6",
       "version": "3.8.1-2",
@@ -3222,7 +3222,7 @@
       "bom-ref": "pkg:deb/debian/libidn2-0@2.3.3-1%2Bb1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian Libidn team <help-libidn@gnu.org>"
+        "name": "Debian Libidn team <[REDACTED_EMAIL]>"
       },
       "name": "libidn2-0",
       "version": "2.3.3-1+b1",
@@ -3295,7 +3295,7 @@
       "bom-ref": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u5?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libk5crypto3",
       "version": "1.20.1-2+deb12u5",
@@ -3338,7 +3338,7 @@
       "bom-ref": "pkg:deb/debian/libkeyutils1@1.6.3-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Christian Kastner <ckk@debian.org>"
+        "name": "Christian Kastner <[REDACTED_EMAIL]>"
       },
       "name": "libkeyutils1",
       "version": "1.6.3-2",
@@ -3396,7 +3396,7 @@
       "bom-ref": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u5?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libkrb5-3",
       "version": "1.20.1-2+deb12u5",
@@ -3439,7 +3439,7 @@
       "bom-ref": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u5?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libkrb5support0",
       "version": "1.20.1-2+deb12u5",
@@ -3482,7 +3482,7 @@
       "bom-ref": "pkg:deb/debian/liblz4-1@1.9.4-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Nobuhiro Iwamatsu <iwamatsu@debian.org>"
+        "name": "Nobuhiro Iwamatsu <[REDACTED_EMAIL]>"
       },
       "name": "liblz4-1",
       "version": "1.9.4-1",
@@ -3535,7 +3535,7 @@
       "bom-ref": "pkg:deb/debian/liblzma5@5.4.1-1%2Bdeb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sebastian Andrzej Siewior <sebastian@breakpoint.cc>"
+        "name": "Sebastian Andrzej Siewior <[REDACTED_EMAIL]>"
       },
       "name": "liblzma5",
       "version": "5.4.1-1+deb12u2",
@@ -3648,7 +3648,7 @@
       "bom-ref": "pkg:deb/debian/libmd0@1.0.4-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Guillem Jover <guillem@debian.org>"
+        "name": "Guillem Jover <[REDACTED_EMAIL]>"
       },
       "name": "libmd0",
       "version": "1.0.4-2",
@@ -3731,7 +3731,7 @@
       "bom-ref": "pkg:deb/debian/libmount1@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "libmount1",
       "version": "2.38.1-5+deb12u3",
@@ -3844,7 +3844,7 @@
       "bom-ref": "pkg:deb/debian/libncursesw6@6.4-4?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Craig Small <csmall@debian.org>"
+        "name": "Craig Small <[REDACTED_EMAIL]>"
       },
       "name": "libncursesw6",
       "version": "6.4-4",
@@ -3880,7 +3880,7 @@
       "bom-ref": "pkg:deb/debian/libnettle8@3.8.1-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Magnus Holmgren <holmgren@debian.org>"
+        "name": "Magnus Holmgren <[REDACTED_EMAIL]>"
       },
       "name": "libnettle8",
       "version": "3.8.1-2",
@@ -3968,7 +3968,7 @@
       "bom-ref": "pkg:deb/debian/libnsl2@1.3.0-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+        "name": "GNU Libc Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libnsl2",
       "version": "1.3.0-2",
@@ -4076,7 +4076,7 @@
       "bom-ref": "pkg:deb/debian/libp11-kit0@0.24.1-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        "name": "Debian GnuTLS Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libp11-kit0",
       "version": "0.24.1-2",
@@ -4154,7 +4154,7 @@
       "bom-ref": "pkg:deb/debian/libpam-modules-bin@1.5.2-6%2Bdeb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libpam-modules-bin",
       "version": "1.5.2-6+deb12u2",
@@ -4242,7 +4242,7 @@
       "bom-ref": "pkg:deb/debian/libpam-modules@1.5.2-6%2Bdeb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libpam-modules",
       "version": "1.5.2-6+deb12u2",
@@ -4330,7 +4330,7 @@
       "bom-ref": "pkg:deb/debian/libpam-runtime@1.5.2-6%2Bdeb12u2?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libpam-runtime",
       "version": "1.5.2-6+deb12u2",
@@ -4418,7 +4418,7 @@
       "bom-ref": "pkg:deb/debian/libpam0g@1.5.2-6%2Bdeb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Sam Hartman <hartmans@debian.org>"
+        "name": "Sam Hartman <[REDACTED_EMAIL]>"
       },
       "name": "libpam0g",
       "version": "1.5.2-6+deb12u2",
@@ -4506,7 +4506,7 @@
       "bom-ref": "pkg:deb/debian/libpcre2-8-0@10.42-1%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Matthew Vernon <matthew@debian.org>"
+        "name": "Matthew Vernon <[REDACTED_EMAIL]>"
       },
       "name": "libpcre2-8-0",
       "version": "10.42-1+deb12u1",
@@ -4569,7 +4569,7 @@
       "bom-ref": "pkg:deb/debian/libreadline8@8.2-1.3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Matthias Klose <doko@debian.org>"
+        "name": "Matthias Klose <[REDACTED_EMAIL]>"
       },
       "name": "libreadline8",
       "version": "8.2-1.3",
@@ -4642,7 +4642,7 @@
       "bom-ref": "pkg:deb/debian/libseccomp2@2.5.4-1%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Kees Cook <kees@debian.org>"
+        "name": "Kees Cook <[REDACTED_EMAIL]>"
       },
       "name": "libseccomp2",
       "version": "2.5.4-1+deb12u1",
@@ -4685,7 +4685,7 @@
       "bom-ref": "pkg:deb/debian/libselinux1@3.4-1%2Bb6?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        "name": "Debian SELinux maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libselinux1",
       "version": "3.4-1+b6",
@@ -4733,7 +4733,7 @@
       "bom-ref": "pkg:deb/debian/libsemanage-common@3.4-1?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        "name": "Debian SELinux maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libsemanage-common",
       "version": "3.4-1",
@@ -4781,7 +4781,7 @@
       "bom-ref": "pkg:deb/debian/libsemanage2@3.4-1%2Bb5?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        "name": "Debian SELinux maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libsemanage2",
       "version": "3.4-1+b5",
@@ -4829,7 +4829,7 @@
       "bom-ref": "pkg:deb/debian/libsepol2@3.4-2.1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+        "name": "Debian SELinux maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libsepol2",
       "version": "3.4-2.1",
@@ -4892,7 +4892,7 @@
       "bom-ref": "pkg:deb/debian/libsmartcols1@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "libsmartcols1",
       "version": "2.38.1-5+deb12u3",
@@ -5005,7 +5005,7 @@
       "bom-ref": "pkg:deb/debian/libsqlite3-0@3.40.1-2%2Bdeb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+        "name": "Laszlo Boszormenyi (GCS) <[REDACTED_EMAIL]>"
       },
       "name": "libsqlite3-0",
       "version": "3.40.1-2+deb12u2",
@@ -5058,7 +5058,7 @@
       "bom-ref": "pkg:deb/debian/libss2@1.47.0-2%2Bb2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Theodore Y. Ts'o <tytso@mit.edu>"
+        "name": "Theodore Y. Ts'o <[REDACTED_EMAIL]>"
       },
       "name": "libss2",
       "version": "1.47.0-2+b2",
@@ -5146,7 +5146,7 @@
       "bom-ref": "pkg:deb/debian/libssl3@3.0.22-1~deb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+        "name": "Debian OpenSSL Team <[REDACTED_EMAIL]>"
       },
       "name": "libssl3",
       "version": "3.0.22-1~deb12u1",
@@ -5204,7 +5204,7 @@
       "bom-ref": "pkg:deb/debian/libstdc%2B%2B6@12.2.0-14%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+        "name": "Debian GCC Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libstdc++6",
       "version": "12.2.0-14+deb12u1",
@@ -5240,7 +5240,7 @@
       "bom-ref": "pkg:deb/debian/libsystemd0@252.39-1~deb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+        "name": "Debian systemd Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libsystemd0",
       "version": "252.39-1~deb12u2",
@@ -5318,7 +5318,7 @@
       "bom-ref": "pkg:deb/debian/libtasn1-6@4.19.0-2%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+        "name": "Debian GnuTLS Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libtasn1-6",
       "version": "4.19.0-2+deb12u1",
@@ -5376,7 +5376,7 @@
       "bom-ref": "pkg:deb/debian/libtinfo6@6.4-4?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Craig Small <csmall@debian.org>"
+        "name": "Craig Small <[REDACTED_EMAIL]>"
       },
       "name": "libtinfo6",
       "version": "6.4-4",
@@ -5429,7 +5429,7 @@
       "bom-ref": "pkg:deb/debian/libtirpc-common@1.3.3%2Bds-1?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Josue Ortega <josue@debian.org>"
+        "name": "Josue Ortega <[REDACTED_EMAIL]>"
       },
       "name": "libtirpc-common",
       "version": "1.3.3+ds-1",
@@ -5507,7 +5507,7 @@
       "bom-ref": "pkg:deb/debian/libtirpc3@1.3.3%2Bds-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Josue Ortega <josue@debian.org>"
+        "name": "Josue Ortega <[REDACTED_EMAIL]>"
       },
       "name": "libtirpc3",
       "version": "1.3.3+ds-1",
@@ -5585,7 +5585,7 @@
       "bom-ref": "pkg:deb/debian/libudev1@252.39-1~deb12u2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+        "name": "Debian systemd Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "libudev1",
       "version": "252.39-1~deb12u2",
@@ -5663,7 +5663,7 @@
       "bom-ref": "pkg:deb/debian/libunistring2@1.0-2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Jörg Frings-Fürst <debian@jff.email>"
+        "name": "Jörg Frings-Fürst <[REDACTED_EMAIL]>"
       },
       "name": "libunistring2",
       "version": "1.0-2",
@@ -5756,7 +5756,7 @@
       "bom-ref": "pkg:deb/debian/libuuid1@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "libuuid1",
       "version": "2.38.1-5+deb12u3",
@@ -5869,7 +5869,7 @@
       "bom-ref": "pkg:deb/debian/libxxhash0@0.8.1-1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Josue Ortega <josue@debian.org>"
+        "name": "Josue Ortega <[REDACTED_EMAIL]>"
       },
       "name": "libxxhash0",
       "version": "0.8.1-1",
@@ -5917,7 +5917,7 @@
       "bom-ref": "pkg:deb/debian/libzstd1@1.5.4%2Bdfsg2-5?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "RPM packaging team <team+pkg-rpm@tracker.debian.org>"
+        "name": "RPM packaging team <[REDACTED_EMAIL]>"
       },
       "name": "libzstd1",
       "version": "1.5.4+dfsg2-5",
@@ -5975,7 +5975,7 @@
       "bom-ref": "pkg:deb/debian/login@4.13%2Bdfsg1-1%2Bdeb12u2?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+        "name": "Shadow package maintainers <[REDACTED_EMAIL]>"
       },
       "name": "login",
       "version": "1:4.13+dfsg1-1+deb12u2",
@@ -6042,7 +6042,7 @@
       "bom-ref": "pkg:deb/debian/logsave@1.47.0-2%2Bb2?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Theodore Y. Ts'o <tytso@mit.edu>"
+        "name": "Theodore Y. Ts'o <[REDACTED_EMAIL]>"
       },
       "name": "logsave",
       "version": "1.47.0-2+b2",
@@ -6130,7 +6130,7 @@
       "bom-ref": "pkg:deb/debian/mawk@1.3.4.20200120-3.1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Boyuan Yang <byang@debian.org>"
+        "name": "Boyuan Yang <[REDACTED_EMAIL]>"
       },
       "name": "mawk",
       "version": "1.3.4.20200120-3.1",
@@ -6183,7 +6183,7 @@
       "bom-ref": "pkg:deb/debian/mount@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "mount",
       "version": "2.38.1-5+deb12u3",
@@ -6296,7 +6296,7 @@
       "bom-ref": "pkg:deb/debian/ncurses-base@6.4-4?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Craig Small <csmall@debian.org>"
+        "name": "Craig Small <[REDACTED_EMAIL]>"
       },
       "name": "ncurses-base",
       "version": "6.4-4",
@@ -6349,7 +6349,7 @@
       "bom-ref": "pkg:deb/debian/ncurses-bin@6.4-4?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Craig Small <csmall@debian.org>"
+        "name": "Craig Small <[REDACTED_EMAIL]>"
       },
       "name": "ncurses-bin",
       "version": "6.4-4",
@@ -6402,7 +6402,7 @@
       "bom-ref": "pkg:deb/debian/netbase@6.4?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Marco d'Itri <md@linux.it>"
+        "name": "Marco d'Itri <[REDACTED_EMAIL]>"
       },
       "name": "netbase",
       "version": "6.4",
@@ -6441,7 +6441,7 @@
       "bom-ref": "pkg:deb/debian/openssl@3.0.22-1~deb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>"
+        "name": "Debian OpenSSL Team <[REDACTED_EMAIL]>"
       },
       "name": "openssl",
       "version": "3.0.22-1~deb12u1",
@@ -6499,7 +6499,7 @@
       "bom-ref": "pkg:deb/debian/passwd@4.13%2Bdfsg1-1%2Bdeb12u2?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+        "name": "Shadow package maintainers <[REDACTED_EMAIL]>"
       },
       "name": "passwd",
       "version": "1:4.13+dfsg1-1+deb12u2",
@@ -6566,7 +6566,7 @@
       "bom-ref": "pkg:deb/debian/perl-base@5.36.0-7%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Niko Tyni <ntyni@debian.org>"
+        "name": "Niko Tyni <[REDACTED_EMAIL]>"
       },
       "name": "perl-base",
       "version": "5.36.0-7+deb12u3",
@@ -6729,7 +6729,7 @@
       "bom-ref": "pkg:deb/debian/readline-common@8.2-1.3?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Matthias Klose <doko@debian.org>"
+        "name": "Matthias Klose <[REDACTED_EMAIL]>"
       },
       "name": "readline-common",
       "version": "8.2-1.3",
@@ -6802,7 +6802,7 @@
       "bom-ref": "pkg:deb/debian/sed@4.9-1%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Clint Adams <clint@debian.org>"
+        "name": "Clint Adams <[REDACTED_EMAIL]>"
       },
       "name": "sed",
       "version": "4.9-1+deb12u1",
@@ -6885,7 +6885,7 @@
       "bom-ref": "pkg:deb/debian/sysvinit-utils@3.06-4?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>"
+        "name": "Debian sysvinit maintainers <[REDACTED_EMAIL]>"
       },
       "name": "sysvinit-utils",
       "version": "3.06-4",
@@ -6938,7 +6938,7 @@
       "bom-ref": "pkg:deb/debian/tar@1.34%2Bdfsg-1.2%2Bdeb12u1?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Janos Lenart <ocsi@debian.org>"
+        "name": "Janos Lenart <[REDACTED_EMAIL]>"
       },
       "name": "tar",
       "version": "1.34+dfsg-1.2+deb12u1",
@@ -7011,7 +7011,7 @@
       "bom-ref": "pkg:deb/debian/tzdata@2026c-0%2Bdeb12u1?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+        "name": "GNU Libc Maintainers <[REDACTED_EMAIL]>"
       },
       "name": "tzdata",
       "version": "2026c-0+deb12u1",
@@ -7054,7 +7054,7 @@
       "bom-ref": "pkg:deb/debian/usr-is-merged@37~deb12u1?arch=all&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "Marco d'Itri <md@linux.it>"
+        "name": "Marco d'Itri <[REDACTED_EMAIL]>"
       },
       "name": "usr-is-merged",
       "version": "37~deb12u1",
@@ -7098,7 +7098,7 @@
       "bom-ref": "pkg:deb/debian/util-linux-extra@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "util-linux-extra",
       "version": "2.38.1-5+deb12u3",
@@ -7211,7 +7211,7 @@
       "bom-ref": "pkg:deb/debian/util-linux@2.38.1-5%2Bdeb12u3?arch=arm64&distro=debian-12.15",
       "type": "library",
       "supplier": {
-        "name": "util-linux packagers <util-linux@packages.debian.org>"
+        "name": "util-linux packagers <[REDACTED_EMAIL]>"
       },
       "name": "util-linux",
       "version": "2.38.1-5+deb12u3",
@@ -7321,10 +7321,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64&distro=debian-12.15&epoch=1",
+      "bom-ref": "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64&distro=debian-12.15&epoch=1",
       "type": "library",
       "supplier": {
-        "name": "Mark Brown <broonie@debian.org>"
+        "name": "Mark Brown <[REDACTED_EMAIL]>"
       },
       "name": "zlib1g",
       "version": "1:1.2.13.dfsg-1",
@@ -7335,7 +7335,7 @@
           }
         }
       ],
-      "purl": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64&distro=debian-12.15&epoch=1",
+      "purl": "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64&distro=debian-12.15&epoch=1",
       "properties": [
         {
           "name": "aquasecurity:trivy:LayerDiffID",
@@ -7561,7 +7561,7 @@
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u14?arch=arm64&distro=debian-12.15",
         "pkg:deb/debian/libgcrypt20@1.10.1-3%2Bdeb12u1?arch=arm64&distro=debian-12.15",
         "pkg:deb/debian/libgpg-error0@1.46-1?arch=arm64&distro=debian-12.15",
-        "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64&distro=debian-12.15&epoch=1"
+        "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64&distro=debian-12.15&epoch=1"
       ]
     },
     {
@@ -7606,7 +7606,7 @@
         "pkg:deb/debian/libudev1@252.39-1~deb12u2?arch=arm64&distro=debian-12.15",
         "pkg:deb/debian/libxxhash0@0.8.1-1?arch=arm64&distro=debian-12.15",
         "pkg:deb/debian/libzstd1@1.5.4%2Bdfsg2-5?arch=arm64&distro=debian-12.15",
-        "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64&distro=debian-12.15&epoch=1"
+        "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64&distro=debian-12.15&epoch=1"
       ]
     },
     {
@@ -8127,7 +8127,7 @@
       ]
     },
     {
-      "ref": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64&distro=debian-12.15&epoch=1",
+      "ref": "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64&distro=debian-12.15&epoch=1",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u14?arch=arm64&distro=debian-12.15"
       ]

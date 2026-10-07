@@ -225,7 +225,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian Adduser Developers \u003cadduser@packages.debian.org\u003e",
+          "Maintainer": "Debian Adduser Developers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -320,7 +320,7 @@
             "BSD-3-Clause",
             "MIT"
           ],
-          "Maintainer": "APT Development Team \u003cdeity@lists.debian.org\u003e",
+          "Maintainer": "APT Development Team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -546,7 +546,7 @@
           "Licenses": [
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Santiago Vila \u003csanvila@debian.org\u003e",
+          "Maintainer": "Santiago Vila \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -600,7 +600,7 @@
             "GPL-2.0-only",
             "public-domain"
           ],
-          "Maintainer": "Colin Watson \u003ccjwatson@debian.org\u003e",
+          "Maintainer": "Colin Watson \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -659,7 +659,7 @@
             "MIT",
             "permissive"
           ],
-          "Maintainer": "Matthias Klose \u003cdoko@debian.org\u003e",
+          "Maintainer": "Matthias Klose \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -770,7 +770,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -819,7 +819,7 @@
             "GPL-2.0-only",
             "MPL-2.0"
           ],
-          "Maintainer": "Julien Cristau \u003cjcristau@debian.org\u003e",
+          "Maintainer": "Julien Cristau \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1023,7 +1023,7 @@
             "GFDL-1.3-no-invariants-only",
             "GFDL-1.3-only"
           ],
-          "Maintainer": "Michael Stone \u003cmstone@debian.org\u003e",
+          "Maintainer": "Michael Stone \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1317,7 +1317,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Andrej Shadura \u003candrewsh@debian.org\u003e",
+          "Maintainer": "Andrej Shadura \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1357,7 +1357,7 @@
           "Licenses": [
             "BSD-2-Clause"
           ],
-          "Maintainer": "Debconf Developers \u003cdebconf-devel@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debconf Developers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1514,7 +1514,7 @@
           "Licenses": [
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian Release Team \u003cpackages@release.debian.org\u003e",
+          "Maintainer": "Debian Release Team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1558,7 +1558,7 @@
             "public-domain",
             "SMAIL-GPL"
           ],
-          "Maintainer": "Clint Adams \u003cclint@debian.org\u003e",
+          "Maintainer": "Clint Adams \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1675,7 +1675,7 @@
             "GPL-2.0-only",
             "GFDL-1.3-only"
           ],
-          "Maintainer": "Santiago Vila \u003csanvila@debian.org\u003e",
+          "Maintainer": "Santiago Vila \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1750,7 +1750,7 @@
             "BSD-2-Clause",
             "public-domain-s-s-d"
           ],
-          "Maintainer": "Dpkg Developers \u003cdebian-dpkg@lists.debian.org\u003e",
+          "Maintainer": "Dpkg Developers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -1949,7 +1949,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \u003ctytso@mit.edu\u003e",
+          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2057,7 +2057,7 @@
             "LGPL-2.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Andreas Metzler \u003cametzler@debian.org\u003e",
+          "Maintainer": "Andreas Metzler \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2144,7 +2144,7 @@
             "Artistic-2.0",
             "LGPL-2.0-or-later"
           ],
-          "Maintainer": "Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2186,7 +2186,7 @@
             "LGPL-3.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian GnuPG Maintainers \u003cpkg-gnupg-maint@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian GnuPG Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2227,7 +2227,7 @@
             "GPL-3.0-or-later",
             "GPL-3.0-only"
           ],
-          "Maintainer": "Anibal Monsalve Salazar \u003canibal@debian.org\u003e",
+          "Maintainer": "Anibal Monsalve Salazar \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2321,7 +2321,7 @@
             "GPL-3.0-only",
             "GFDL-3"
           ],
-          "Maintainer": "Milan Kupcevic \u003cmilan@debian.org\u003e",
+          "Maintainer": "Milan Kupcevic \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2378,7 +2378,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Michael Meskes \u003cmeskes@debian.org\u003e",
+          "Maintainer": "Michael Meskes \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2409,7 +2409,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian systemd Maintainers \u003cpkg-systemd-maintainers@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian systemd Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2458,7 +2458,7 @@
             "LGPL-2.0-or-later",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Guillem Jover \u003cguillem@debian.org\u003e",
+          "Maintainer": "Guillem Jover \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2494,7 +2494,7 @@
             "BSD-3-Clause",
             "MIT"
           ],
-          "Maintainer": "APT Development Team \u003cdeity@lists.debian.org\u003e",
+          "Maintainer": "APT Development Team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2587,7 +2587,7 @@
             "LGPL-2.0-or-later",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Guillem Jover \u003cguillem@debian.org\u003e",
+          "Maintainer": "Guillem Jover \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2626,7 +2626,7 @@
             "LGPL-2.1-only",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Laurent Bigonville \u003cbigon@debian.org\u003e",
+          "Maintainer": "Laurent Bigonville \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2661,7 +2661,7 @@
             "LGPL-2.1-only",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Laurent Bigonville \u003cbigon@debian.org\u003e",
+          "Maintainer": "Laurent Bigonville \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2711,7 +2711,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2747,7 +2747,7 @@
             "BSD-3-Clause",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Anibal Monsalve Salazar \u003canibal@debian.org\u003e",
+          "Maintainer": "Anibal Monsalve Salazar \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2783,7 +2783,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -2845,7 +2845,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3162,7 +3162,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Håvard F. Aasen \u003chavard.f.aasen@pfft.no\u003e",
+          "Maintainer": "Håvard F. Aasen \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3202,7 +3202,7 @@
             "GPL-2.0-only",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Christian Kastner \u003cckk@debian.org\u003e",
+          "Maintainer": "Christian Kastner \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3247,7 +3247,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \u003ctytso@mit.edu\u003e",
+          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3280,7 +3280,7 @@
           "SrcVersion": "4.4.33",
           "SrcRelease": "2",
           "SrcEpoch": 1,
-          "Maintainer": "Marco d'Itri \u003cmd@linux.it\u003e",
+          "Maintainer": "Marco d'Itri \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3324,7 +3324,7 @@
             "GPL-3.0-only",
             "Zlib"
           ],
-          "Maintainer": "Bastian Germann \u003cbage@debian.org\u003e",
+          "Maintainer": "Bastian Germann \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3359,7 +3359,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e",
+          "Maintainer": "Debian Install System Team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3401,7 +3401,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \u003ctytso@mit.edu\u003e",
+          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3442,7 +3442,7 @@
             "LGPL-2.1-or-later",
             "public-domain"
           ],
-          "Maintainer": "Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3472,7 +3472,7 @@
           "SrcName": "gcc-12",
           "SrcVersion": "12.2.0",
           "SrcRelease": "14+deb12u1",
-          "Maintainer": "Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3506,7 +3506,7 @@
             "LGPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \u003cpkg-gnutls-maint@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3550,7 +3550,7 @@
             "GPL-3.0-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Nicolas Mora \u003cbabelouest@debian.org\u003e",
+          "Maintainer": "Nicolas Mora \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3592,7 +3592,7 @@
             "GPL-3.0-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian Science Team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3639,7 +3639,7 @@
             "GPL-3.0-or-later",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \u003cpkg-gnutls-maint@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3708,7 +3708,7 @@
             "LGPL-2.1-only",
             "GPL-3.0-only"
           ],
-          "Maintainer": "Debian GnuPG Maintainers \u003cpkg-gnupg-maint@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian GnuPG Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3743,7 +3743,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3790,7 +3790,7 @@
             "GPL-2.0-only",
             "GAP"
           ],
-          "Maintainer": "Magnus Holmgren \u003cholmgren@debian.org\u003e",
+          "Maintainer": "Magnus Holmgren \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3832,7 +3832,7 @@
             "GPL-2.0-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "Debian Libidn team \u003chelp-libidn@gnu.org\u003e",
+          "Maintainer": "Debian Libidn team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3896,7 +3896,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3933,7 +3933,7 @@
             "GPL-2.0-only",
             "LGPL-2.0-only"
           ],
-          "Maintainer": "Christian Kastner \u003cckk@debian.org\u003e",
+          "Maintainer": "Christian Kastner \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -3966,7 +3966,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4008,7 +4008,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4043,7 +4043,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Nobuhiro Iwamatsu \u003ciwamatsu@debian.org\u003e",
+          "Maintainer": "Nobuhiro Iwamatsu \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4090,7 +4090,7 @@
             "PD-debian",
             "GPL-3.0-only"
           ],
-          "Maintainer": "Sebastian Andrzej Siewior \u003csebastian@breakpoint.cc\u003e",
+          "Maintainer": "Sebastian Andrzej Siewior \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4135,7 +4135,7 @@
             "public-domain-md5",
             "public-domain-sha1"
           ],
-          "Maintainer": "Guillem Jover \u003cguillem@debian.org\u003e",
+          "Maintainer": "Guillem Jover \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4183,7 +4183,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4217,7 +4217,7 @@
           "SrcName": "ncurses",
           "SrcVersion": "6.4",
           "SrcRelease": "4",
-          "Maintainer": "Craig Small \u003ccsmall@debian.org\u003e",
+          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4261,7 +4261,7 @@
             "GPL-2.0-only",
             "GAP"
           ],
-          "Maintainer": "Magnus Holmgren \u003cholmgren@debian.org\u003e",
+          "Maintainer": "Magnus Holmgren \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4310,7 +4310,7 @@
             "GPL-2.0-only",
             "GPL-3.0-only"
           ],
-          "Maintainer": "GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4352,7 +4352,7 @@
             "same-as-rest-of-p11kit",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \u003cpkg-gnutls-maint@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4397,7 +4397,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4536,7 +4536,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4600,7 +4600,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4744,7 +4744,7 @@
             "public-domain",
             "Beerware"
           ],
-          "Maintainer": "Sam Hartman \u003chartmans@debian.org\u003e",
+          "Maintainer": "Sam Hartman \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4792,7 +4792,7 @@
             "BSD-2-Clause",
             "public-domain"
           ],
-          "Maintainer": "Matthew Vernon \u003cmatthew@debian.org\u003e",
+          "Maintainer": "Matthew Vernon \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4833,7 +4833,7 @@
             "GFDL-1.3-or-later",
             "ISC-no-attribution"
           ],
-          "Maintainer": "Matthias Klose \u003cdoko@debian.org\u003e",
+          "Maintainer": "Matthias Klose \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4874,7 +4874,7 @@
           "Licenses": [
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Kees Cook \u003ckees@debian.org\u003e",
+          "Maintainer": "Kees Cook \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4909,7 +4909,7 @@
             "LGPL-2.1-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4945,7 +4945,7 @@
             "LGPL-2.0-or-later",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -4977,7 +4977,7 @@
             "LGPL-2.0-or-later",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5020,7 +5020,7 @@
             "GPL-2.0-only",
             "GPL-2.0-or-later"
           ],
-          "Maintainer": "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian SELinux maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5067,7 +5067,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5104,7 +5104,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e",
+          "Maintainer": "Laszlo Boszormenyi (GCS) \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5149,7 +5149,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \u003ctytso@mit.edu\u003e",
+          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5187,7 +5187,7 @@
             "GPL-1.0-or-later",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e",
+          "Maintainer": "Debian OpenSSL Team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5223,7 +5223,7 @@
           "SrcName": "gcc-12",
           "SrcVersion": "12.2.0",
           "SrcRelease": "14+deb12u1",
-          "Maintainer": "Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+          "Maintainer": "Debian GCC Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5268,7 +5268,7 @@
             "GPL-2.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian systemd Maintainers \u003cpkg-systemd-maintainers@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian systemd Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5310,7 +5310,7 @@
             "GPL-3.0-only",
             "GFDL-1.3-only"
           ],
-          "Maintainer": "Debian GnuTLS Maintainers \u003cpkg-gnutls-maint@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian GnuTLS Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5349,7 +5349,7 @@
             "X11",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Craig Small \u003ccsmall@debian.org\u003e",
+          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5391,7 +5391,7 @@
             "PERMISSIVE",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Josue Ortega \u003cjosue@debian.org\u003e",
+          "Maintainer": "Josue Ortega \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5430,7 +5430,7 @@
             "PERMISSIVE",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Josue Ortega \u003cjosue@debian.org\u003e",
+          "Maintainer": "Josue Ortega \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5474,7 +5474,7 @@
             "GPL-2.0-only",
             "LGPL-2.1-only"
           ],
-          "Maintainer": "Debian systemd Maintainers \u003cpkg-systemd-maintainers@lists.alioth.debian.org\u003e",
+          "Maintainer": "Debian systemd Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5518,7 +5518,7 @@
             "GPL-2.0-only",
             "GFDL-1.2-only"
           ],
-          "Maintainer": "Jörg Frings-Fürst \u003cdebian@jff.email\u003e",
+          "Maintainer": "Jörg Frings-Fürst \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5566,7 +5566,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5601,7 +5601,7 @@
             "BSD-2-Clause",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Josue Ortega \u003cjosue@debian.org\u003e",
+          "Maintainer": "Josue Ortega \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5638,7 +5638,7 @@
             "Zlib",
             "MIT"
           ],
-          "Maintainer": "RPM packaging team \u003cteam+pkg-rpm@tracker.debian.org\u003e",
+          "Maintainer": "RPM packaging team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5678,7 +5678,7 @@
             "public-domain",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Shadow package maintainers \u003cpkg-shadow-devel@lists.alioth.debian.org\u003e",
+          "Maintainer": "Shadow package maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5850,7 +5850,7 @@
             "Latex2e",
             "GPL-2+ with Texinfo exception"
           ],
-          "Maintainer": "Theodore Y. Ts'o \u003ctytso@mit.edu\u003e",
+          "Maintainer": "Theodore Y. Ts'o \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5887,7 +5887,7 @@
             "X11",
             "CC-BY-3.0"
           ],
-          "Maintainer": "Boyuan Yang \u003cbyang@debian.org\u003e",
+          "Maintainer": "Boyuan Yang \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -5948,7 +5948,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6000,7 +6000,7 @@
             "X11",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Craig Small \u003ccsmall@debian.org\u003e",
+          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6081,7 +6081,7 @@
             "X11",
             "BSD-3-Clause"
           ],
-          "Maintainer": "Craig Small \u003ccsmall@debian.org\u003e",
+          "Maintainer": "Craig Small \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6130,7 +6130,7 @@
           "Licenses": [
             "GPL-2.0-only"
           ],
-          "Maintainer": "Marco d'Itri \u003cmd@linux.it\u003e",
+          "Maintainer": "Marco d'Itri \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6162,7 +6162,7 @@
             "GPL-1.0-or-later",
             "GPL-1.0-only"
           ],
-          "Maintainer": "Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e",
+          "Maintainer": "Debian OpenSSL Team \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6405,7 +6405,7 @@
             "public-domain",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Shadow package maintainers \u003cpkg-shadow-devel@lists.alioth.debian.org\u003e",
+          "Maintainer": "Shadow package maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -6763,7 +6763,7 @@
             "HSIEH-DERIVATIVE",
             "HSIEH-BSD"
           ],
-          "Maintainer": "Niko Tyni \u003cntyni@debian.org\u003e",
+          "Maintainer": "Niko Tyni \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7416,7 +7416,7 @@
             "GFDL-1.3-or-later",
             "ISC-no-attribution"
           ],
-          "Maintainer": "Matthias Klose \u003cdoko@debian.org\u003e",
+          "Maintainer": "Matthias Klose \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7463,7 +7463,7 @@
             "BSL-1",
             "pcre"
           ],
-          "Maintainer": "Clint Adams \u003cclint@debian.org\u003e",
+          "Maintainer": "Clint Adams \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7545,7 +7545,7 @@
             "GPL-3.0-only",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Debian sysvinit maintainers \u003cdebian-init-diversity@chiark.greenend.org.uk\u003e",
+          "Maintainer": "Debian sysvinit maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7593,7 +7593,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Janos Lenart \u003cocsi@debian.org\u003e",
+          "Maintainer": "Janos Lenart \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -7673,7 +7673,7 @@
           "Licenses": [
             "public-domain"
           ],
-          "Maintainer": "GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+          "Maintainer": "GNU Libc Maintainers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -8607,7 +8607,7 @@
             "GPL-2.0-or-later",
             "GPL-2.0-only"
           ],
-          "Maintainer": "Marco d'Itri \u003cmd@linux.it\u003e",
+          "Maintainer": "Marco d'Itri \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -8650,7 +8650,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -8974,7 +8974,7 @@
             "LGPL-2.1-only",
             "LGPL-3.0-only"
           ],
-          "Maintainer": "util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+          "Maintainer": "util-linux packagers \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -9011,7 +9011,7 @@
           "ID": "zlib1g@1:1.2.13.dfsg-1",
           "Name": "zlib1g",
           "Identifier": {
-            "PURL": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
+            "PURL": "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
             "UID": "9cee98a6d3479b11"
           },
           "Version": "1.2.13.dfsg",
@@ -9025,7 +9025,7 @@
           "Licenses": [
             "Zlib"
           ],
-          "Maintainer": "Mark Brown \u003cbroonie@debian.org\u003e",
+          "Maintainer": "Mark Brown \[REDACTED_EMAIL]\u003e",
           "Repository": {
             "Class": "official"
           },
@@ -9624,7 +9624,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -10340,7 +10340,7 @@
             "https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79",
             "https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead",
             "https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
+            "https://lists.fedoraproject.org/archives/list/[REDACTED_EMAIL]/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-27943",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://www.cve.org/CVERecord?id=CVE-2022-27943"
@@ -11514,7 +11514,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -11632,7 +11632,7 @@
           "References": [
             "https://access.redhat.com/security/cve/CVE-2026-42250",
             "https://cert.pl/en/posts/2026/05/CVE-2026-42250/",
-            "https://inbox.sourceware.org/bzip2-devel/20260528145407.293768-1-mark@klomp.org/",
+            "https://inbox.sourceware.org/bzip2-devel/[REDACTED_EMAIL]/",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-42250",
             "https://sourceware.org/bzip2/",
             "https://sourceware.org/cgit/bzip2/commit/?id=35d122a3df8b0cc4082a4d89fdc6ee99f375fe67",
@@ -11842,8 +11842,8 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238",
             "https://errata.almalinux.org/8/ALSA-2026-42733.html",
             "https://errata.rockylinux.org/RLSA-2026:42952",
-            "https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/",
-            "https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u",
+            "https://inbox.sourceware.org/libc-alpha/[REDACTED_EMAIL]/",
+            "https://inbox.sourceware.org/libc-announce/[REDACTED_EMAIL]/T/#u",
             "https://linux.oracle.com/cve/CVE-2026-5435.html",
             "https://linux.oracle.com/errata/ELSA-2026-500297.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-5435",
@@ -11907,7 +11907,7 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5450",
             "https://errata.almalinux.org/8/ALSA-2026-33126.html",
             "https://errata.rockylinux.org/RLSA-2026:33226",
-            "https://inbox.sourceware.org/libc-announce/b11f0003-6ec1-4bd6-b9de-9e38a4efeca3@redhat.com/T/#u",
+            "https://inbox.sourceware.org/libc-announce/[REDACTED_EMAIL]/T/#u",
             "https://linux.oracle.com/cve/CVE-2026-5450.html",
             "https://linux.oracle.com/errata/ELSA-2026-50370.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-5450",
@@ -12044,8 +12044,8 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238",
             "https://errata.almalinux.org/8/ALSA-2026-42733.html",
             "https://errata.rockylinux.org/RLSA-2026:42952",
-            "https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/",
-            "https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u",
+            "https://inbox.sourceware.org/libc-alpha/[REDACTED_EMAIL]/",
+            "https://inbox.sourceware.org/libc-announce/[REDACTED_EMAIL]/T/#u",
             "https://linux.oracle.com/cve/CVE-2026-6238.html",
             "https://linux.oracle.com/errata/ELSA-2026-500297.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-6238",
@@ -13071,8 +13071,8 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238",
             "https://errata.almalinux.org/8/ALSA-2026-42733.html",
             "https://errata.rockylinux.org/RLSA-2026:42952",
-            "https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/",
-            "https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u",
+            "https://inbox.sourceware.org/libc-alpha/[REDACTED_EMAIL]/",
+            "https://inbox.sourceware.org/libc-announce/[REDACTED_EMAIL]/T/#u",
             "https://linux.oracle.com/cve/CVE-2026-5435.html",
             "https://linux.oracle.com/errata/ELSA-2026-500297.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-5435",
@@ -13136,7 +13136,7 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5450",
             "https://errata.almalinux.org/8/ALSA-2026-33126.html",
             "https://errata.rockylinux.org/RLSA-2026:33226",
-            "https://inbox.sourceware.org/libc-announce/b11f0003-6ec1-4bd6-b9de-9e38a4efeca3@redhat.com/T/#u",
+            "https://inbox.sourceware.org/libc-announce/[REDACTED_EMAIL]/T/#u",
             "https://linux.oracle.com/cve/CVE-2026-5450.html",
             "https://linux.oracle.com/errata/ELSA-2026-50370.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-5450",
@@ -13273,8 +13273,8 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238",
             "https://errata.almalinux.org/8/ALSA-2026-42733.html",
             "https://errata.rockylinux.org/RLSA-2026:42952",
-            "https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/",
-            "https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u",
+            "https://inbox.sourceware.org/libc-alpha/[REDACTED_EMAIL]/",
+            "https://inbox.sourceware.org/libc-announce/[REDACTED_EMAIL]/T/#u",
             "https://linux.oracle.com/cve/CVE-2026-6238.html",
             "https://linux.oracle.com/errata/ELSA-2026-500297.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-6238",
@@ -14247,7 +14247,7 @@
             "https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79",
             "https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead",
             "https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
+            "https://lists.fedoraproject.org/archives/list/[REDACTED_EMAIL]/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-27943",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://www.cve.org/CVERecord?id=CVE-2022-27943"
@@ -15997,7 +15997,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -16200,7 +16200,7 @@
           },
           "References": [
             "https://access.redhat.com/security/cve/CVE-2023-50495",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
+            "https://lists.fedoraproject.org/archives/list/[REDACTED_EMAIL]/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2023-50495",
@@ -17452,7 +17452,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -18538,7 +18538,7 @@
             "https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79",
             "https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead",
             "https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
+            "https://lists.fedoraproject.org/archives/list/[REDACTED_EMAIL]/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-27943",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://www.cve.org/CVERecord?id=CVE-2022-27943"
@@ -19081,7 +19081,7 @@
           },
           "References": [
             "https://access.redhat.com/security/cve/CVE-2023-50495",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
+            "https://lists.fedoraproject.org/archives/list/[REDACTED_EMAIL]/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2023-50495",
@@ -20003,7 +20003,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -20717,7 +20717,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -20920,7 +20920,7 @@
           },
           "References": [
             "https://access.redhat.com/security/cve/CVE-2023-50495",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
+            "https://lists.fedoraproject.org/archives/list/[REDACTED_EMAIL]/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2023-50495",
@@ -21123,7 +21123,7 @@
           },
           "References": [
             "https://access.redhat.com/security/cve/CVE-2023-50495",
-            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
+            "https://lists.fedoraproject.org/archives/list/[REDACTED_EMAIL]/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html",
             "https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2023-50495",
@@ -23577,7 +23577,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -24156,7 +24156,7 @@
             "https://access.redhat.com/security/cve/CVE-2022-0563",
             "https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linux-readline/",
             "https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-mv4q-wq4c-5xmg",
-            "https://lore.kernel.org/util-linux/20220214110609.msiwlm457ngoic6w@ws.net.home/T/#u",
+            "https://lore.kernel.org/util-linux/[REDACTED_EMAIL]/T/#u",
             "https://nvd.nist.gov/vuln/detail/CVE-2022-0563",
             "https://security.gentoo.org/glsa/202401-08",
             "https://security.netapp.com/advisory/ntap-20220331-0002/",
@@ -24239,7 +24239,7 @@
           "PkgID": "zlib1g@1:1.2.13.dfsg-1",
           "PkgName": "zlib1g",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
+            "PURL": "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
             "UID": "9cee98a6d3479b11"
           },
           "InstalledVersion": "1:1.2.13.dfsg-1",
@@ -24322,7 +24322,7 @@
           "PkgID": "zlib1g@1:1.2.13.dfsg-1",
           "PkgName": "zlib1g",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
+            "PURL": "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
             "UID": "9cee98a6d3479b11"
           },
           "InstalledVersion": "1:1.2.13.dfsg-1",
@@ -24390,7 +24390,7 @@
           "PkgID": "zlib1g@1:1.2.13.dfsg-1",
           "PkgName": "zlib1g",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
+            "PURL": "pkg:deb/debian/[REDACTED_EMAIL]-1?arch=arm64\u0026distro=debian-12.15\u0026epoch=1",
             "UID": "9cee98a6d3479b11"
           },
           "InstalledVersion": "1:1.2.13.dfsg-1",
@@ -24501,8 +24501,8 @@
             "https://github.com/pypa/pip/commit/f2b92314da012b9fffa36b3f3e67748a37ef464a",
             "https://github.com/pypa/pip/pull/13550",
             "https://lists.debian.org/debian-lts-announce/2025/10/msg00028.html",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/IF5A3GCJY3VH7BVHJKOWOJFKTW7VFQEN",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/IF5A3GCJY3VH7BVHJKOWOJFKTW7VFQEN/",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/IF5A3GCJY3VH7BVHJKOWOJFKTW7VFQEN",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/IF5A3GCJY3VH7BVHJKOWOJFKTW7VFQEN/",
             "https://nvd.nist.gov/vuln/detail/CVE-2025-8869",
             "https://pip.pypa.io/en/stable/news/#v25-2",
             "https://www.cve.org/CVERecord?id=CVE-2025-8869"
@@ -24570,8 +24570,8 @@
             "https://github.com/pypa/pip",
             "https://github.com/pypa/pip/commit/10dfb6b9005484578b386f64b9f36982e3dc6679",
             "https://github.com/pypa/pip/pull/14110",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/L2BNQGGVQCEV7DROOORQ7WFKKFF2OOQX",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/L2BNQGGVQCEV7DROOORQ7WFKKFF2OOQX/",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/L2BNQGGVQCEV7DROOORQ7WFKKFF2OOQX",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/L2BNQGGVQCEV7DROOORQ7WFKKFF2OOQX/",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-13346",
             "https://www.cve.org/CVERecord?id=CVE-2026-13346"
           ],
@@ -24633,8 +24633,8 @@
             "https://github.com/pypa/pip",
             "https://github.com/pypa/pip/issues/13867",
             "https://github.com/pypa/pip/pull/13870",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/QAJ5JIVWWCAJ4EZL2FP5MOOW35JS7LRJ",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/QAJ5JIVWWCAJ4EZL2FP5MOOW35JS7LRJ/",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/QAJ5JIVWWCAJ4EZL2FP5MOOW35JS7LRJ",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/QAJ5JIVWWCAJ4EZL2FP5MOOW35JS7LRJ/",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-3219",
             "https://www.cve.org/CVERecord?id=CVE-2026-3219"
           ],
@@ -24812,8 +24812,8 @@
             "https://github.com/pypa/pip/pull/14000",
             "https://linux.oracle.com/cve/CVE-2026-8643.html",
             "https://linux.oracle.com/errata/ELSA-2026-36315.html",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/YV63UET5D3OOJY7O4M5XCVYO2YM4NBYJ",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/YV63UET5D3OOJY7O4M5XCVYO2YM4NBYJ/",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/YV63UET5D3OOJY7O4M5XCVYO2YM4NBYJ",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/YV63UET5D3OOJY7O4M5XCVYO2YM4NBYJ/",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-8643",
             "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-8643.json",
             "https://www.cve.org/CVERecord?id=CVE-2026-8643"
@@ -24876,8 +24876,8 @@
             "https://github.com/pypa/pip",
             "https://github.com/pypa/pip/commit/8e227a9be4faa9594e05d02ca05a413a2a4e7735",
             "https://github.com/pypa/pip/pull/13777",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/WIEA34D4TABF2UNQJAOMXKCICSPBE2DJ",
-            "https://mail.python.org/archives/list/security-announce@python.org/thread/WIEA34D4TABF2UNQJAOMXKCICSPBE2DJ/",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/WIEA34D4TABF2UNQJAOMXKCICSPBE2DJ",
+            "https://mail.python.org/archives/list/[REDACTED_EMAIL]/thread/WIEA34D4TABF2UNQJAOMXKCICSPBE2DJ/",
             "https://nvd.nist.gov/vuln/detail/CVE-2026-1703",
             "https://www.cve.org/CVERecord?id=CVE-2026-1703"
           ],

@@ -2,7 +2,7 @@ class ControlLayerTablet extends HTMLElement{
 set hass(h){this.h=h;this.render()};set narrow(v){};set panel(v){}
 connectedCallback(){this.i=0;this.load();this.t=setInterval(()=>this.load(),5000)}
 disconnectedCallback(){clearInterval(this.t)}
-async load(){try{let r=await fetch('http://192.168.1.241:8789/api/siem',{cache:'no-store'});if(r.ok)this.s=await r.json()}catch(e){}this.render()}
+async load(){try{let r=await fetch('/api/siem',{cache:'no-store'});if(r.ok)this.s=await r.json()}catch(e){}this.render()}
 g(i){this.i=(i+10)%10;this.render()}
 render(){if(!this.h)return;let p=['home','rooms','security','infra','network','smart','cameras','siem','control','proof'],n=p[this.i];this.innerHTML=`<style>${this.css()}</style><div class=a><header><div><small>THE CONTROL LAYER™</small><h1>${n.toUpperCase()}</h1></div><b>● ${this.h.states['sensor.control_layer_status']?.state||'LIVE'}</b></header><main>${p.map((x,j)=>`<section class=${j==this.i?'on':''}>${this.page(x)}</section>`).join('')}</main><footer>${p.map((x,j)=>`<button class=${j==this.i?'on':''} data-i=${j}>${this.icon(x)}<small>${x}</small></button>`).join('')}</footer></div>`;this.querySelectorAll('footer button').forEach(b=>b.onclick=()=>this.g(+b.dataset.i));this.swipe()}
 s(id){return this.h.states[id]?.state||'—'}
