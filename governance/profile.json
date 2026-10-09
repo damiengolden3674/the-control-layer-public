@@ -46,18 +46,26 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-07T03:58:21.472252+00:00",
+  "last_reconciled": "2026-10-09T14:06:50.217891+00:00",
   "runtime": {
     "status": "NOMINAL",
-    "containers_running": 16,
-    "hdd_free_gib": 3509,
-    "root_used_percent": 75.8,
-    "generated_at": "2026-10-07T03:58:05.437017+00:00",
+    "containers_running": 15,
+    "hdd_free_gib": 3469,
+    "root_used_percent": 75.7,
+    "generated_at": "2026-10-09T14:06:45.307731+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
       {
+        "name": "controllayer-perses",
+        "image": "persesdev/perses"
+      },
+      {
+        "name": "controllayer-vector",
+        "image": "timberio/vector"
+      },
+      {
         "name": "matter-server",
-        "image": "ghcr.io/home-assistant-libs/python-matter-server:stable"
+        "image": "ghcr.io/matter-js/matterjs-server"
       },
       {
         "name": "hbbs",
@@ -66,14 +74,6 @@
       {
         "name": "hbbr",
         "image": "rustdesk/rustdesk-server:latest"
-      },
-      {
-        "name": "controllayer-grafana",
-        "image": "grafana/grafana:12.2.0"
-      },
-      {
-        "name": "controllayer-otel",
-        "image": "otel/opentelemetry-collector-contrib:0.139.0"
       },
       {
         "name": "homeassistant",
@@ -108,10 +108,6 @@
         "image": "grafana/tempo:2.8.2"
       },
       {
-        "name": "controllayer-opa",
-        "image": "openpolicyagent/opa:1.10.0"
-      },
-      {
         "name": "verify-node",
         "image": "controllayer/verify-node:14.3.0-employer-proof"
       },
@@ -123,7 +119,7 @@
   },
   "github": {
     "account": "damiengolden3674",
-    "repo_count": 27,
+    "repo_count": 28,
     "repo_names": [
       "Academic-Research",
       "Damien36",
@@ -151,10 +147,11 @@
       "homebridge-unifi-protect",
       "pi-apps",
       "plugin-ui-utils",
+      "securityplus-academy-support",
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "665f9b179bfb5a4fce3218f916d6c634ad84b2bb32b11d3684cbe26c653b2b24",
+  "presentation_fingerprint": "e7d0bca779475c3e479cf0cb49ec8bbe769a4ee6ac431b89d751d417d134db60",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
