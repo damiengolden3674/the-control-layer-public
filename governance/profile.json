@@ -46,13 +46,13 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-10T18:32:12.167887+00:00",
+  "last_reconciled": "2026-10-10T18:36:24.275240+00:00",
   "runtime": {
     "status": "HOLD",
     "containers_running": 16,
     "hdd_free_gib": 3436,
     "root_used_percent": 74.5,
-    "generated_at": "2026-10-10T18:32:01.338583+00:00",
+    "generated_at": "2026-10-10T18:36:19.461843+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
       {
@@ -82,6 +82,18 @@
       {
         "name": "homeassistant",
         "image": "ghcr.io/home-assistant/home-assistant:stable"
+      },
+      {
+        "name": "wyoming-openwakeword",
+        "image": "rhasspy/wyoming-openwakeword"
+      },
+      {
+        "name": "wyoming-whisper",
+        "image": "rhasspy/wyoming-whisper"
+      },
+      {
+        "name": "wyoming-piper",
+        "image": "rhasspy/wyoming-piper"
       },
       {
         "name": "vaultwarden",
@@ -137,7 +149,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "55b0aa512c1aa51ff186a8b7d647564abc61a30240e008824c28e0f160be6081",
+  "presentation_fingerprint": "18766c72aa9dfa2337432eeac59d4994deb3e16ba391ccad0235a33552b8a3a1",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
