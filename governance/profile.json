@@ -46,18 +46,22 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-09T15:45:35.117056+00:00",
+  "last_reconciled": "2026-10-10T08:37:53.257872+00:00",
   "runtime": {
-    "status": "NOMINAL",
+    "status": "HOLD",
     "containers_running": 15,
     "hdd_free_gib": 3463,
     "root_used_percent": 75.7,
-    "generated_at": "2026-10-09T15:45:24.205677+00:00",
+    "generated_at": "2026-10-10T08:37:48.977987+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
       {
-        "name": "controllayer-perses",
-        "image": "persesdev/perses"
+        "name": "cl-n8n",
+        "image": "docker.n8n.io/n8nio/n8n:2.42.6"
+      },
+      {
+        "name": "cl-n8n-postgres",
+        "image": "postgres:18-alpine"
       },
       {
         "name": "controllayer-vector",
@@ -78,18 +82,6 @@
       {
         "name": "homeassistant",
         "image": "ghcr.io/home-assistant/home-assistant:stable"
-      },
-      {
-        "name": "wyoming-openwakeword",
-        "image": "rhasspy/wyoming-openwakeword"
-      },
-      {
-        "name": "wyoming-whisper",
-        "image": "rhasspy/wyoming-whisper"
-      },
-      {
-        "name": "wyoming-piper",
-        "image": "rhasspy/wyoming-piper"
       },
       {
         "name": "vaultwarden",
@@ -119,40 +111,33 @@
   },
   "github": {
     "account": "damiengolden3674",
-    "repo_count": 29,
+    "repo_count": 22,
     "repo_names": [
-      "Academic-Research",
       "Damien36",
-      "Homebridge-Dock",
-      "SecurityPlus-Academy",
       "control-layer-ai-governance",
-      "control-layer-backup-recovery",
       "control-layer-cyber-governance",
       "control-layer-enterprise-risk",
       "control-layer-governance",
       "control-layer-observability",
       "control-layer-policies",
       "control-layer-sbom-trivy",
-      "control-layer-security-baseline",
       "control-layer-verifier",
       "core",
       "docker-homebridge",
       "etcherPro-fleet-sw",
       "golden-governance-android-portfolio",
       "hass-nabucasa",
-      "homebridge-config-ui",
       "homebridge-config-ui-x",
       "homebridge-examples",
       "homebridge-google-nest-sdm",
       "homebridge-gsh",
-      "homebridge-unifi-protect",
       "pi-apps",
       "plugin-ui-utils",
       "securityplus-academy-support",
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "c4539fbda7e79dc50fd74009670e1b7ad1b44aab5ac90e81b09822a2bd50798c",
+  "presentation_fingerprint": "70ea622117289e05da3f05f67d960b60132148296e3ae0641020f61bd5e8a8ae",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
