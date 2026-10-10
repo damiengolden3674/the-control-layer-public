@@ -46,15 +46,19 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-10T20:03:31.836232+00:00",
+  "last_reconciled": "2026-10-10T20:04:36.177496+00:00",
   "runtime": {
     "status": "HOLD",
     "containers_running": 16,
     "hdd_free_gib": 3436,
     "root_used_percent": 74.5,
-    "generated_at": "2026-10-10T20:03:27.491824+00:00",
+    "generated_at": "2026-10-10T20:04:24.262806+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
+      {
+        "name": "vaultwarden",
+        "image": "7dbffd843546"
+      },
       {
         "name": "cl-n8n",
         "image": "docker.n8n.io/n8nio/n8n:2.42.6"
@@ -145,7 +149,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "6c4bcef44610ceb382e51af10936784f2f59ba3675049bf8d9176ac2ba7e46c1",
+  "presentation_fingerprint": "e4cd8dfd638b16934cd9f0d03f0bff641a79923e1b7afa1bdab89d1ec0f3fbb0",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
