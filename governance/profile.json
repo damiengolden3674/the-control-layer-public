@@ -46,13 +46,13 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-11T06:25:00.552386+00:00",
+  "last_reconciled": "2026-10-11T06:29:36.472384+00:00",
   "runtime": {
     "status": "HOLD",
     "containers_running": 16,
     "hdd_free_gib": 3436,
     "root_used_percent": 74.5,
-    "generated_at": "2026-10-11T06:24:53.348409+00:00",
+    "generated_at": "2026-10-11T06:29:32.115639+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
       {
@@ -82,6 +82,10 @@
       {
         "name": "hbbr",
         "image": "rustdesk/rustdesk-server:latest"
+      },
+      {
+        "name": "homeassistant",
+        "image": "ghcr.io/home-assistant/home-assistant:stable"
       },
       {
         "name": "wyoming-openwakeword",
@@ -145,7 +149,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "55d7a919513b05c953893c236f6f002ea111c60ee576bc486cff1839290a0b99",
+  "presentation_fingerprint": "e4cd8dfd638b16934cd9f0d03f0bff641a79923e1b7afa1bdab89d1ec0f3fbb0",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
