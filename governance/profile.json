@@ -46,15 +46,19 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-11T06:54:45.172922+00:00",
+  "last_reconciled": "2026-10-11T15:08:23.331642+00:00",
   "runtime": {
     "status": "HOLD",
     "containers_running": 16,
     "hdd_free_gib": 3436,
     "root_used_percent": 74.5,
-    "generated_at": "2026-10-11T06:54:37.314287+00:00",
+    "generated_at": "2026-10-11T15:08:16.193368+00:00",
     "verifier_public_nominal": false,
     "container_inventory": [
+      {
+        "name": "controllayer-grafana",
+        "image": "grafana/grafana:12.2.0"
+      },
       {
         "name": "vaultwarden",
         "image": "7dbffd843546"
@@ -66,6 +70,10 @@
       {
         "name": "cl-n8n-postgres",
         "image": "postgres:18-alpine"
+      },
+      {
+        "name": "controllayer-perses",
+        "image": "persesdev/perses"
       },
       {
         "name": "controllayer-vector",
@@ -112,6 +120,10 @@
         "image": "grafana/tempo:2.8.2"
       },
       {
+        "name": "controllayer-opa",
+        "image": "openpolicyagent/opa:1.10.0"
+      },
+      {
         "name": "verify-node",
         "image": "controllayer/verify-node:14.3.0-employer-proof"
       },
@@ -149,7 +161,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "e4cd8dfd638b16934cd9f0d03f0bff641a79923e1b7afa1bdab89d1ec0f3fbb0",
+  "presentation_fingerprint": "7f05c815a5209d10b6a69c706449ae246dad7390a11aba9d3d032ff7436132ac",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
