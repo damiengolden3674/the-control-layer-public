@@ -46,96 +46,15 @@
     "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
     "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
   },
-  "last_reconciled": "2026-10-12T20:07:38.479379+00:00",
+  "last_reconciled": "2026-10-13T17:15:59.116627+00:00",
   "runtime": {
     "status": "HOLD",
     "containers_running": 16,
     "hdd_free_gib": 3436,
     "root_used_percent": 74.5,
-    "generated_at": "2026-10-12T20:07:27.314525+00:00",
+    "generated_at": "2026-10-13T17:15:47.720984+00:00",
     "verifier_public_nominal": false,
-    "container_inventory": [
-      {
-        "name": "junior-control-v03",
-        "image": "ee2c320efc69"
-      },
-      {
-        "name": "controllayer-grafana",
-        "image": "grafana/grafana:12.2.0"
-      },
-      {
-        "name": "vaultwarden",
-        "image": "7dbffd843546"
-      },
-      {
-        "name": "cl-n8n",
-        "image": "docker.n8n.io/n8nio/n8n:2.42.6"
-      },
-      {
-        "name": "cl-n8n-postgres",
-        "image": "postgres:18-alpine"
-      },
-      {
-        "name": "controllayer-perses",
-        "image": "persesdev/perses"
-      },
-      {
-        "name": "controllayer-vector",
-        "image": "timberio/vector"
-      },
-      {
-        "name": "matter-server",
-        "image": "ghcr.io/matter-js/matterjs-server"
-      },
-      {
-        "name": "hbbs",
-        "image": "rustdesk/rustdesk-server:latest"
-      },
-      {
-        "name": "hbbr",
-        "image": "rustdesk/rustdesk-server:latest"
-      },
-      {
-        "name": "homeassistant",
-        "image": "ghcr.io/home-assistant/home-assistant:stable"
-      },
-      {
-        "name": "wyoming-openwakeword",
-        "image": "rhasspy/wyoming-openwakeword"
-      },
-      {
-        "name": "wyoming-whisper",
-        "image": "rhasspy/wyoming-whisper"
-      },
-      {
-        "name": "wyoming-piper",
-        "image": "rhasspy/wyoming-piper"
-      },
-      {
-        "name": "homebridge",
-        "image": "homebridge/homebridge:latest"
-      },
-      {
-        "name": "controllayer-loki",
-        "image": "grafana/loki:3.5.0"
-      },
-      {
-        "name": "controllayer-tempo",
-        "image": "grafana/tempo:2.8.2"
-      },
-      {
-        "name": "controllayer-opa",
-        "image": "openpolicyagent/opa:1.10.0"
-      },
-      {
-        "name": "verify-node",
-        "image": "controllayer/verify-node:14.3.0-employer-proof"
-      },
-      {
-        "name": "caddy",
-        "image": "caddy:latest"
-      }
-    ]
+    "container_inventory": []
   },
   "github": {
     "account": "damiengolden3674",
@@ -165,7 +84,7 @@
       "the-control-layer-public"
     ]
   },
-  "presentation_fingerprint": "513c5dc5ed86b00216a736c8cf437351be20bf4baea0dd2eed7ece76fd347c28",
+  "presentation_fingerprint": "d96e9b29a8db88d63b9c55ba04bfebd6311cc7aa4fdf0a8caeb02b70e2026ce0",
   "portfolio_positioning": {
     "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
     "stage": "LIVING_DEMONSTRATION",
