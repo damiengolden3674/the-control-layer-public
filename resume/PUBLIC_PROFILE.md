@@ -1,6 +1,8 @@
 # Damien Golden — Public Professional Profile
 
-**GRC Analyst | Cybersecurity Governance Specialist | Risk & Compliance Analyst**
+**AI Governance | Cybersecurity GRC | Enterprise Risk | Governance Engineering**
+
+Career direction: AI Governance Director. Founder / Architect is the current project role; the director title is a career goal.
 
 Founder / Architect of **The Control Layer™**, the v10.0 Founder Master governance architecture developed under **Golden Governance LLC** to make increasingly capable intelligence governable through explicit authority, risk, policy, execution controls, telemetry, evidence, audit, and continuous improvement.
 
@@ -35,8 +37,17 @@ The architecture integrates AI governance, cybersecurity, cloud governance, ente
 - Continuous audit and evidence-based decision records
 - Crosswalk capability for NIST AI RMF, NIST CSF, ISO/IEC 27001, ISO/IEC 42001, COBIT, SOC 2, and applicable privacy/regulatory frameworks; mappings do not imply certification
 
+## Demonstrated engineering work — October 13, 2026
+
+- Reconciled human authority and delegated execution rules, retaining human-only privileged actions and explicit scope boundaries.
+- Corrected device-status reporting to distinguish connectivity, agent enrollment, model availability, and acceptance criteria.
+- Added learning-ingest validation and regression checks covering capacity, archive collisions, and sensitive metadata. Six isolated tests passed; deployment activation and continuous learning remain unverified.
+- Verified checksum integrity and an isolated file restore from an existing application backup. This validates the tested file restore, not full-system disaster recovery.
+
+End-to-end autonomous orchestration, continuous learning, cross-device failover, and complete recovery acceptance remain in progress. Architecture descriptions and installed software are not evidence of completed integration.
+
 ## Public Portfolio
 - GitHub: github.com/damiengolden3674/the-control-layer-public
-- Live verifier: thecontrollayer.taild054a.ts.net/verify?v=100
+- Website: https://damiengolden3674.github.io/the-control-layer-public/
 
 Private contact details, private endpoints, credentials, proprietary implementation mechanisms, and internal authority state are intentionally excluded from this public artifact.

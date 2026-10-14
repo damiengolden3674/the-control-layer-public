@@ -53,9 +53,18 @@ Evidence states are explicit: **VERIFIED**, **DOCUMENTED CLAIM**, or **NOT VERIF
 
 ## Continuous reconciliation
 
-A bounded Control Layer autosync reconciles verified runtime state, the canonical governance profile, public portfolio presentation, and the executive resume.
+A bounded autosync implementation exists for public profile reconciliation. Its presence does not establish fresh runtime evidence or continuous end-to-end operation. The published resume is maintained separately from generated candidates.
 
 Automation may update factual presentation and evidence. It may **not** autonomously change secrets, access control, billing, human authority, governance ceilings, destructive operations, certification claims, or private trust-spine material.
+
+## Demonstrated engineering work — October 13, 2026
+
+- Reconciled human authority and delegated execution rules, retaining human-only privileged actions and explicit scope boundaries.
+- Corrected device-status reporting to distinguish connectivity, agent enrollment, model availability, and acceptance criteria.
+- Added learning-ingest validation and regression checks covering capacity, archive collisions, and sensitive metadata. Six isolated tests passed; deployment activation and continuous learning remain unverified.
+- Verified checksum integrity and an isolated file restore from an existing application backup. This validates the tested file restore, not full-system disaster recovery.
+
+End-to-end autonomous orchestration, continuous learning, cross-device failover, and complete recovery acceptance remain in progress. Architecture descriptions and installed software are not evidence of completed integration.
 
 ## Live surfaces
 
