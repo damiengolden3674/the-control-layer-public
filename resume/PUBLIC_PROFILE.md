@@ -46,6 +46,38 @@ The architecture integrates AI governance, cybersecurity, cloud governance, ente
 
 End-to-end autonomous orchestration, continuous learning, cross-device failover, and complete recovery acceptance remain in progress. Architecture descriptions and installed software are not evidence of completed integration.
 
+## Document-reviewed credentials and recognition
+
+[View the credential and build evidence catalogue](../credentials.html). Reviewed October 13, 2026; live issuer lookup has not been completed. Dates below are those shown in reviewed documents.
+
+- Google Project Management — 2026-05-17
+- Microsoft Generative AI Engineering — 2026-05-21
+- Google Cybersecurity — 2024-11-30
+- Microsoft Cybersecurity Analyst — 2026-05-19
+- Microsoft AI Agents: From Foundations to Applications — 2026-05-20
+- Information Security Analyst — 2026-05-20
+- Google Cloud Cybersecurity — 2026-05-18
+- Google Business Intelligence — 2026-05-18
+- Generative AI Leader — 2026-05-21
+- Google AI Essentials — 2026-05-16
+- Google AI — 2026-05-14
+- Strategic AI Governance — 2026-05-20
+- AI for Cybersecurity — 2026-05-22
+- Microsoft IT Support Specialist — 2026-05-29
+- Google IT Support — 2026-05-23
+
+Additional document-reviewed records:
+- MedCerts Cyber Security Analyst (CySA+) program completion; date unavailable. This is training completion, not CompTIA CySA+ certification.
+- National Society of Leadership and Success, University of Phoenix induction — May 15, 2025.
+- Ten workplace recognition records, including individual Top Performing Supervisor and team performance awards; titles and dates appear in the catalogue.
+
+Order of the Sword & Shield identity matching and Dean’s List issuer evidence remain pending. Thirteen unreadable certificate PDFs are excluded; this catalogue is not exhaustive.
+
+## Application build evidence
+
+- **Security+ Academy:** October 8, 2026 records document macOS, iOS and tvOS builds. An October 9 receipt records macOS version 1.0.0, build 3 uploaded successfully and processing started; app review and release are unverified. Historical evidence records 596 checks. October 13 records separately document 12 continuity checks and 15 mock-transport checks; these do not prove physical-device synchronization.
+- **AIGP Academy:** October 9, 2026 records document two successful simulator Debug builds, version 1.0, build 1. Physical-device acceptance and release remain unverified.
+
 ## Public Portfolio
 - GitHub: github.com/damiengolden3674/the-control-layer-public
 - Website: https://damiengolden3674.github.io/the-control-layer-public/
