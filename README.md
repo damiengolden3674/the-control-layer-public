@@ -45,6 +45,14 @@ The architecture can map controls to established external frameworks including *
 
 These are **crosswalks and mapping concepts only**; they do not imply certification by any external standards body.
 
+## Six-level accountable operating model — October 14, 2026
+
+The Human is the permanent decision authority. Level 2 is the accountable AI leadership and architecture layer, followed by Level 3 orchestration, Level 4 model routing and advice, Level 5 governed execution, and Level 6 operating devices and services. Every level must verify adjacent handoffs and report problems upward. [Public governance detail](GOVERNANCE.md) explains the different responsibilities and authority limits.
+
+The design includes governed use of ChatGPT, Claude, Gemini, local AI and eligible third-party applications. Shared leadership and HR methods are role- and project-scoped. **An installed policy or application is not evidence of live integration.** Critical incidents escalate to Human authority without automatically granting Human-only approval.
+
+Scoped October 14 work included preserving private-storage and smart-home protection boundaries, cross-provider role contracts, and a bounded subordinate acceptance check. Some structural and negative-case tests passed; the complete ecosystem has **not** passed operational acceptance. Model participation, storage migration, authenticated device integration, and recovery require additional live proof.
+
 ## Public evidence boundary
 
 This repository is a sanitized presentation and proof surface. It intentionally excludes credentials, PII, private infrastructure identifiers, private legal evidence, internal authority state, and proprietary implementation mechanisms.
