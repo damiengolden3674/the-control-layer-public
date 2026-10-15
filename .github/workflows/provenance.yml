@@ -35,7 +35,6 @@ jobs:
             /tmp/the-control-layer-public.tar.gz.sha256
           retention-days: 30
           if-no-files-found: error
-          archive: true
           overwrite: false
 
   evidence-preflight:
@@ -62,5 +61,4 @@ jobs:
             /tmp/the-control-layer-public.tar.gz.sha256
           retention-days: 30
           if-no-files-found: error
-          archive: true
           overwrite: false

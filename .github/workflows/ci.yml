@@ -49,5 +49,4 @@ jobs:
           path: public-index.sha256
           retention-days: 30
           if-no-files-found: error
-          archive: true
           overwrite: false
