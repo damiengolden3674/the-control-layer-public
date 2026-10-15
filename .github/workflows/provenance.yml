@@ -4,6 +4,7 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+permissions: {}
 jobs:
   attest:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -19,7 +20,7 @@ jobs:
       - name: Package public site
         run: tar -C . -czf /tmp/the-control-layer-public.tar.gz --exclude=.git .
       - name: Generate SHA-256
-        run: sha256sum /tmp/the-control-layer-public.tar.gz > /tmp/the-control-layer-public.tar.gz.sha256
+        run: cd /tmp && sha256sum the-control-layer-public.tar.gz > the-control-layer-public.tar.gz.sha256
       - name: Verify release evidence hash
         run: cd /tmp && sha256sum -c the-control-layer-public.tar.gz.sha256
       - name: Attest public artifact
@@ -49,7 +50,7 @@ jobs:
       - name: Package public site
         run: tar -C . -czf /tmp/the-control-layer-public.tar.gz --exclude=.git .
       - name: Generate SHA-256
-        run: sha256sum /tmp/the-control-layer-public.tar.gz > /tmp/the-control-layer-public.tar.gz.sha256
+        run: cd /tmp && sha256sum the-control-layer-public.tar.gz > the-control-layer-public.tar.gz.sha256
       - name: Verify preflight evidence hash
         run: cd /tmp && sha256sum -c the-control-layer-public.tar.gz.sha256
       - name: Upload preflight evidence
