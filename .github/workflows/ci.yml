@@ -40,9 +40,13 @@ jobs:
           PY
       - name: Deterministic hash
         run: sha256sum index.html | tee public-index.sha256
+      - name: Verify evidence hash
+        run: sha256sum -c public-index.sha256
       - name: Upload evidence
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: public-share-evidence
           path: public-index.sha256
           retention-days: 30
+          if-no-files-found: error
+          overwrite: false

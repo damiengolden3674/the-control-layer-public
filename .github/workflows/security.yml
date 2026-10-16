@@ -8,7 +8,6 @@ on:
     - cron: '17 4 * * 1'
 permissions:
   contents: read
-  security-events: write
 jobs:
   secret-pattern-scan:
     runs-on: ubuntu-latest
@@ -38,7 +37,7 @@ jobs:
           test -f .github/dependabot.yml
           test -f .github/pull_request_template.md
           ! grep -RInE 'pull_request_target|permissions: write-all|curl .*[|] *bash|wget .*[|] *sh' .github/workflows
-          ! grep -RInE 'uses: [^@]+@(v|main|master|latest)([^0-9]|$)' .github/workflows
+          python3 .github/scripts/check_action_refs.py
           echo 'SCORECARD_ORIENTED_READINESS=PASS'
           echo 'OPENSSF_SCORECARD_EXTERNAL_RUN=HOLD'
           echo 'REASON=GitHub-hosted Scorecard action requires an external container registry path unavailable in this repository runtime; no score is fabricated.'
