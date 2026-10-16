@@ -28,7 +28,7 @@ jobs:
         with:
           subject-path: /tmp/the-control-layer-public.tar.gz
       - name: Upload release evidence
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:
           name: public-release-evidence
           path: |
@@ -54,7 +54,7 @@ jobs:
       - name: Verify preflight evidence hash
         run: cd /tmp && sha256sum -c the-control-layer-public.tar.gz.sha256
       - name: Upload preflight evidence
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: public-release-evidence-preflight
           path: |
