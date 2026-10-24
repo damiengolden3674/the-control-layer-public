@@ -14,6 +14,9 @@ section{padding:90px 0;border-top:1px solid var(--line)}.head{display:grid;grid-
 .list{display:grid;gap:8px}.row{display:flex;justify-content:space-between;gap:15px;padding:12px 14px;border:1px solid #1a2a40;background:#07101c;border-radius:11px;font:11px ui-monospace}.row b{color:var(--mint);white-space:nowrap}.row .warn{color:var(--gold2)}
 .evidence{display:grid;grid-template-columns:.75fr 1.25fr;gap:14px}.big{font:700 clamp(70px,10vw,140px)/.7 Georgia,serif;color:var(--gold2);letter-spacing:-.08em}.callout{border-left:3px solid var(--gold);padding:16px 18px;background:#0b1524;border-radius:0 14px 14px 0}.footer{border-top:1px solid var(--line);padding:45px 0;color:var(--muted)}textarea{width:100%;min-height:120px;background:#03070e;color:#fff;border:1px solid #263b59;border-radius:14px;padding:15px;font:inherit}.result{margin-top:12px;background:#02050a;border-left:3px solid var(--gold);padding:16px;border-radius:0 12px 12px 0;white-space:pre-wrap;font:11px ui-monospace;min-height:80px}
 @media(max-width:1100px){.hero,.dashboard,.evidence,.head{grid-template-columns:1fr}.flow{grid-template-columns:repeat(2,1fr)}.step:first-child,.step:last-child{border-radius:18px}.step:not(:last-child):after{display:none}.grid{grid-template-columns:1fr 1fr}.status{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){main{padding:0 15px 70px}.hero{padding:55px 0;min-height:auto}.seal{max-width:410px}.grid,.flow{grid-template-columns:1fr}.status{grid-template-columns:1fr 1fr}.step{border-radius:18px!important}.brand img{width:62px;height:62px}}
+
+.hero > *{min-width:0}.seal{width:min(100%,410px)}
+@media(max-width:600px){.nav{flex-wrap:wrap;white-space:normal;gap:10px}.brand{gap:12px}.brand strong{font-size:17px}h1{font-size:clamp(38px,10vw,60px)}.sealCore b{font-size:clamp(14px,5vw,25px)}}
 </style>
 </head>
 <body><a class="skip" href="#loop">Skip to governance pipeline</a>
