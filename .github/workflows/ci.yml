@@ -38,6 +38,8 @@ jobs:
           assert not missing, missing
           print('ACCESSIBILITY_BASELINE=PASS')
           PY
+      - name: Validate public claims, privacy and integration links
+        run: python3 scripts/check_public_portfolio.py
       - name: Deterministic hash
         run: sha256sum index.html | tee public-index.sha256
       - name: Verify evidence hash

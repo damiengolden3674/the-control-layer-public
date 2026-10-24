@@ -61,7 +61,7 @@ Evidence states are explicit: **VERIFIED**, **DOCUMENTED CLAIM**, or **NOT VERIF
 
 ## Continuous reconciliation
 
-A bounded autosync implementation exists for public profile reconciliation. Its presence does not establish fresh runtime evidence or continuous end-to-end operation. The published resume is maintained separately from generated candidates.
+The [public claims register](governance/profile.json) identifies the shared source records. [Level 2 reconciliation procedure](governance/AUTOSYNC.md) governs consistency, privacy, recovery and post-publication checks. Actual website publication and each account update require separate receipts; continuous synchronization is not claimed.
 
 Automation may update factual presentation and evidence. It may **not** autonomously change secrets, access control, billing, human authority, governance ceilings, destructive operations, certification claims, or private trust-spine material.
 
@@ -74,11 +74,11 @@ Automation may update factual presentation and evidence. It may **not** autonomo
 
 End-to-end autonomous orchestration, continuous learning, cross-device failover, and complete recovery acceptance remain in progress. Architecture descriptions and installed software are not evidence of completed integration.
 
-## Live surfaces
+## Public surfaces
 
 - Public site: damiengolden3674.github.io/the-control-layer-public/
 - GitHub profile: github.com/damiengolden3674
-- Live verification: published through the sanitized verification surface; private infrastructure addresses are intentionally excluded.
+- Evidence status: [dated records and verification limits](verify.html); this static site does not expose live private telemetry.
 - Professional profile: `resume/PUBLIC_PROFILE.md`
 
 ## Engineering target

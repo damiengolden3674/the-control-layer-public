@@ -1,3 +1,4 @@
+# SANITIZED PUBLIC TEMPLATE: example entities only; configure private devices locally.
 kiosk_mode:
   kiosk: true
   hide_assistant: false
@@ -49,16 +50,16 @@ views:
         square: false
         cards:
           - type: tile
-            entity: lock.jacklyn_doors
+            entity: lock.example_1
             name: Entrance
             icon: mdi:door-closed-lock
           - type: tile
-            entity: light.living_room_living_room
-            name: Living Room
+            entity: light.example_1
+            name: Example Room A
             features:
               - type: light-brightness
           - type: tile
-            entity: media_player.master_bedroom_display_king
+            entity: media_player.example_2
             name: Master Display
             icon: mdi:google-home
       - type: grid
@@ -66,18 +67,18 @@ views:
         square: false
         cards:
           - type: picture-entity
-            entity: camera.back_door_back_door_camera
-            name: Back Door
+            entity: camera.example_1
+            name: Example Entry
             camera_view: auto
             show_state: false
           - type: picture-entity
-            entity: camera.kitchen_living_room_camera
-            name: Kitchen / Living
+            entity: camera.example_2
+            name: Example Room B / Living
             camera_view: auto
             show_state: false
           - type: picture-entity
-            entity: camera.kitchen_kitchen_camera
-            name: Kitchen
+            entity: camera.example_3
+            name: Example Room B
             camera_view: auto
             show_state: false
       - type: grid
@@ -158,35 +159,35 @@ views:
               - type: markdown
                 content: "## 🚪 ENTRANCE"
               - type: tile
-                entity: lock.jacklyn_doors
+                entity: lock.example_1
                 name: Eufy Lock
                 icon: mdi:door-closed-lock
           - type: vertical-stack
             cards:
               - type: markdown
-                content: "## 🛋️ LIVING ROOM"
+                content: "## 🛋️ EXAMPLE ROOM A"
               - type: tile
-                entity: light.living_room_living_room
+                entity: light.example_1
                 name: Main Light
                 features:
                   - type: light-brightness
               - type: tile
-                entity: light.living_room_table_lamp
+                entity: light.example_2
                 name: Table Lamp
                 features:
                   - type: light-brightness
               - type: tile
-                entity: light.living_room_hue_lamp
+                entity: light.example_4
                 name: Hue Lamp
                 features:
                   - type: light-brightness
               - type: tile
-                entity: light.living_room_hue_go_1
+                entity: light.example_3
                 name: Hue Go
                 features:
                   - type: light-brightness
               - type: media-control
-                entity: media_player.beam_set_2_beam_set_2
+                entity: media_player.example_3
       - type: grid
         columns: 2
         square: false
@@ -194,35 +195,35 @@ views:
           - type: vertical-stack
             cards:
               - type: markdown
-                content: "## 🍳 KITCHEN"
+                content: "## 🍳 EXAMPLE ROOM B"
               - type: tile
-                entity: media_player.kitchen_display
-                name: Kitchen Display
+                entity: media_player.example_5
+                name: Example Room B Display
                 features:
                   - type: light-brightness
               - type: tile
-                entity: media_player.kitchen_display
-                name: Kitchen Display
+                entity: media_player.example_5
+                name: Example Room B Display
                 icon: mdi:google-home
               - type: picture-entity
-                entity: camera.kitchen_kitchen_camera
-                name: Kitchen Camera
+                entity: camera.example_3
+                name: Example Room B Camera
                 camera_view: auto
                 show_state: false
           - type: vertical-stack
             cards:
               - type: markdown
-                content: "## 🛏️ MASTER BEDROOM"
+                content: "## 🛏️ EXAMPLE ROOM C"
               - type: tile
-                entity: media_player.master_bedroom_display_king
+                entity: media_player.example_2
                 name: Hub Max
                 icon: mdi:google-home
               - type: tile
-                entity: media_player.master_bedroom_tv
+                entity: media_player.example_4
                 name: TV
                 icon: mdi:television
               - type: tile
-                entity: media_player.arc_ultra_set_arc_ultra_set
+                entity: media_player.example_1
                 name: Arc Ultra
                 icon: mdi:soundbar
       - type: grid
@@ -242,10 +243,10 @@ views:
           - type: vertical-stack
             cards:
               - type: markdown
-                content: "## 🚪 BACK DOOR"
+                content: "## 🚪 EXAMPLE ENTRY"
               - type: picture-entity
-                entity: camera.back_door_back_door_camera
-                name: Back Door Camera
+                entity: camera.example_1
+                name: Example Entry Camera
                 camera_view: auto
                 show_state: false
 
@@ -263,7 +264,7 @@ views:
         square: false
         cards:
           - type: tile
-            entity: lock.jacklyn_doors
+            entity: lock.example_1
             name: Entrance Lock
             icon: mdi:door-closed-lock
           - type: tile
@@ -283,18 +284,18 @@ views:
         square: false
         cards:
           - type: picture-entity
-            entity: camera.back_door_back_door_camera
-            name: Back Door
+            entity: camera.example_1
+            name: Example Entry
             camera_view: auto
             show_state: false
           - type: picture-entity
-            entity: camera.kitchen_living_room_camera
-            name: Kitchen / Living
+            entity: camera.example_2
+            name: Example Room B / Living
             camera_view: auto
             show_state: false
           - type: picture-entity
-            entity: camera.kitchen_kitchen_camera
-            name: Kitchen
+            entity: camera.example_3
+            name: Example Room B
             camera_view: auto
             show_state: false
       - type: entities
@@ -412,41 +413,41 @@ views:
         square: false
         cards:
           - type: tile
-            entity: light.living_room_living_room
-            name: Living Room
+            entity: light.example_1
+            name: Example Room A
             features:
               - type: light-brightness
           - type: tile
-            entity: light.living_room_table_lamp
+            entity: light.example_2
             name: Table Lamp
             features:
               - type: light-brightness
           - type: tile
-            entity: light.living_room_hue_lamp
+            entity: light.example_4
             name: Hue Lamp
             features:
               - type: light-brightness
           - type: tile
-            entity: lock.jacklyn_doors
+            entity: lock.example_1
             name: Eufy Lock
       - type: grid
         columns: 3
         square: false
         cards:
           - type: media-control
-            entity: media_player.beam_set_2_beam_set_2
+            entity: media_player.example_3
           - type: media-control
-            entity: media_player.arc_ultra_set_arc_ultra_set
+            entity: media_player.example_1
           - type: media-control
-            entity: media_player.kitchen_display
+            entity: media_player.example_5
       - type: entities
         title: Canonical Media / Displays
         entities:
-          - media_player.master_bedroom_display_king
-          - media_player.master_bedroom_tv
-          - media_player.beam_set_2_beam_set_2
-          - media_player.arc_ultra_set_arc_ultra_set
-          - media_player.kitchen_display
+          - media_player.example_2
+          - media_player.example_4
+          - media_player.example_3
+          - media_player.example_1
+          - media_player.example_5
 
   - title: CAMERAS
     path: cameras
@@ -462,23 +463,23 @@ views:
         square: false
         cards:
           - type: picture-entity
-            entity: camera.back_door_back_door_camera
-            name: Back Door
+            entity: camera.example_1
+            name: Example Entry
             camera_view: auto
             show_state: false
           - type: picture-entity
-            entity: camera.kitchen_living_room_camera
-            name: Kitchen / Living
+            entity: camera.example_2
+            name: Example Room B / Living
             camera_view: auto
             show_state: false
           - type: picture-entity
-            entity: camera.kitchen_kitchen_camera
-            name: Kitchen
+            entity: camera.example_3
+            name: Example Room B
             camera_view: auto
             show_state: false
       - type: tile
-        entity: media_player.master_bedroom_display_king
-        name: Master Bedroom Hub Max
+        entity: media_player.example_2
+        name: Example Room C Hub Max
         icon: mdi:google-home
 
   - title: OBSERVABILITY
@@ -564,7 +565,7 @@ views:
         icon: mdi:certificate-check
         tap_action:
           action: url
-          url_path: https://thecontrollayer.taild054a.ts.net/verify?v=100
+          url_path: https://damiengolden3674.github.io/the-control-layer-public/verify.html
       - type: button
         name: CONTROL LAYER ASSISTANT
         icon: mdi:account-voice
@@ -600,7 +601,7 @@ views:
         icon: mdi:open-in-new
         tap_action:
           action: url
-          url_path: https://thecontrollayer.taild054a.ts.net/verify?v=100
+          url_path: https://damiengolden3674.github.io/the-control-layer-public/verify.html
 
   - title: AMBIENT
     path: screensaver
@@ -622,7 +623,7 @@ views:
       - type: markdown
         content: |
           # CONTROL LAYER TABLET
-          **Samsung Galaxy Tab A7 Lite • SM-T220 • Android 14**
+          **Example tablet template • configure devices privately**
           
           Presentation surface, governed by The Control Layer. Terminal/recovery access remains part of the design.
       - type: grid

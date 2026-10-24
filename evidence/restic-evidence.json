@@ -1,11 +1,6 @@
 {
-  "status": "RESTIC VERIFIED",
-  "repository": "/mnt/storage/backups/restic-repo",
-  "snapshot_id": "13cfaf02161b63ec63b4283242915cd7a7583744723ddb5fcab66ac6fc98f9a0",
+  "status": "HISTORICAL_REPOSITORY_CHECK_RECORD",
   "snapshot_time": "2026-10-05T09:28:39.77996804-05:00",
-  "snapshot_tags": [
-    "control-layer-governance"
-  ],
   "repository_check": {
     "num_errors": 0,
     "suggest_repair_index": false,
@@ -13,5 +8,6 @@
   },
   "restic_version": "restic 0.18.0 compiled with go1.24.4 on linux/arm64",
   "verified_at": "2026-10-05T14:30:08.905624+00:00",
-  "source": "AUTHORITATIVE_HOST_RUNTIME"
+  "source": "HISTORICAL_RECORD_NOT_CURRENT_RUNTIME",
+  "scope": "Recorded repository integrity check only; not full disaster recovery. Private repository location and snapshot identifier omitted."
 }

@@ -21,7 +21,7 @@ The Control Layer™ is designed as a **Governance Operating System / reference 
 
 **Core principle:** Intelligence ≠ Authority
 
-**Operational decisions:** EXECUTE / HOLD / ESCALATE
+**Operational decisions:** EXECUTE / HOLD / ESCALATE / DEFER / SIMULATE
 
 **Governance lifecycle:** Identify → Assess → Govern → Authorize → Execute → Monitor → Audit → Improve → Evolve
 
@@ -77,6 +77,10 @@ Order of the Sword & Shield identity matching and Dean’s List issuer evidence 
 
 - **Security+ Academy:** October 8, 2026 records document macOS, iOS and tvOS builds. An October 9 receipt records macOS version 1.0.0, build 3 uploaded successfully and processing started; app review and release are unverified. Historical evidence records 596 checks. October 13 records separately document 12 continuity checks and 15 mock-transport checks; these do not prove physical-device synchronization.
 - **AIGP Academy:** October 9, 2026 records document two successful simulator Debug builds, version 1.0, build 1. Physical-device acceptance and release remain unverified.
+
+## Publication consistency
+
+The [public claims register](../governance/profile.json) identifies source records and evidence classes for the website, resume and platform integrations. Publication dates do not refresh historical evidence. No account-level or cross-device synchronization is claimed.
 
 ## Public Portfolio
 - GitHub: github.com/damiengolden3674/the-control-layer-public
