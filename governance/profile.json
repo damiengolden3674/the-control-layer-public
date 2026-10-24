@@ -1,27 +1,27 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "authority": "HUMAN_PRIMARY",
   "hierarchy_version": "15.0",
-  "source_of_truth": "CONTROL_LAYER_LIVE_RECONCILIATION",
+  "source_of_truth": "SANITIZED_PUBLIC_CLAIMS_REGISTER",
   "person": {
     "name": "Damien Golden",
     "github": "damiengolden3674",
     "github_profile": "https://github.com/damiengolden3674",
-    "control_layer_repo": "https://github.com/damiengolden3674/the-control-layer-public"
+    "control_layer_repo": "https://github.com/damiengolden3674/the-control-layer-public",
+    "current_project_role": "Founder / Architect",
+    "organization": "Golden Governance LLC"
   },
   "education": {
-    "bachelor": "Saint Louis University \u2014 B.S. Computer Information Systems, Cybersecurity Concentration",
-    "gpa_overall": 3.88,
-    "gpa_major": 3.95,
-    "expected": "May 2027",
-    "masters": "M.S. Information Systems and Emerging Technologies"
+    "bachelor": "Saint Louis University — B.S. Computer Information Systems, Cybersecurity concentration",
+    "status": "In progress; not a completed degree",
+    "source": "resume/Damien_Golden_Executive_Resume.pdf",
+    "verification": "EXISTING_PUBLIC_DOCUMENT_NOT_NEW_ISSUER_VERIFICATION"
   },
   "career_targets": [
-    "Building and operating a personal AI governance control plane",
-    "Self-built governed execution environment"
+    "AI Governance Director"
   ],
   "governance": {
-    "principle": "INTELLIGENCE \u2260 AUTHORITY",
+    "principle": "INTELLIGENCE ≠ AUTHORITY",
     "decision_states": [
       "EXECUTE",
       "HOLD",
@@ -35,141 +35,72 @@
     "public_boundary": "SANITIZED ONLY"
   },
   "sync": {
-    "website": "AUTOMATIC",
-    "github": "AUTOMATIC",
-    "resume": "AUTOMATIC",
-    "trigger": "canonical profile or verified ecosystem state change",
+    "website": "PER_RELEASE_VERIFICATION_REQUIRED",
+    "github": "PER_RELEASE_VERIFICATION_REQUIRED",
+    "resume": "PER_RELEASE_VERIFICATION_REQUIRED",
+    "trigger": "Approved claim change with evidence review; no continuous synchronization claim",
     "mode": "BOUNDED_AUTONOMY",
-    "human_gate": "required for authority, credential, destructive, access, billing, or policy-ceiling changes"
+    "human_gate": "required for authority, credential, destructive, access, billing, or policy-ceiling changes",
+    "linkedin": "NO_VERIFIED_ACCOUNT_UPDATE",
+    "indeed": "NO_VERIFIED_ACCOUNT_UPDATE",
+    "wix": "NO_VERIFIED_PUBLICATION"
   },
   "artifacts": {
-    "resume_path": "resume/Damien_Golden_Control_Layer_Executive_Resume.pdf",
-    "verifier": "https://thecontrollayer.taild054a.ts.net/verify?v=100"
+    "portfolio": "https://damiengolden3674.github.io/the-control-layer-public/",
+    "career_portal": "https://damiengolden3674.github.io/the-control-layer-public/career-verification.html",
+    "resume_path": "resume/Damien_Golden_Executive_Resume.pdf",
+    "professional_profile": "resume/PUBLIC_PROFILE.md",
+    "credentials_catalogue": "credentials.html",
+    "verifier": "https://damiengolden3674.github.io/the-control-layer-public/verify.html"
   },
-  "last_reconciled": "2026-10-13T17:17:03.543065+00:00",
-  "runtime": {
-    "status": "HOLD",
-    "containers_running": 16,
-    "hdd_free_gib": 3436,
-    "root_used_percent": 74.5,
-    "generated_at": "2026-10-13T17:16:53.690495+00:00",
-    "verifier_public_nominal": false,
-    "container_inventory": [
-      {
-        "name": "junior-control-v03",
-        "image": "ee2c320efc69"
-      },
-      {
-        "name": "controllayer-grafana",
-        "image": "grafana/grafana:12.2.0"
-      },
-      {
-        "name": "vaultwarden",
-        "image": "7dbffd843546"
-      },
-      {
-        "name": "cl-n8n",
-        "image": "docker.n8n.io/n8nio/n8n:2.42.6"
-      },
-      {
-        "name": "cl-n8n-postgres",
-        "image": "postgres:18-alpine"
-      },
-      {
-        "name": "controllayer-perses",
-        "image": "persesdev/perses"
-      },
-      {
-        "name": "controllayer-vector",
-        "image": "timberio/vector"
-      },
-      {
-        "name": "matter-server",
-        "image": "ghcr.io/matter-js/matterjs-server"
-      },
-      {
-        "name": "hbbs",
-        "image": "rustdesk/rustdesk-server:latest"
-      },
-      {
-        "name": "hbbr",
-        "image": "rustdesk/rustdesk-server:latest"
-      },
-      {
-        "name": "homeassistant",
-        "image": "ghcr.io/home-assistant/home-assistant:stable"
-      },
-      {
-        "name": "wyoming-openwakeword",
-        "image": "rhasspy/wyoming-openwakeword"
-      },
-      {
-        "name": "wyoming-whisper",
-        "image": "rhasspy/wyoming-whisper"
-      },
-      {
-        "name": "wyoming-piper",
-        "image": "rhasspy/wyoming-piper"
-      },
-      {
-        "name": "homebridge",
-        "image": "homebridge/homebridge:latest"
-      },
-      {
-        "name": "controllayer-loki",
-        "image": "grafana/loki:3.5.0"
-      },
-      {
-        "name": "controllayer-tempo",
-        "image": "grafana/tempo:2.8.2"
-      },
-      {
-        "name": "controllayer-opa",
-        "image": "openpolicyagent/opa:1.10.0"
-      },
-      {
-        "name": "verify-node",
-        "image": "controllayer/verify-node:14.3.0-employer-proof"
-      },
-      {
-        "name": "caddy",
-        "image": "caddy:latest"
-      }
-    ]
+  "last_reconciled": "2026-10-23",
+  "reconciliation_scope": "Public content consistency and privacy; no new issuer or native-runtime acceptance",
+  "evidence_policy": {
+    "document_reviewed": "Reviewed record; issuer confirmation is separate.",
+    "issuer_verified": "Requires a dated issuer response matching identity and exact credential.",
+    "historical_engineering": "Recorded test scope and date only; no current runtime inference.",
+    "simulation": "Synthetic exercise or demonstration; not elapsed operational experience.",
+    "held": "Not accepted for the claimed scope.",
+    "privacy": "Only approved professional identity and public evidence links; no private operational records."
   },
-  "github": {
-    "account": "damiengolden3674",
-    "repo_count": 22,
-    "repo_names": [
-      "Damien36",
-      "control-layer-ai-governance",
-      "control-layer-cyber-governance",
-      "control-layer-enterprise-risk",
-      "control-layer-governance",
-      "control-layer-observability",
-      "control-layer-policies",
-      "control-layer-sbom-trivy",
-      "control-layer-verifier",
-      "core",
-      "docker-homebridge",
-      "etcherPro-fleet-sw",
-      "golden-governance-android-portfolio",
-      "hass-nabucasa",
-      "homebridge-config-ui-x",
-      "homebridge-examples",
-      "homebridge-google-nest-sdm",
-      "homebridge-gsh",
-      "pi-apps",
-      "plugin-ui-utils",
-      "securityplus-academy-support",
-      "the-control-layer-public"
-    ]
-  },
-  "presentation_fingerprint": "513c5dc5ed86b00216a736c8cf437351be20bf4baea0dd2eed7ece76fd347c28",
-  "portfolio_positioning": {
-    "framing": "HIGH_SIGNAL_TECHNICAL_PORTFOLIO",
-    "stage": "LIVING_DEMONSTRATION",
-    "lead": "44-year-old senior at SLU (CIS / Cybersecurity). Built the entire Control Layer stack myself as a living demonstration of governed AI execution.",
-    "principle": "INTELLIGENCE \u2260 AUTHORITY"
-  }
+  "claims": [
+    {
+      "id": "project-role",
+      "statement": "Founder and architect of The Control Layer™, Golden Governance LLC.",
+      "status": "DOCUMENTED_PROJECT_ROLE",
+      "source": "resume/PUBLIC_PROFILE.md"
+    },
+    {
+      "id": "career-direction",
+      "statement": "AI Governance Director is a career goal, not a current employment title.",
+      "status": "CAREER_TARGET",
+      "source": "resume/PUBLIC_PROFILE.md"
+    },
+    {
+      "id": "credential-catalogue",
+      "statement": "15 document-reviewed Coursera credential records; live issuer verification has not been completed.",
+      "status": "DOCUMENT_REVIEWED",
+      "evidence_date": "2026-10-13",
+      "source": "credentials.html"
+    },
+    {
+      "id": "isolated-engineering",
+      "statement": "Six isolated learning-ingest regression tests and one isolated file restore are recorded; full-system recovery and ecosystem autonomy remain unverified.",
+      "status": "HISTORICAL_ENGINEERING",
+      "evidence_date": "2026-10-13",
+      "source": "resume/PUBLIC_PROFILE.md"
+    },
+    {
+      "id": "application-builds",
+      "statement": "Historical Security+ Academy and AIGP Academy builds; public release and physical-device synchronization remain unverified.",
+      "status": "HISTORICAL_BUILD_RECORDS",
+      "source": "credentials.html#apps"
+    },
+    {
+      "id": "pending-honors",
+      "statement": "Dean’s List issuer evidence and Order of the Sword & Shield identity matching remain pending.",
+      "status": "PENDING_VERIFICATION",
+      "source": "credentials.html#pending"
+    }
+  ]
 }
